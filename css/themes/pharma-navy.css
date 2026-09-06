@@ -1,0 +1,160 @@
+/* Pharma Navy — specialty chemical / biotech brochure */
+:root[data-theme="pharma-navy"] {
+  --ink: #1b1830;
+  --ink-muted: #534d66;
+  --paper: #f4efe4;
+  --card: #fffdf8;
+  --line: #ddd0b8;
+  --navy: #141b3a;
+  --blue: #1c274f;
+  --blue-deep: #141b3a;
+  --teal: #3f5d6e;
+  --violet: #4c3d73;
+  --amber: #c9a227;
+  --orange: #b8860b;
+  --focus: #c9a227;
+  --shadow: 0 10px 28px rgba(20, 27, 58, 0.12);
+  --radius: 8px;
+  --max: 68rem;
+  --font: "Source Sans 3", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --serif: "Playfair Display", "Source Serif 4", "Iowan Old Style", Georgia, serif;
+  --heading-weight: 650;
+  --heading-tracking: -0.01em;
+  --kicker-tracking: 0.2em;
+  --header-bg: #0c1228;
+  --header-line: #c9a227;
+  --header-shadow: 0 8px 20px rgba(12, 18, 40, 0.28);
+  --nav-bg: #0c1228;
+  --submenu-bg: #161d38;
+  --nav-ink: #f3ead4;
+  --nav-hover: #e4c36a;
+  --nav-current: #e4c36a;
+  --submenu-ink: #d9cba8;
+  --toggle-bg: #161d38;
+  --toggle-bars: #f3ead4;
+  --logo-plate: #fff;
+  --logo-pad: 0.2rem 0.45rem;
+  --hero-pad: 2.1rem 0 1.5rem;
+  --hero-pad-wide: 2.6rem 0 1.9rem;
+  --hero-overlay: linear-gradient(180deg, rgba(12, 18, 40, 0.78), rgba(12, 18, 40, 0.88));
+  --page-hero-bg: #141b3a;
+  --page-hero-pad: 1.7rem 0 1.15rem;
+  --section-pad: 1.75rem 0;
+  --card-pad: 1rem 1.05rem 1.1rem;
+  --pill-bg: #efe4c4;
+  --note-bg: #efe8d4;
+  --note-border: #c9a227;
+  --notice-bg: #fff4d6;
+  --notice-line: #d4b45a;
+  --table-bg: #fffdf8;
+  --table-head: #ece4d0;
+  --input-bg: #fffdf8;
+  --ghost-bg: #fffdf8;
+  --footer-bg: #080c1c;
+  --footer-ink: #e8dfc8;
+  --footer-muted: #b7ad93;
+  --footer-link: #e4c36a;
+  --banner-bg: #0c1228;
+  --link: #6b4f0d;
+  --link-hover: #141b3a;
+  --h1-size: clamp(1.7rem, 3vw, 2.15rem);
+  --h2-size: 1.28rem;
+  --lede-size: 1.05rem;
+  --body-size: 1rem;
+  --body-leading: 1.55;
+  --tool-structure: #1c274f;
+  --tool-idsearch: #3f5d6e;
+  --tool-coa: #4c3d73;
+  --tool-ttbot: #b8860b;
+  --tool-sds: #8a6a16;
+  --tool-radius: 6px;
+  --tool-shadow: 0 8px 16px rgba(12, 18, 40, 0.2);
+  --logo-cell-bg: #fffdf8;
+  --logo-cell-text-bg: #efe8d4;
+  --index-chip-bg: #fffdf8;
+}
+
+:root[data-theme="pharma-navy"] .site-header {
+  border-bottom-width: 2px;
+}
+
+:root[data-theme="pharma-navy"] .hero,
+:root[data-theme="pharma-navy"] .page-hero {
+  color: #f3ead4;
+}
+
+:root[data-theme="pharma-navy"] .hero .kicker,
+:root[data-theme="pharma-navy"] .page-hero .kicker {
+  color: #e4c36a;
+}
+
+:root[data-theme="pharma-navy"] .hero h1,
+:root[data-theme="pharma-navy"] .page-hero h1 {
+  color: #f8f1de;
+}
+
+:root[data-theme="pharma-navy"] .hero .lede,
+:root[data-theme="pharma-navy"] .page-hero .lede {
+  color: #d9cba8;
+}
+
+:root[data-theme="pharma-navy"] .page-hero a {
+  color: #e4c36a;
+}
+
+:root[data-theme="pharma-navy"] .btn-primary {
+  background: #141b3a;
+  border-color: #c9a227;
+}
+
+:root[data-theme="pharma-navy"] .btn-primary:hover {
+  background: #1c274f;
+}
+
+:root[data-theme="pharma-navy"] .stat strong,
+:root[data-theme="pharma-navy"] .card h3 {
+  font-family: var(--serif);
+}
+
+:root[data-theme="pharma-navy"] .prose {
+  max-width: 46rem;
+}
+
+:root[data-theme="pharma-navy"] .card-grid {
+  gap: 0.8rem;
+}
+
+:root[data-theme="pharma-navy"] .stats {
+  gap: 0.65rem;
+}
+
+:root[data-theme="pharma-navy"] .section h2,
+:root[data-theme="pharma-navy"] .prose h2 {
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #c9a227;
+}
+
+:root[data-theme="pharma-navy"] .stat {
+  padding: 0.8rem 0.9rem;
+  border-left: 3px solid #c9a227;
+}
+
+:root[data-theme="pharma-navy"] .site-footer h2 {
+  color: #e4c36a;
+  font-family: var(--serif);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.86rem;
+}
+
+:root[data-theme="pharma-navy"] .legal {
+  color: #b7ad93;
+}
+
+@media (min-width: 800px) {
+  :root[data-theme="pharma-navy"] .nav-list a,
+  :root[data-theme="pharma-navy"] .nav-list button.has-sub {
+    padding: 0.45rem 0.55rem;
+    font-size: 0.95rem;
+  }
+}

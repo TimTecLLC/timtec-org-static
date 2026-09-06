@@ -1,0 +1,90 @@
+/* Lab Teal — scientific / R&D chemical supplier */
+:root[data-theme="lab-teal"] {
+  --ink: #0c2422;
+  --ink-muted: #3b5a56;
+  --paper: #f2faf8;
+  --card: #ffffff;
+  --line: #c4ddd8;
+  --navy: #0d4f4b;
+  --blue: #0f766e;
+  --blue-deep: #0b5c56;
+  --teal: #0d9488;
+  --violet: #0e7490;
+  --amber: #b45309;
+  --orange: #c2410c;
+  --focus: #0f766e;
+  --shadow: 0 18px 40px rgba(13, 79, 75, 0.12);
+  --radius: 16px;
+  --font: "IBM Plex Sans", "Source Sans 3", "Segoe UI", sans-serif;
+  --serif: "IBM Plex Serif", "Source Serif 4", Georgia, serif;
+  --heading-weight: 650;
+  --heading-tracking: -0.015em;
+  --kicker-tracking: 0.16em;
+  --header-bg: #ffffff;
+  --header-line: #7ec8bf;
+  --header-shadow: 0 10px 28px rgba(13, 79, 75, 0.08);
+  --nav-bg: #ffffff;
+  --submenu-bg: #ffffff;
+  --nav-ink: #0c2422;
+  --nav-hover: #0f766e;
+  --nav-current: #0d4f4b;
+  --hero-pad: 2.8rem 0 2rem;
+  --hero-pad-wide: 3.6rem 0 2.6rem;
+  --hero-overlay: linear-gradient(180deg, rgba(242, 250, 248, 0.78), rgba(214, 237, 232, 0.9));
+  --hero-texture: url("../../assets/theme-lab-molecules.svg");
+  --page-hero-bg: linear-gradient(180deg, #e5f4f1, #f2faf8 70%);
+  --section-pad: 2.6rem 0;
+  --pill-bg: #d8f3ee;
+  --note-bg: #e5f6f2;
+  --note-border: #0f766e;
+  --notice-bg: #fff6e8;
+  --notice-line: #e7c48a;
+  --table-head: #e4f3ef;
+  --footer-bg: #062e2c;
+  --footer-ink: #d7eeea;
+  --footer-muted: #9ec4be;
+  --footer-link: #b8efe6;
+  --banner-bg: #0d4f4b;
+  --link: #0b5c56;
+  --link-hover: #0d4f4b;
+  --h1-size: clamp(2.05rem, 4.1vw, 2.85rem);
+  --h2-size: 1.55rem;
+  --lede-size: 1.18rem;
+  --tool-structure: #0f766e;
+  --tool-idsearch: #0e7490;
+  --tool-coa: #155e75;
+  --tool-ttbot: #c2410c;
+  --tool-sds: #b45309;
+  --tool-shadow: 0 10px 22px rgba(13, 79, 75, 0.16);
+  --logo-cell-text-bg: #eef8f6;
+}
+
+:root[data-theme="lab-teal"] .site-header {
+  border-bottom-width: 3px;
+}
+
+:root[data-theme="lab-teal"] .kicker {
+  color: #0f766e;
+}
+
+:root[data-theme="lab-teal"] .stat {
+  border-top: 3px solid #0f766e;
+}
+
+:root[data-theme="lab-teal"] .card h3 {
+  letter-spacing: -0.01em;
+}
+
+:root[data-theme="lab-teal"] .btn-primary {
+  background: #0f766e;
+}
+
+:root[data-theme="lab-teal"] .btn-primary:hover {
+  background: #0b5c56;
+}
+
+:root[data-theme="lab-teal"] .page-hero {
+  background-image: linear-gradient(180deg, rgba(229, 244, 241, 0.92), rgba(242, 250, 248, 0.96)), url("../../assets/theme-lab-molecules.svg");
+  background-size: cover, 220px 200px;
+  background-repeat: no-repeat, repeat;
+}
