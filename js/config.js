@@ -1,6 +1,6 @@
 /**
  * TimTec LLC — public site configuration
- * This repo is a GitHub Pages TEST rebuild. Live www.timtec.org / IONOS is untouched.
+ * GitHub Pages serves www.timtec.org. IONOS MyWebsite kept published as DNS rollback only — do not delete.
  */
 window.SITE_CONFIG = {
   BUSINESS_NAME: "TimTec LLC",
@@ -27,5 +27,5 @@ window.SITE_CONFIG = {
   DUNS: "124563630",
   UEI: "RHR9P95ATEU3",
   CAGE: "9PRN8",
-  SITE_URL: "https://timtecllc.github.io/timtec-org-static",
+  SITE_URL: "https://www.timtec.org",
 };
