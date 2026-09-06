@@ -199,6 +199,16 @@
       clone.setAttribute("aria-hidden", "true");
       track.appendChild(clone);
       strip.style.setProperty("--strip-duration", Math.max(28, cells.length * 0.16) + "s");
+      function setPaused(paused) {
+        track.style.animationPlayState = paused ? "paused" : "running";
+        strip.classList.toggle("is-paused", paused);
+      }
+      strip.addEventListener("pointerenter", function () {
+        setPaused(true);
+      });
+      strip.addEventListener("pointerleave", function () {
+        setPaused(false);
+      });
     }
   }
 

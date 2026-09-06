@@ -786,7 +786,8 @@ th {
 }
 
 .logo-strip:hover .logo-strip-track,
-.logo-strip:focus-within .logo-strip-track {
+.logo-strip:focus-within .logo-strip-track,
+.logo-strip.is-paused .logo-strip-track {
   animation-play-state: paused;
 }
 
