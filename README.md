@@ -80,7 +80,7 @@ Homepage: centered 2×2 colored buttons (Structure Search, ID/SMILES, CoA, TT-BO
 
 Copy was adapted from www.timtec.org and useful catalog text on www.timtec.net. Stale Tampa ship-from lines were rewritten to Kissimmee / Orlando. Literature citations are those TimTec already published; no new efficacy claims were added.
 
-`/our-customers/` logos come from [timtec.net/our-customers.html](https://www.timtec.net/our-customers.html) (`assets/customers/`). Names without a logo file — Firmenich, University of Sydney, Al Ain University, New York Blood Center (NYBC), and later 2023–2026 additions — are text tiles. Add more names in `js/customers-extra.js` (no endorsement language).
+`/our-customers/` logos come from [timtec.net/our-customers.html](https://www.timtec.net/our-customers.html) (`assets/customers/`). Names without a logo file (2023–2026 shipping end-customers such as Firmenich, University of Sydney, Al Ain University, New York Blood Center / NYBC, Duke, UT Southwestern, Ginkgo Bioworks, and others) are text tiles in `js/customers-extra.js`. MolPort and Mcule are not listed as primary customers. No endorsement language.
 
 ## Forms
 

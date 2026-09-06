@@ -1,6 +1,6 @@
 Customer logos downloaded from https://www.timtec.net/our-customers.html
 Primary path: https://www.timtec.net/images/customers/<file>
-molport.jpg was missing under /images/customers/ and was taken from https://www.timtec.net/images/molport.jpg
+molport.jpg was missing under /images/customers/ and was taken from https://www.timtec.net/images/molport.jpg (file kept; not shown on the page — aggregators are not listed as primary customers).
 Count: 219
 Extra names without a logo file are listed in js/customers-extra.js (text tiles).
 
