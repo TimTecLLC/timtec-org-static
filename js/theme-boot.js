@@ -4,7 +4,7 @@
  */
 (function () {
   "use strict";
-  var KEY = "timtec-theme";
+  var KEY = "timtec-theme-v2";
   var ALLOWED = {
     classic: true,
     "lab-teal": true,
