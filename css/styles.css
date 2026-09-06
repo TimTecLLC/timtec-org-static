@@ -760,7 +760,7 @@ th {
 }
 
 .logo-strip {
-  --strip-duration: 36s;
+  --strip-duration: 120s;
 }
 
 .logo-strip-label {
