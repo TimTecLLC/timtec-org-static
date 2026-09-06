@@ -1,6 +1,6 @@
 /**
  * Apply the selected visual theme before first paint.
- * Default is Classic. ?theme= writes localStorage unless preview=1 (gallery iframes).
+ * Default is Lab Teal. ?theme= writes localStorage unless preview=1 (gallery iframes).
  */
 (function () {
   "use strict";
@@ -25,7 +25,7 @@
   } catch (err) {
     stored = null;
   }
-  var theme = ALLOWED[query] ? query : ALLOWED[stored] ? stored : "classic";
+  var theme = ALLOWED[query] ? query : ALLOWED[stored] ? stored : "lab-teal";
   if (ALLOWED[query] && !preview) {
     try {
       window.localStorage.setItem(KEY, query);
@@ -41,5 +41,5 @@
     "clean-air": "#0b4f8a",
   };
   var meta = document.querySelector('meta[name="theme-color"]');
-  if (meta) meta.setAttribute("content", colors[theme] || colors.classic);
+  if (meta) meta.setAttribute("content", colors[theme] || colors["lab-teal"]);
 })();
