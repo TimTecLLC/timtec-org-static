@@ -6,11 +6,18 @@ Parallel **GitHub Pages** rebuild of [www.timtec.org](https://www.timtec.org/). 
 
 ## Preview URL
 
-After GitHub Pages is enabled from `main` (root):
-
 **https://timtecllc.github.io/timtec-org-static/**
 
-Until `main` is updated, use this repo’s Pages settings or the pull-request preview. Locally:
+This repo’s GitHub token cannot flip the Pages switch (no admin). Bobby (or anyone with Settings access) needs one click after this branch is on `main` (or point Pages at this branch first):
+
+1. GitHub → **Settings → Pages**
+2. Build and deployment: **Deploy from a branch**
+3. Branch **`main`**, folder **`/`** (root)
+4. Save. The `github.io` URL above appears in a minute or two.
+
+Do **not** add a `CNAME` for www.timtec.org — this is the parallel test site only.
+
+Locally:
 
 ```bash
 python3 -m http.server 8080
@@ -78,13 +85,7 @@ The contact form is `mailto:timtec@timtec.org` (same idea as the remodeling-supp
 
 ## Deploy (GitHub Pages)
 
-1. Settings → Pages → Deploy from a branch.
-2. Branch: `main`, folder: `/` (root).
-3. Wait for the `github.io` URL above.
-
-`.nojekyll` is present so GitHub does not run Jekyll. A workflow in `.github/workflows/pages.yml` can also publish the root as a Pages artifact.
-
-Do **not** add a `CNAME` for www.timtec.org on this test repo.
+`.nojekyll` is present so GitHub does not run Jekyll. Optional workflow: `.github/workflows/pages.yml` (GitHub Actions source). Prefer the simpler **branch / root** setting above.
 
 ## About
 
