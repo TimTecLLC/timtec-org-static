@@ -219,7 +219,7 @@
   }
 
   function currentTheme() {
-    return document.documentElement.getAttribute("data-theme") || "classic";
+    return document.documentElement.getAttribute("data-theme") || "lab-teal";
   }
 
   function setupThemeChrome() {
