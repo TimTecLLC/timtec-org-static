@@ -1,7 +1,8 @@
 /**
  * TimTec LLC — public site configuration
- * GitHub Pages serves www.timtec.org. IONOS MyWebsite stays published as
- * DNS rollback only — do not delete (see docs/MIGRATION-IONOS.md).
+ * Intended production host is www.timtec.org. Custom domain stays off until
+ * DNS is stable. IONOS MyWebsite remains published as rollback — do not delete
+ * (see docs/MIGRATION-IONOS.md).
  */
 window.SITE_CONFIG = {
   BUSINESS_NAME: "TimTec LLC",
