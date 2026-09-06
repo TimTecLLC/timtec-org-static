@@ -1,6 +1,7 @@
 /**
  * TimTec LLC — public site configuration
- * GitHub Pages serves www.timtec.org. IONOS MyWebsite kept published as DNS rollback only — do not delete.
+ * GitHub Pages serves www.timtec.org. IONOS MyWebsite stays published as
+ * DNS rollback only — do not delete (see docs/MIGRATION-IONOS.md).
  */
 window.SITE_CONFIG = {
   BUSINESS_NAME: "TimTec LLC",
@@ -27,5 +28,28 @@ window.SITE_CONFIG = {
   DUNS: "124563630",
   UEI: "RHR9P95ATEU3",
   CAGE: "9PRN8",
+  PRODUCTION_URL: "https://www.timtec.org",
+  PREVIEW_URL: "https://timtecllc.github.io/timtec-org-static",
   SITE_URL: "https://www.timtec.org",
 };
+
+(function resolveSiteUrl() {
+  var cfg = window.SITE_CONFIG;
+  var host = "";
+  try {
+    host = String((window.location && window.location.hostname) || "").toLowerCase();
+  } catch (err) {
+    return;
+  }
+  if (host === "www.timtec.org" || host === "timtec.org") {
+    cfg.SITE_URL = cfg.PRODUCTION_URL;
+    return;
+  }
+  if (host === "timtecllc.github.io") {
+    cfg.SITE_URL = cfg.PREVIEW_URL;
+    return;
+  }
+  if (host === "localhost" || host === "127.0.0.1") {
+    cfg.SITE_URL = String((window.location && window.location.origin) || "").replace(/\/$/, "");
+  }
+})();
