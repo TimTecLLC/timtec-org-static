@@ -8,6 +8,10 @@
   font-weight: 700;
 }
 
+.nav-list a[href*="timtec-customer-portal"] {
+  font-weight: 600;
+}
+
 [data-theme="lab-teal"] .nav-list a[href*="timtec-catalog-bot"],
 [data-theme="clean-air"] .nav-list a[href*="timtec-catalog-bot"] {
   display: inline-flex;

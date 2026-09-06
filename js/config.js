@@ -18,6 +18,7 @@ window.SITE_CONFIG = {
   FACEBOOK_URL: "https://www.facebook.com/TimTecActiMol",
   TWITTER_URL: "https://x.com/TimTecMolecules",
   TT_BOT_URL: "https://timtec-catalog-bot.onrender.com/",
+  CUSTOMER_PORTAL_URL: "https://timtec-customer-portal.onrender.com",
   STRUCTURE_URL: "http://74.208.206.139/structure",
   ID_SMILES_URL: "http://74.208.206.139/search",
   SDS_URL: "http://74.208.206.139/msds",

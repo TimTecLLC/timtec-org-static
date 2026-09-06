@@ -53,6 +53,7 @@ Edit the same fields in `js/config.js` if they change. Header has **no** social 
 
 | Tool | URL |
 | --- | --- |
+| Customer Portal | https://timtec-customer-portal.onrender.com |
 | TT-BOT | https://timtec-catalog-bot.onrender.com/ |
 | Structure Search | http://74.208.206.139/structure |
 | ID / SMILES | http://74.208.206.139/search |
