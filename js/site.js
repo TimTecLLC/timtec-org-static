@@ -134,7 +134,47 @@
     });
   }
 
+  function setupCustomerGrid() {
+    var grid = document.querySelector("[data-customer-grid]");
+    if (!grid) return;
+    var extras = Array.isArray(window.TIMTEC_EXTRA_CUSTOMERS) ? window.TIMTEC_EXTRA_CUSTOMERS : [];
+    extras.forEach(function (item) {
+      if (!item || !item.name) return;
+      var name = String(item.name).trim();
+      if (!name) return;
+      var key = name.toLowerCase();
+      if (grid.querySelector('[data-customer-name="' + key.replace(/"/g, "") + '"]')) return;
+      var cell = document.createElement("div");
+      cell.className = "logo-cell text-tile";
+      cell.setAttribute("data-customer-name", key);
+      cell.setAttribute("data-sort", key);
+      var p = document.createElement("p");
+      p.className = "org-name";
+      p.textContent = name;
+      var note = document.createElement("span");
+      note.className = "org-note";
+      note.textContent = "Name listing";
+      cell.appendChild(p);
+      cell.appendChild(note);
+      grid.appendChild(cell);
+    });
+
+    var cells = Array.prototype.slice.call(grid.children);
+    cells.sort(function (a, b) {
+      return (a.getAttribute("data-sort") || "").localeCompare(b.getAttribute("data-sort") || "", "en", {
+        sensitivity: "base",
+      });
+    });
+    cells.forEach(function (cell) {
+      grid.appendChild(cell);
+    });
+
+    var count = document.querySelector("[data-customer-count]");
+    if (count) count.textContent = String(grid.children.length);
+  }
+
   fillBindings();
   setupNav();
   setupForms();
+  setupCustomerGrid();
 })();
