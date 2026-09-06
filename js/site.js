@@ -198,7 +198,7 @@
       clone.removeAttribute("data-customer-group");
       clone.setAttribute("aria-hidden", "true");
       track.appendChild(clone);
-      strip.style.setProperty("--strip-duration", Math.max(28, cells.length * 0.16) + "s");
+      strip.style.setProperty("--strip-duration", "120s");
       function setPaused(paused) {
         track.style.animationPlayState = paused ? "paused" : "running";
         strip.classList.toggle("is-paused", paused);
@@ -212,8 +212,71 @@
     }
   }
 
+  function siteRoot() {
+    var link = document.querySelector('link[rel="stylesheet"][href*="css/styles.css"]');
+    if (!link) return "";
+    return String(link.getAttribute("href") || "").replace(/css\/styles\.css.*$/, "");
+  }
+
+  function currentTheme() {
+    return document.documentElement.getAttribute("data-theme") || "classic";
+  }
+
+  function setupThemeChrome() {
+    var root = siteRoot();
+    var labels = {
+      classic: "Classic",
+      "lab-teal": "Lab Teal",
+      "pharma-navy": "Pharma Navy",
+      "clean-air": "Clean Air",
+    };
+    var theme = currentTheme();
+    var headerInner = document.querySelector(".header-inner");
+    if (headerInner && !document.querySelector(".design-chip")) {
+      var chip = document.createElement("a");
+      chip.className = "design-chip";
+      chip.href = root + "themes/";
+      chip.setAttribute("data-design-chip", "");
+      chip.innerHTML =
+        "<span>Design previews</span><span class=\"design-chip-theme\">" +
+        (labels[theme] || "Classic") +
+        "</span>";
+      var toggle = headerInner.querySelector("[data-nav-toggle]");
+      if (toggle) headerInner.insertBefore(chip, toggle);
+      else headerInner.appendChild(chip);
+    }
+
+    var siteList = document.querySelector(".site-footer .footer-grid div:nth-child(3) ul");
+    if (siteList && !siteList.querySelector("[data-theme-gallery]")) {
+      var item = document.createElement("li");
+      var link = document.createElement("a");
+      link.setAttribute("data-theme-gallery", "");
+      link.href = root + "themes/";
+      link.textContent = "Theme gallery";
+      item.appendChild(link);
+      siteList.appendChild(item);
+    }
+
+    document.querySelectorAll("[data-theme-set]").forEach(function (el) {
+      var id = el.getAttribute("data-theme-set");
+      if (id === theme) {
+        el.classList.add("is-current");
+        el.setAttribute("aria-current", "true");
+      }
+      el.addEventListener("click", function () {
+        try {
+          window.localStorage.setItem("timtec-theme", id);
+        } catch (err) {
+          /* ignore */
+        }
+      });
+    });
+  }
+
   fillBindings();
+  setupThemeChrome();
   setupNav();
   setupForms();
   setupCustomerStrip();
 })();
+

@@ -77,10 +77,26 @@ Homepage: centered 2×2 colored buttons (Structure Search, ID/SMILES, CoA, TT-BO
 | `/network/` | Published customer / partner figures |
 | `/terms/` | Terms of Sale |
 | `/privacy/` | Notes for this static host |
+| `/themes/` | Design gallery (Classic, Lab Teal, Pharma Navy, Clean Air) |
 
 Copy was adapted from www.timtec.org and useful catalog text on www.timtec.net. Stale Tampa ship-from lines were rewritten to Kissimmee / Orlando. Literature citations are those TimTec already published; no new efficacy claims were added.
 
 `/our-customers/` is a running logo strip (not a grid). Historical logos come from [timtec.net/our-customers.html](https://www.timtec.net/our-customers.html) (`assets/customers/`). The dsm-firmenich wordmark is included as a logo tile. Names without a logo file (University of Sydney, Al Ain University, New York Blood Center / NYBC, Duke, UT Southwestern, Ginkgo Bioworks, and others) are text tiles in the strip and in a crawlable name list on the page. Non-operating brands were removed. MolPort and Mcule are not listed as primary customers. No endorsement language. The public page does not show build notes or file-path instructions.
+
+## Design variants (test site)
+
+The default look is **Classic** (the current baseline). This GitHub Pages site also ships three comparison themes. Choosing one writes `localStorage` key `timtec-theme` so Contact, Our Customers, Screening, and the rest of the site stay in that finish until another is picked.
+
+| Theme | Query | Launcher |
+| --- | --- | --- |
+| Classic / Current (default) | `?theme=classic` | https://timtecllc.github.io/timtec-org-static/themes/classic/ |
+| Lab Teal | `?theme=lab-teal` | https://timtecllc.github.io/timtec-org-static/themes/lab-teal/ |
+| Pharma Navy | `?theme=pharma-navy` | https://timtecllc.github.io/timtec-org-static/themes/pharma-navy/ |
+| Clean Air | `?theme=clean-air` | https://timtecllc.github.io/timtec-org-static/themes/clean-air/ |
+
+Gallery: **https://timtecllc.github.io/timtec-org-static/themes/**
+
+A small “Design previews” chip in the header and a “Theme gallery” footer link are test-site only. Themes are CSS custom properties on `<html data-theme="…">` (`css/themes/*.css`); pages are not duplicated. Live IONOS / www.timtec.org is not modified.
 
 ## Forms
 

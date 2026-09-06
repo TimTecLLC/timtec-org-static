@@ -1,0 +1,85 @@
+/* Theme variants — loaded after styles.css. Classic lives in :root. */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Sans:wght@400;600;700&family=IBM+Plex+Serif:wght@500;650&family=Playfair+Display:wght@500;650;700&display=swap");
+@import url("themes/lab-teal.css");
+@import url("themes/pharma-navy.css");
+@import url("themes/clean-air.css");
+
+.nav-list a[href*="timtec-catalog-bot"] {
+  font-weight: 700;
+}
+
+[data-theme="lab-teal"] .nav-list a[href*="timtec-catalog-bot"],
+[data-theme="clean-air"] .nav-list a[href*="timtec-catalog-bot"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--tool-ttbot);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.45rem 0.85rem;
+}
+
+[data-theme="lab-teal"] .nav-list a[href*="timtec-catalog-bot"]:hover,
+[data-theme="clean-air"] .nav-list a[href*="timtec-catalog-bot"]:hover {
+  color: #fff;
+  filter: brightness(1.06);
+}
+
+[data-theme="pharma-navy"] .nav-list a[href*="timtec-catalog-bot"] {
+  color: #e4c36a;
+}
+
+[data-theme="lab-teal"] .hero h1::after,
+[data-theme="pharma-navy"] .hero h1::after,
+[data-theme="pharma-navy"] .page-hero h1::after {
+  content: "";
+  display: block;
+  width: 4.5rem;
+  height: 3px;
+  margin: 0.75rem auto 0;
+  border-radius: 99px;
+  background: var(--teal);
+}
+
+[data-theme="pharma-navy"] .hero h1::after,
+[data-theme="pharma-navy"] .page-hero h1::after {
+  background: var(--amber);
+}
+
+[data-theme="pharma-navy"] .page-hero h1::after {
+  margin-left: 0;
+}
+
+[data-theme="clean-air"] main > .section:nth-of-type(even) {
+  background: var(--section-alt-bg);
+}
+
+[data-theme="clean-air"] .tool-grid-wrap {
+  width: min(100%, 52rem);
+}
+
+[data-theme="clean-air"] .tool-btn {
+  min-height: 5rem;
+  font-size: 1.08rem;
+  letter-spacing: 0.01em;
+}
+
+[data-theme="clean-air"] .hero {
+  background-size: cover, auto, cover;
+}
+
+[data-theme="lab-teal"] .stat,
+[data-theme="lab-teal"] .card,
+[data-theme="pharma-navy"] .card,
+[data-theme="clean-air"] .card {
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+@media (hover: hover) {
+  [data-theme="lab-teal"] .stat:hover,
+  [data-theme="lab-teal"] .card:hover,
+  [data-theme="pharma-navy"] .card:hover,
+  [data-theme="clean-air"] .card:hover {
+    transform: translateY(-2px);
+  }
+}

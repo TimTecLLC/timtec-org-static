@@ -1,0 +1,118 @@
+/* Clean Air — bright product-marketing, color-block energy */
+:root[data-theme="clean-air"] {
+  --ink: #16324f;
+  --ink-muted: #3f5b74;
+  --paper: #f7fbff;
+  --card: #ffffff;
+  --line: #cfe0ef;
+  --navy: #0b4f8a;
+  --blue: #0284c7;
+  --blue-deep: #0369a1;
+  --teal: #0d9488;
+  --violet: #7c3aed;
+  --amber: #d97706;
+  --orange: #ea580c;
+  --focus: #0284c7;
+  --shadow: 0 16px 36px rgba(3, 105, 161, 0.1);
+  --radius: 18px;
+  --max: 78rem;
+  --font: "DM Sans", "Source Sans 3", "Segoe UI", sans-serif;
+  --serif: "Fraunces", "Source Serif 4", Georgia, serif;
+  --heading-weight: 650;
+  --heading-tracking: -0.02em;
+  --kicker-tracking: 0.12em;
+  --header-bg: rgba(255, 255, 255, 0.92);
+  --header-line: #cfe0ef;
+  --header-shadow: 0 8px 24px rgba(3, 105, 161, 0.06);
+  --nav-bg: #ffffff;
+  --submenu-bg: #ffffff;
+  --nav-ink: #16324f;
+  --nav-hover: #0284c7;
+  --nav-current: #0b4f8a;
+  --hero-pad: 3.2rem 0 2.4rem;
+  --hero-pad-wide: 4.2rem 0 3.2rem;
+  --hero-overlay: linear-gradient(180deg, rgba(247, 251, 255, 0.55), rgba(186, 230, 253, 0.42) 45%, rgba(247, 251, 255, 0.78));
+  --page-hero-bg: linear-gradient(120deg, #e0f2fe, #ccfbf1 55%, #fff7ed);
+  --page-hero-pad: 2.6rem 0 1.8rem;
+  --section-pad: 3rem 0;
+  --section-alt-bg: linear-gradient(180deg, #eef8ff, #f7fbff);
+  --card-pad: 1.35rem 1.4rem 1.45rem;
+  --pill-bg: #e0f2fe;
+  --note-bg: #ecfeff;
+  --note-border: #0284c7;
+  --notice-bg: #fff7ed;
+  --notice-line: #fdba74;
+  --table-head: #e0f2fe;
+  --footer-bg: #0b3b5a;
+  --footer-ink: #dbeafe;
+  --footer-muted: #93c5fd;
+  --footer-link: #7dd3fc;
+  --banner-bg: #0284c7;
+  --link: #0369a1;
+  --link-hover: #0b4f8a;
+  --h1-size: clamp(2.1rem, 4.4vw, 3.05rem);
+  --h2-size: 1.65rem;
+  --lede-size: 1.2rem;
+  --tool-structure: #2563eb;
+  --tool-idsearch: #0d9488;
+  --tool-coa: #7c3aed;
+  --tool-ttbot: #ea580c;
+  --tool-sds: #d97706;
+  --tool-radius: 14px;
+  --tool-shadow: 0 12px 24px rgba(3, 105, 161, 0.16);
+  --logo-cell-text-bg: #f0f9ff;
+}
+
+:root[data-theme="clean-air"] .site-header {
+  backdrop-filter: blur(10px);
+}
+
+:root[data-theme="clean-air"] .kicker {
+  color: #0284c7;
+}
+
+:root[data-theme="clean-air"] .stats {
+  gap: 1rem;
+}
+
+:root[data-theme="clean-air"] .stat {
+  border: 0;
+  background: linear-gradient(180deg, #ffffff, #f0f9ff);
+  box-shadow: 0 14px 30px rgba(3, 105, 161, 0.1);
+}
+
+:root[data-theme="clean-air"] .stat:nth-child(1) {
+  box-shadow: 0 14px 30px rgba(37, 99, 235, 0.14);
+}
+
+:root[data-theme="clean-air"] .stat:nth-child(2) {
+  box-shadow: 0 14px 30px rgba(13, 148, 136, 0.14);
+}
+
+:root[data-theme="clean-air"] .stat:nth-child(3) {
+  box-shadow: 0 14px 30px rgba(124, 58, 237, 0.12);
+}
+
+:root[data-theme="clean-air"] .stat:nth-child(4) {
+  box-shadow: 0 14px 30px rgba(234, 88, 12, 0.12);
+}
+
+:root[data-theme="clean-air"] .card {
+  border: 0;
+}
+
+:root[data-theme="clean-air"] .btn-primary {
+  background: #0284c7;
+}
+
+:root[data-theme="clean-air"] .btn-primary:hover {
+  background: #0369a1;
+}
+
+:root[data-theme="clean-air"] .hero-copy {
+  max-width: 46rem;
+}
+
+:root[data-theme="clean-air"] .logo-cell {
+  box-shadow: 0 8px 18px rgba(3, 105, 161, 0.06);
+}
