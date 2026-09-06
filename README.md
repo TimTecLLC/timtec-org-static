@@ -1,21 +1,21 @@
-# TimTec LLC — static test site
+# TimTec LLC — GitHub Pages site
 
-Parallel **GitHub Pages** rebuild of [www.timtec.org](https://www.timtec.org/). Patterned after [TimTecLLC/remodelingsupplier-us](https://github.com/TimTecLLC/remodelingsupplier-us) (static HTML/CSS/JS, no WordPress, no IONOS MyWebsite).
+Static rebuild of [www.timtec.org](https://www.timtec.org/). Patterned after [TimTecLLC/remodelingsupplier-us](https://github.com/TimTecLLC/remodelingsupplier-us) (static HTML/CSS/JS, no WordPress).
 
-**Live IONOS / www.timtec.org is not modified by this repository.**
+**Migration from IONOS is in progress.** GitHub Pages is the intended host for `www.timtec.org`. The IONOS MyWebsite stays **published as rollback** — do not delete or unpublish it. DNS is changed in the IONOS registrar panel, not from this repo.
 
-## Preview URL
+Cutover plan, GitHub Pages records, and rollback A/AAAA values: **[docs/MIGRATION-IONOS.md](docs/MIGRATION-IONOS.md)**.
 
-**https://timtecllc.github.io/timtec-org-static/**
+## URLs
 
-This repo’s GitHub token cannot flip the Pages switch (no admin). Bobby (or anyone with Settings access) needs one click after this branch is on `main` (or point Pages at this branch first):
+| Host | Role |
+| --- | --- |
+| https://www.timtec.org/ | Custom domain (serves this site **after** IONOS DNS points at GitHub) |
+| https://timtecllc.github.io/timtec-org-static/ | GitHub Pages project URL (301s to www once the custom domain is attached) |
 
-1. GitHub → **Settings → Pages**
-2. Build and deployment: **Deploy from a branch**
-3. Branch **`main`**, folder **`/`** (root)
-4. Save. The `github.io` URL above appears in a minute or two.
+`CNAME` in the repo root is exactly `www.timtec.org`. GitHub cannot finish HTTPS for that name until public DNS for `www` is a CNAME to `timtecllc.github.io`.
 
-Do **not** add a `CNAME` for www.timtec.org — this is the parallel test site only.
+`SITE_URL`, canonical, `og:url`, `og:image`, and JSON-LD follow the current host (`www.timtec.org`, `timtecllc.github.io`, or localhost). Static HTML defaults to `https://www.timtec.org`.
 
 Locally:
 
@@ -24,6 +24,12 @@ python3 -m http.server 8080
 ```
 
 Then open http://127.0.0.1:8080/
+
+## GitHub Pages
+
+1. **Settings → Pages** → Deploy from a branch → `main`, folder `/` (root).
+2. Custom domain: `www.timtec.org` (matches the `CNAME` file).
+3. Enforce HTTPS after the certificate issues (needs the IONOS DNS change first).
 
 ## Brand and NAP
 
@@ -41,7 +47,7 @@ Then open http://127.0.0.1:8080/
 
 Edit the same fields in `js/config.js` if they change. Header has **no** social row; social links are in the footer only.
 
-Cube logo is copied from the live IONOS site (`assets/logo.jpg`).
+Cube logo is copied from the IONOS site (`assets/logo.jpg`).
 
 ## External tools (open in a new tab)
 
@@ -83,20 +89,18 @@ Copy was adapted from www.timtec.org and useful catalog text on www.timtec.net. 
 
 `/our-customers/` is a running logo strip (not a grid). Historical logos come from [timtec.net/our-customers.html](https://www.timtec.net/our-customers.html) (`assets/customers/`). The dsm-firmenich wordmark is included as a logo tile. Names without a logo file (University of Sydney, Al Ain University, New York Blood Center / NYBC, Duke, UT Southwestern, Ginkgo Bioworks, and others) are text tiles in the strip and in a crawlable name list on the page. Non-operating brands were removed. MolPort and Mcule are not listed as primary customers. No endorsement language. The public page does not show build notes or file-path instructions.
 
-## Design variants (test site)
+## Design variants
 
-The default look is **Classic** (the current baseline). This GitHub Pages site also ships three comparison themes. Choosing one writes `localStorage` key `timtec-theme` so Contact, Our Customers, Screening, and the rest of the site stay in that finish until another is picked.
+The default look is **Lab Teal**. Choosing a theme writes `localStorage` key `timtec-theme-v2` so Contact, Our Customers, Screening, and the rest of the site stay in that finish until another is picked.
 
 | Theme | Query | Launcher |
 | --- | --- | --- |
-| Classic / Current (default) | `?theme=classic` | https://timtecllc.github.io/timtec-org-static/themes/classic/ |
-| Lab Teal | `?theme=lab-teal` | https://timtecllc.github.io/timtec-org-static/themes/lab-teal/ |
-| Pharma Navy | `?theme=pharma-navy` | https://timtecllc.github.io/timtec-org-static/themes/pharma-navy/ |
-| Clean Air | `?theme=clean-air` | https://timtecllc.github.io/timtec-org-static/themes/clean-air/ |
+| Classic | `?theme=classic` | /themes/classic/ |
+| Lab Teal (default) | `?theme=lab-teal` | /themes/lab-teal/ |
+| Pharma Navy | `?theme=pharma-navy` | /themes/pharma-navy/ |
+| Clean Air | `?theme=clean-air` | /themes/clean-air/ |
 
-Gallery: **https://timtecllc.github.io/timtec-org-static/themes/**
-
-A small “Design previews” chip in the header and a “Theme gallery” footer link are test-site only. Themes are CSS custom properties on `<html data-theme="…">` (`css/themes/*.css`); pages are not duplicated. Live IONOS / www.timtec.org is not modified.
+Gallery: `/themes/`. A “Design previews” chip in the header and a “Theme gallery” footer link stay on this static host. Themes are CSS custom properties on `<html data-theme="…">` (`css/themes/*.css`); pages are not duplicated.
 
 ## Forms
 

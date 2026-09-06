@@ -218,6 +218,88 @@
     return String(link.getAttribute("href") || "").replace(/css\/styles\.css.*$/, "");
   }
 
+  function normalizeSiteUrl(url) {
+    return String(url || "").replace(/\/$/, "");
+  }
+
+  function pagePath() {
+    var pathname = "/";
+    try {
+      pathname = window.location.pathname || "/";
+    } catch (err) {
+      pathname = "/";
+    }
+    var previewPrefix = "/timtec-org-static";
+    if (pathname === previewPrefix || pathname.indexOf(previewPrefix + "/") === 0) {
+      pathname = pathname.slice(previewPrefix.length) || "/";
+    }
+    if (!pathname || pathname.charAt(0) !== "/") {
+      pathname = "/" + pathname;
+    }
+    if (/\/index\.html$/i.test(pathname)) {
+      pathname = pathname.replace(/\/index\.html$/i, "/");
+    }
+    if (/\/404\.html$/i.test(pathname)) {
+      pathname = "/";
+    }
+    if (pathname !== "/" && pathname.indexOf(".") === -1 && pathname.charAt(pathname.length - 1) !== "/") {
+      pathname += "/";
+    }
+    return pathname || "/";
+  }
+
+  function applySiteUrls() {
+    var siteUrl = normalizeSiteUrl(config.SITE_URL || config.PRODUCTION_URL || "https://www.timtec.org");
+    var path = pagePath();
+    var pageUrl = siteUrl + (path === "/" ? "/" : path);
+    var logoUrl = siteUrl + "/assets/logo.jpg";
+
+    var canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+      var existing = canonical.getAttribute("href") || "";
+      var query = "";
+      var qIndex = existing.indexOf("?");
+      if (qIndex !== -1) {
+        query = existing.slice(qIndex);
+        canonical.setAttribute("href", siteUrl + "/" + query);
+      } else {
+        canonical.setAttribute("href", pageUrl);
+      }
+    }
+
+    var ogUrl = document.querySelector('meta[property="og:url"]');
+    if (!ogUrl) {
+      ogUrl = document.createElement("meta");
+      ogUrl.setAttribute("property", "og:url");
+      var after = document.querySelector('meta[property="og:type"]') || canonical;
+      if (after && after.parentNode) {
+        after.parentNode.insertBefore(ogUrl, after.nextSibling);
+      } else if (document.head) {
+        document.head.appendChild(ogUrl);
+      }
+    }
+    if (ogUrl) {
+      ogUrl.setAttribute("content", (canonical && canonical.getAttribute("href")) || pageUrl);
+    }
+
+    var ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage) {
+      ogImage.setAttribute("content", logoUrl);
+    }
+
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(function (script) {
+      try {
+        var data = JSON.parse(script.textContent);
+        if (!data || typeof data !== "object") return;
+        if (data.url) data.url = siteUrl + "/";
+        if (data.logo) data.logo = logoUrl;
+        script.textContent = JSON.stringify(data);
+      } catch (err) {
+        /* leave static JSON-LD */
+      }
+    });
+  }
+
   function currentTheme() {
     return document.documentElement.getAttribute("data-theme") || "lab-teal";
   }
@@ -274,6 +356,7 @@
   }
 
   fillBindings();
+  applySiteUrls();
   setupThemeChrome();
   setupNav();
   setupForms();
