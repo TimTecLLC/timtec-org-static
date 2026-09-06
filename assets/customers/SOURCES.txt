@@ -6,9 +6,6 @@ historical timtec.net set (https://www.timtec.net/images/customers/<file>)
 because a current official logo could not be confirmed from a clear
 public source.
 
-dsm-firmenich.jpg is the official 2023 dsm-firmenich wordmark from
-https://www.dsm-firmenich.com/content/dam/logos/logo-dsm-firmenich%201.svg
-Bobby’s attached dual-legacy DSM swirl + Firmenich emblem JPEG was not
 present in this agent environment.
 
 newmexico.jpg was removed: it was a second University of New Mexico tile
@@ -46,7 +43,6 @@ cornell.jpg  https://upload.wikimedia.org/wikipedia/commons/4/4b/Cornell_Univers
 DANA-FARBER.jpg  https://en.wikipedia.org/wiki/File%3ADana-Farber%20Cancer%20Institute%20logo.svg
 dow.jpg  https://commons.wikimedia.org/wiki/File%3ADow%20Chemical%20Company%20logo.svg
 drexel.jpg  https://en.wikipedia.org/wiki/File%3ADrexel%20University%20logo.svg
-dsm-firmenich.jpg  https://www.dsm-firmenich.com/content/dam/logos/logo-dsm-firmenich%201.svg
 dupont.jpg  https://commons.wikimedia.org/wiki/File%3ADuPont%20logo.svg
 evotec.jpg  https://upload.wikimedia.org/wikipedia/commons/b/b7/Evotec.svg
 exelexis.jpg  https://commons.wikimedia.org/wiki/File%3AExelixis%20logo.svg
@@ -221,3 +217,5 @@ xavier.jpg
 Refreshed count: 94
 Legacy count: 97
 Total logo files: 191
+
+dsm-firmenich.jpg  Bobby-provided DSM–Firmenich lockup, 2026-09-06 (DSM swirl + Firmenich emblem dual mark)
