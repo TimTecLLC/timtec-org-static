@@ -265,7 +265,7 @@
       }
       el.addEventListener("click", function () {
         try {
-          window.localStorage.setItem("timtec-theme", id);
+          window.localStorage.setItem("timtec-theme-v2", id);
         } catch (err) {
           /* ignore */
         }
