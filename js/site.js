@@ -212,12 +212,6 @@
     }
   }
 
-  function siteRoot() {
-    var link = document.querySelector('link[rel="stylesheet"][href*="css/styles.css"]');
-    if (!link) return "";
-    return String(link.getAttribute("href") || "").replace(/css\/styles\.css.*$/, "");
-  }
-
   function normalizeSiteUrl(url) {
     return String(url || "").replace(/\/$/, "");
   }
@@ -305,40 +299,7 @@
   }
 
   function setupThemeChrome() {
-    var root = siteRoot();
-    var labels = {
-      classic: "Classic",
-      "lab-teal": "Lab Teal",
-      "pharma-navy": "Pharma Navy",
-      "clean-air": "Clean Air",
-    };
     var theme = currentTheme();
-    var headerInner = document.querySelector(".header-inner");
-    if (headerInner && !document.querySelector(".design-chip")) {
-      var chip = document.createElement("a");
-      chip.className = "design-chip";
-      chip.href = root + "themes/";
-      chip.setAttribute("data-design-chip", "");
-      chip.innerHTML =
-        "<span>Design previews</span><span class=\"design-chip-theme\">" +
-        (labels[theme] || "Classic") +
-        "</span>";
-      var toggle = headerInner.querySelector("[data-nav-toggle]");
-      if (toggle) headerInner.insertBefore(chip, toggle);
-      else headerInner.appendChild(chip);
-    }
-
-    var siteList = document.querySelector(".site-footer .footer-grid div:nth-child(3) ul");
-    if (siteList && !siteList.querySelector("[data-theme-gallery]")) {
-      var item = document.createElement("li");
-      var link = document.createElement("a");
-      link.setAttribute("data-theme-gallery", "");
-      link.href = root + "themes/";
-      link.textContent = "Theme gallery";
-      item.appendChild(link);
-      siteList.appendChild(item);
-    }
-
     document.querySelectorAll("[data-theme-set]").forEach(function (el) {
       var id = el.getAttribute("data-theme-set");
       if (id === theme) {

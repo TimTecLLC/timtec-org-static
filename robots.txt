@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /themes/
 
 Sitemap: https://www.timtec.org/sitemap.xml
