@@ -11,7 +11,7 @@ Cutover plan, GitHub Pages records, and rollback A/AAAA values: **[docs/MIGRATIO
 | Host | Role |
 | --- | --- |
 | https://www.timtec.org/ | Custom domain (serves this site **after** IONOS DNS points at GitHub) |
-| https://timtecllc.github.io/timtec-org-static/ | Preview / fallback URL (keep working) |
+| https://timtecllc.github.io/timtec-org-static/ | GitHub Pages project URL (301s to www once the custom domain is attached) |
 
 `CNAME` in the repo root is exactly `www.timtec.org`. GitHub cannot finish HTTPS for that name until public DNS for `www` is a CNAME to `timtecllc.github.io`.
 

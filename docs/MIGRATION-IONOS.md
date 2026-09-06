@@ -12,7 +12,7 @@ Bobby confirmed: **flip www.timtec.org DNS to GitHub Pages now.** Apply the reco
 | --- | --- |
 | IONOS MyWebsite | **Keep published.** Do not delete. |
 | This repo | Custom-domain ready (`CNAME` = `www.timtec.org`) |
-| Preview | https://timtecllc.github.io/timtec-org-static/ (keep working) |
+| github.io project URL | 301 → www.timtec.org while the Pages custom domain is attached |
 | Public www.timtec.org | Still IONOS until the registrar DNS change propagates |
 | DNS change | Bobby / IONOS panel (not this repo) |
 
@@ -81,11 +81,12 @@ This repo includes a root `CNAME` file with `www.timtec.org`. GitHub Pages will 
 
 Until then:
 
-- https://timtecllc.github.io/timtec-org-static/ should keep working.
-- https://www.timtec.org/ continues to be IONOS.
-- GitHub Settings → Pages may show the custom domain as **DNS check pending** or certificate **not yet issued**. That is normal before cutover.
+- GitHub Pages already has Custom domain = `www.timtec.org` (this repo’s API token cannot change Pages settings — 403).
+- https://timtecllc.github.io/timtec-org-static/ **301s to http://www.timtec.org/** while that custom domain is attached. Until IONOS DNS is updated, that landing is still the IONOS site. After DNS, the same redirect lands on this GitHub Pages site. That is normal GitHub Pages behavior, not a delete of the preview.
+- https://www.timtec.org/ continues to be IONOS until the registrar change propagates.
+- GitHub Settings → Pages may show **DNS check pending** or certificate **not yet issued**. That is normal before cutover.
 
-After DNS propagates, GitHub issues the certificate (often within minutes; can take up to 24 hours). Then enforce HTTPS in Settings → Pages if it is not already on.
+After DNS propagates, GitHub issues the certificate (often within minutes; can take up to 24 hours). Then **Enforce HTTPS** in Settings → Pages (the token cannot set `https_enforced`; it is currently off).
 
 ---
 
@@ -94,7 +95,7 @@ After DNS propagates, GitHub issues the certificate (often within minutes; can t
 Cutover is approved. Do this in the IONOS DNS / registrar panel. Keep MyWebsite published.
 
 1. **Screenshot / export** the current IONOS DNS zone (www + apex + any redirects).
-2. Confirm this repo is on `main` with the `CNAME` file (`www.timtec.org`) and that https://timtecllc.github.io/timtec-org-static/ looks correct.
+2. `CNAME` (`www.timtec.org`) is already on `main`. Merge this PR for host-aware canonicals and this dual-run doc. GitHub Pages already lists the custom domain. The github.io URL 301s to www (IONOS until DNS moves).
 3. In GitHub → **Settings → Pages**, Custom domain = `www.timtec.org` (the `CNAME` file may already have filled this in). Save.
 4. At IONOS DNS:
    - `www` → **CNAME** `timtecllc.github.io` (remove IONOS A/AAAA on `www`).
