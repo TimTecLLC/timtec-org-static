@@ -189,7 +189,7 @@
       clone.removeAttribute("data-customer-group");
       clone.setAttribute("aria-hidden", "true");
       track.appendChild(clone);
-      strip.style.setProperty("--strip-duration", Math.max(90, cells.length * 1.15) + "s");
+      strip.style.setProperty("--strip-duration", Math.max(40, cells.length * 0.32) + "s");
     }
   }
 
