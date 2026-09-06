@@ -1,14 +1,19 @@
 Customer logos for /our-customers/.
 
-Refreshed logos use current official / Wikimedia Commons / official-site brand files.
-Unlisted remaining files still use the historical timtec.net set
-(https://www.timtec.net/images/customers/<file>) because a current official
-logo could not be confirmed from a clear public source.
+Refreshed logos use current official / Wikimedia Commons / Wikipedia File
+pages (wordmark or logo files only). Remaining files still use the
+historical timtec.net set (https://www.timtec.net/images/customers/<file>)
+because a current official logo could not be confirmed from a clear
+public source.
 
 dsm-firmenich.jpg is the official 2023 dsm-firmenich wordmark from
 https://www.dsm-firmenich.com/content/dam/logos/logo-dsm-firmenich%201.svg
 Bobby’s attached dual-legacy DSM swirl + Firmenich emblem JPEG was not
 present in this agent environment.
+
+newmexico.jpg was removed: it was a second University of New Mexico tile
+(same org as unm.jpg). Partners HealthCare is shown as Mass General Brigham.
+Childrens.jpg is Seattle Children's (the original timtec.net mark).
 
 molport.jpg is not in this folder. Catalog aggregators are not listed as
 primary customers. Defunct-company logos were removed (see the PR body).
@@ -19,78 +24,114 @@ and js/customers-extra.js. Logo tiles do not show a second visible name label.
 === Refreshed (current official / Wikimedia / brand site) ===
 
 Abbott.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Abbott_Laboratories_logo.svg
+allergan.jpg  https://commons.wikimedia.org/wiki/File%3AAllergan%20logo.svg
 Amgen.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Amgen.svg
-Biogen_Idec.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Biogen_logo.svg
-CMU.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Carnegie_Mellon_wordmark.svg
-Catholic_uni_of_korea.jpg  https://upload.wikimedia.org/wikipedia/commons/0/04/Catholic_University_of_Korea_logo.svg
-GEISINGER-HEALTH-SYSTEM.jpg  https://upload.wikimedia.org/wikipedia/commons/7/7c/Geisinger_logo.svg
-Harvard.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Harvard_University_logo.svg
-Hoffmann-LaRoche.jpg  https://upload.wikimedia.org/wikipedia/commons/f/f4/F._Hoffmann-La_Roche_2021_logo.svg
-Indiana-University.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Indiana_University_logotype.svg
-KCL.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/King%27s_College_London_logo.svg
-Oxford.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/University_of_Oxford.svg
-Yale.jpg  https://upload.wikimedia.org/wikipedia/commons/6/6e/Yale_University_logo.svg
+astellas.jpg  https://commons.wikimedia.org/wiki/File%3AAstellas%20logo.svg
 az.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Astrazeneca%20text%20logo.svg
 basf.jpg  https://upload.wikimedia.org/wikipedia/commons/9/9c/BASF-Logo_bw.svg
 bayer.jpg  https://upload.wikimedia.org/wikipedia/commons/f/f7/Logo_Bayer.svg
 bcm.jpg  https://upload.wikimedia.org/wikipedia/commons/5/5d/Baylor_College_of_Medicine_Logo.png
+berkeley-lab.jpg  https://commons.wikimedia.org/wiki/File%3ALawrence%20Berkeley%20National%20Laboratory%20logo.svg
+Biogen_Idec.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Biogen_logo.svg
 bms.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Bristol-Myers_Squibb_logo.svg
 boehringer.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Boehringer_Ingelheim_Logo.svg
+bostonuniversity.jpg  https://commons.wikimedia.org/wiki/File%3ABoston%20University%20wordmark.svg
 california-institute-of-technology.jpg  https://upload.wikimedia.org/wikipedia/commons/7/75/Caltech_Logo.svg
+Catholic_uni_of_korea.jpg  https://upload.wikimedia.org/wikipedia/commons/0/04/Catholic_University_of_Korea_logo.svg
+childrenhboston.jpg  https://en.wikipedia.org/wiki/File%3ABoston%20Children%27s%20Hospital%20logo.svg
+Childrens.jpg  https://en.wikipedia.org/wiki/File%3ASeattle-childrens-logo-vector.svg
+CMU.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Carnegie_Mellon_wordmark.svg
 cocacola.jpg  https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_logo.svg
 cornell.jpg  https://upload.wikimedia.org/wikipedia/commons/4/4b/Cornell_University_logo.svg
+DANA-FARBER.jpg  https://en.wikipedia.org/wiki/File%3ADana-Farber%20Cancer%20Institute%20logo.svg
+dow.jpg  https://commons.wikimedia.org/wiki/File%3ADow%20Chemical%20Company%20logo.svg
+drexel.jpg  https://en.wikipedia.org/wiki/File%3ADrexel%20University%20logo.svg
 dsm-firmenich.jpg  https://www.dsm-firmenich.com/content/dam/logos/logo-dsm-firmenich%201.svg
+dupont.jpg  https://commons.wikimedia.org/wiki/File%3ADuPont%20logo.svg
 evotec.jpg  https://upload.wikimedia.org/wikipedia/commons/b/b7/Evotec.svg
+exelexis.jpg  https://commons.wikimedia.org/wiki/File%3AExelixis%20logo.svg
+exxonhit.jpg  https://commons.wikimedia.org/wiki/File%3AExxonMobil%20Logo.svg
 fisher_scientific.jpg  https://upload.wikimedia.org/wikipedia/en/5/5d/Thermo_Fisher_Scientific_Logo.svg
+GEISINGER-HEALTH-SYSTEM.jpg  https://upload.wikimedia.org/wikipedia/commons/7/7c/Geisinger_logo.svg
+genentech.jpg  https://commons.wikimedia.org/wiki/File%3AGenentech.svg
+genzyme.jpg  https://commons.wikimedia.org/wiki/File%3AGenzyme%20logo.svg
+GeorgiaTech.jpg  https://commons.wikimedia.org/wiki/File%3AGeorgia%20Tech%20logo.svg
+gilead.jpg  https://en.wikipedia.org/wiki/File%3AGilead%20Sciences%20Logo.svg
+glasgow.jpg  https://en.wikipedia.org/wiki/File%3AUniversity%20of%20Glasgow%20logo.svg
+gsk.jpg  https://en.wikipedia.org/wiki/File%3AGSK%20logo%202022.svg
+Harvard.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Harvard_University_logo.svg
+hhmi.jpg  https://commons.wikimedia.org/wiki/File%3AHoward%20Hughes%20Medical%20Institute%20logo.svg
+Hoffmann-LaRoche.jpg  https://upload.wikimedia.org/wikipedia/commons/f/f4/F._Hoffmann-La_Roche_2021_logo.svg
+ICR.jpg  https://commons.wikimedia.org/wiki/File%3AInstitute%20of%20Cancer%20Research%20logo.svg
 incyte.jpg  https://upload.wikimedia.org/wikipedia/commons/5/5a/Incyte_logo.svg
+Indiana-University.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Indiana_University_logotype.svg
 iowastate.jpg  https://upload.wikimedia.org/wikipedia/commons/1/15/Iowa_State_University_wordmark.svg
+jhu.jpg  https://en.wikipedia.org/wiki/File%3AJohns%20Hopkins%20University%20logo.svg
 jnj.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Johnson_and_Johnson_Logo.svg
+KCL.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/King%27s_College_London_logo.svg
 lilly.jpg  https://upload.wikimedia.org/wikipedia/commons/2/2b/Eli_Lilly_and_Company.svg
 loreal.jpg  https://upload.wikimedia.org/wikipedia/commons/9/9d/L%27Or%C3%A9al_logo.svg
+max-planck.jpg  https://en.wikipedia.org/wiki/File%3AMax%20Planck%20Society%20logo.svg
+merck.jpg  https://commons.wikimedia.org/wiki/File%3AMerck%20Logo.svg
 mit.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/MIT_logo.svg
+monash.jpg  https://commons.wikimedia.org/wiki/File%3AMonash%20University%20logo.svg
+montana-state-university.jpg  https://commons.wikimedia.org/wiki/File%3AMontana%20State%20University%20logo.svg
 mrc.jpg  https://upload.wikimedia.org/wikipedia/commons/4/4f/Medical_Research_Council_logo.svg
 myriad.jpg  https://upload.wikimedia.org/wikipedia/commons/1/11/Myriad_genetics_logo.svg
 nih.jpg  https://upload.wikimedia.org/wikipedia/commons/a/a6/NIH_2013_logo_vertical.svg
 novartis.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/Novartis-Logo-2023.svg
+nyp.jpg  https://commons.wikimedia.org/wiki/File%3ANew%20York-Presbyterian%20Hospital%20logo.svg
+nyu.jpg  https://en.wikipedia.org/wiki/File%3ANYU%20logo.svg
+Oxford.jpg  https://commons.wikimedia.org/wiki/Special:FilePath/University_of_Oxford.svg
+partners.jpg  https://en.wikipedia.org/wiki/File%3AMass%20General%20Brigham%20logo.svg
+pennstate.jpg  https://commons.wikimedia.org/wiki/File%3APenn%20State%20wordmark.svg
 pfizer.jpg  https://upload.wikimedia.org/wikipedia/commons/5/57/Pfizer_%282021%29.svg
 pg.jpg  https://upload.wikimedia.org/wikipedia/commons/8/85/Procter_%26_Gamble_logo.svg
+pitt.jpg  https://commons.wikimedia.org/wiki/File%3AUniversity%20of%20Pittsburgh%20wordmark.svg
+purdue.jpg  https://commons.wikimedia.org/wiki/File%3APurdue%20University%20wordmark.svg
+sanofi.jpg  https://commons.wikimedia.org/wiki/File%3ASanofi-2022.svg
+sri.jpg  https://commons.wikimedia.org/wiki/File%3ASRI%20International%20logo.svg
+stanford.jpg  https://commons.wikimedia.org/wiki/File%3AStanford%20wordmark%20%282012%29.svg
+takeda.jpg  https://commons.wikimedia.org/wiki/File%3ATakeda%20Pharmaceutical%20Company%20logo.svg
+temple.jpg  https://commons.wikimedia.org/wiki/File%3ATemple%20University%20logo.svg
+texasanm.jpg  https://commons.wikimedia.org/wiki/File%3ATexas%20A%26M%20University%20logo.svg
 tufts.jpg  https://upload.wikimedia.org/wikipedia/commons/1/12/Tufts_University_wordmark.svg
 uab.jpg  https://upload.wikimedia.org/wikipedia/commons/f/f5/UAB_Core_Logo_Centered_Full_Color.svg
+ualabama.jpg  https://commons.wikimedia.org/wiki/File%3AUniversity%20of%20Alabama%20logo.svg
+ucambridge.jpg  https://en.wikipedia.org/wiki/File%3AUniversity%20of%20Cambridge%20logo.svg
 ucb.jpg  https://upload.wikimedia.org/wikipedia/commons/9/98/Ucb_Logo.svg
+uchicago.jpg  https://commons.wikimedia.org/wiki/File%3AUniversity%20of%20Chicago%20wordmark.svg
 udelaware.jpg  https://upload.wikimedia.org/wikipedia/commons/b/b3/University_of_Delaware_wordmark.svg
+udundee.jpg  https://en.wikipedia.org/wiki/File%3AUniversity%20of%20Dundee%20logo.svg
+uio.jpg  https://en.wikipedia.org/wiki/File%3AUniversity%20of%20Oslo%20logo.svg
+ulouisville.jpg  https://en.wikipedia.org/wiki/File%3AUniversity%20of%20Louisville%20logo.svg
 umiami.jpg  https://upload.wikimedia.org/wikipedia/commons/0/0a/University_of_Miami_logo.svg
+umichigan.jpg  https://commons.wikimedia.org/wiki/File%3AUniversity%20of%20Michigan%20logo.svg
+Uni_Lille.jpg  https://commons.wikimedia.org/wiki/File%3AUniversit%C3%A9%20de%20Lille%20logo.svg
+unilever.jpg  https://en.wikipedia.org/wiki/File%3AUnilever.svg
+unm.jpg  https://commons.wikimedia.org/wiki/File%3AUniversity%20of%20New%20Mexico%20logo.svg
+unottingham.jpg  https://en.wikipedia.org/wiki/File%3AUniversity%20of%20Nottingham%20logo.svg
+uog.jpg  https://en.wikipedia.org/wiki/File%3AUniversity%20of%20Georgia%20logo.svg
+vanderbilt.jpg  https://commons.wikimedia.org/wiki/File%3AVanderbilt%20University%20logo.svg
 vertex.jpg  https://upload.wikimedia.org/wikipedia/commons/d/d9/Vertex_logo.svg
 westerncar.jpg  https://upload.wikimedia.org/wikipedia/commons/7/71/Western_Carolina_University_Logo.svg
+wisconsin.jpg  https://en.wikipedia.org/wiki/File%3AUniversity%20of%20Wisconsin-Madison%20logo.svg
+Yale.jpg  https://upload.wikimedia.org/wikipedia/commons/6/6e/Yale_University_logo.svg
 
 === Still using historical timtec.net logo ===
 
 4sc.jpg
 Actelion.jpg
-Childrens.jpg
-DANA-FARBER.jpg
-GeorgiaTech.jpg
-ICR.jpg
-Indiana-Wesleyan-University.jpg
-MSSM.jpg
-OICRlogo.jpg
-OSU.jpg
-RTI.jpg
-UNIGE.jpg
-Uni_Lille.jpg
 active_biotech.jpg
 addex.jpg
 agave-biosystema.jpg
 alba.jpg
 albany.jpg
-allergan.jpg
 amri.jpg
 asdi.jpg
 asischem.jpg
-astellas.jpg
 auburnu.jpg
-berkeley-lab.jpg
 biofocus_cmyk.jpg
-bostonuniversity.jpg
 brenntag.jpg
 brigham.jpg
 broad.jpg
@@ -100,121 +141,83 @@ calstate.jpg
 case-western-reserve-university.jpg
 chemdiv.jpg
 chemonaut.jpg
-childrenhboston.jpg
 columbia.jpg
 cytokinetics.jpg
-dow.jpg
-drexel.jpg
-dupont.jpg
 edinburgh.jpg
 einstein.jpg
 emd_serono.jpg
 emory.jpg
 evolva.jpg
-exelexis.jpg
-exxonhit.jpg
 fate.jpg
 galapagos.jpg
-genentech.jpg
 genomics.jpg
-genzyme.jpg
 ghsu.jpg
-gilead.jpg
-glasgow.jpg
 greenpharma.jpg
-gsk.jpg
 helmholtz.jpg
 heptares.jpg
-hhmi.jpg
 ieo.jpg
 imp_college_london.jpg
+Indiana-Wesleyan-University.jpg
 integralmolecular.jpg
 interieur.jpg
 intervet.jpg
-jhu.jpg
 ldc.jpg
 lexicon.jpg
 lsu-sh.jpg
 lsu.jpg
 manchester.jpg
-max-planck.jpg
 mcg.jpg
 mcgill.jpg
 memorialskcc.jpg
-merck.jpg
 millennium.jpg
-monash.jpg
-montana-state-university.jpg
+MSSM.jpg
 nacalai.jpg
 namiki.jpg
 nemours.jpg
-newmexico.jpg
 north-carolina-state-university.jpg
-nyp.jpg
-nyu.jpg
 ohiostate.jpg
-partners.jpg
+OICRlogo.jpg
+OSU.jpg
 penn.jpg
-pennstate.jpg
-pitt.jpg
 polyu.jpg
 portada.jpg
 princeton.jpg
-purdue.jpg
 rosalindfranklin.jpg
 roskamp.jpg
+RTI.jpg
 ryansci.jpg
 sanford.jpg
-sanofi.jpg
 sbio.jpg
 scripps.jpg
 scynexis.jpg
 shigematsu.jpg
 sial.jpg
 southerres.jpg
-sri.jpg
-stanford.jpg
-takeda.jpg
 telau.jpg
-temple.jpg
-texasanm.jpg
 tgen.jpg
 theravance.jpg
 tmb.jpg
-ualabama.jpg
-ucambridge.jpg
-uchicago.jpg
 ucopenhagen.jpg
 uduisburg.jpg
-udundee.jpg
 uhn.jpg
-uio.jpg
 ull.jpg
-ulouisville.jpg
-umichigan.jpg
 unibern.jpg
 unict.jpg
-unilever.jpg
+UNIGE.jpg
 unilj.jpg
 universite_laval.jpg
-unm.jpg
-unottingham.jpg
-uog.jpg
 upolitecnica.jpg
 ups.jpg
 usamriid.jpg
 utennessee.jpg
 uwesternontario.jpg
-vanderbilt.jpg
 ven.jpg
 vernalis.jpg
 vwr.jpg
 weizmann.jpg
-wisconsin.jpg
 wsu.jpg
 xavier.jpg
 
-Refreshed count: 43
-Legacy count: 149
-Total logo files: 192
-
+Refreshed count: 94
+Legacy count: 97
+Total logo files: 191

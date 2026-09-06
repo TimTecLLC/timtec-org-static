@@ -162,6 +162,15 @@
       group.appendChild(cell);
     });
 
+    Array.prototype.forEach.call(group.querySelectorAll(".logo-cell"), function (cell) {
+      if (cell.querySelector("img")) {
+        cell.classList.remove("text-tile");
+        Array.prototype.forEach.call(cell.querySelectorAll(".org-name"), function (label) {
+          label.parentNode.removeChild(label);
+        });
+      }
+    });
+
     var cells = Array.prototype.slice.call(group.children);
     cells.sort(function (a, b) {
       return (a.getAttribute("data-sort") || "").localeCompare(b.getAttribute("data-sort") || "", "en", {
@@ -189,7 +198,7 @@
       clone.removeAttribute("data-customer-group");
       clone.setAttribute("aria-hidden", "true");
       track.appendChild(clone);
-      strip.style.setProperty("--strip-duration", Math.max(40, cells.length * 0.32) + "s");
+      strip.style.setProperty("--strip-duration", Math.max(28, cells.length * 0.16) + "s");
     }
   }
 
