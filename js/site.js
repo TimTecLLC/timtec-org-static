@@ -144,11 +144,7 @@
       if (!name) return;
       if (/^(molport|mcule)$/i.test(name)) return;
       var key = name.toLowerCase();
-      var existing = grid.querySelectorAll("[data-customer-name]");
-      var already = Array.prototype.some.call(existing, function (el) {
-        var have = (el.getAttribute("data-customer-name") || "").toLowerCase();
-        return have === key || key.indexOf(have) !== -1 || have.indexOf(key) !== -1;
-      });
+      var already = grid.querySelector('[data-customer-name="' + key.replace(/"/g, "") + '"]');
       if (already) return;
       var cell = document.createElement("div");
       cell.className = "logo-cell text-tile";
