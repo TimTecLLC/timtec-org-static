@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://timtecllc.github.io/timtec-org-static/sitemap.xml
