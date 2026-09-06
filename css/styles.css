@@ -807,7 +807,7 @@ th {
   flex: 0 0 auto;
   width: 10.4rem;
   min-height: 6.6rem;
-  padding: 0.55rem 0.65rem 0.5rem;
+  padding: 0.65rem 0.7rem;
   background: #fff;
   border: 1px solid var(--line);
   border-radius: 12px;
@@ -816,7 +816,7 @@ th {
 
 .logo-cell img {
   max-width: 100%;
-  max-height: 3.4rem;
+  max-height: 3.8rem;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -827,17 +827,12 @@ th {
   border-style: dashed;
 }
 
-.logo-cell .org-name {
+.logo-cell.text-tile .org-name {
   display: block;
-  margin: 0.35rem 0 0;
+  margin: 0;
   font-weight: 700;
   color: var(--navy);
   line-height: 1.25;
-  font-size: 0.78rem;
-}
-
-.logo-cell.text-tile .org-name {
-  margin: 0;
   font-size: 0.88rem;
 }
 
