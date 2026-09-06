@@ -72,7 +72,7 @@ Homepage: centered 2×2 colored buttons (Structure Search, ID/SMILES, CoA, TT-BO
 | `/services/` | Synthesis, plating, management, cheminformatics |
 | `/contact/` | NAP, EIN/DUNS/UEI/CAGE, mailto form |
 | `/about/` | Company history (Kissimmee / Orlando, not Tampa) |
-| `/our-customers/` | Selected customer logos from timtec.net plus later name tiles |
+| `/our-customers/` | Selected customer logos in a running strip, plus a crawlable name list |
 | `/faq/` | Ordering, freight, formats |
 | `/network/` | Published customer / partner figures |
 | `/terms/` | Terms of Sale |
@@ -80,7 +80,7 @@ Homepage: centered 2×2 colored buttons (Structure Search, ID/SMILES, CoA, TT-BO
 
 Copy was adapted from www.timtec.org and useful catalog text on www.timtec.net. Stale Tampa ship-from lines were rewritten to Kissimmee / Orlando. Literature citations are those TimTec already published; no new efficacy claims were added.
 
-`/our-customers/` logos come from [timtec.net/our-customers.html](https://www.timtec.net/our-customers.html) (`assets/customers/`). Names without a logo file (2023–2026 shipping end-customers such as Firmenich, University of Sydney, Al Ain University, New York Blood Center / NYBC, Duke, UT Southwestern, Ginkgo Bioworks, and others) are text tiles in `js/customers-extra.js`. MolPort and Mcule are not listed as primary customers. No endorsement language.
+`/our-customers/` is a running logo strip (not a grid). Historical logos come from [timtec.net/our-customers.html](https://www.timtec.net/our-customers.html) (`assets/customers/`). The dsm-firmenich wordmark is included as a logo tile. Names without a logo file (University of Sydney, Al Ain University, New York Blood Center / NYBC, Duke, UT Southwestern, Ginkgo Bioworks, and others) are text tiles in the strip and in a crawlable name list on the page. Non-operating brands were removed. MolPort and Mcule are not listed as primary customers. No endorsement language. The public page does not show build notes or file-path instructions.
 
 ## Forms
 

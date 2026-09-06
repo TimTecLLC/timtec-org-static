@@ -134,9 +134,12 @@
     });
   }
 
-  function setupCustomerGrid() {
-    var grid = document.querySelector("[data-customer-grid]");
-    if (!grid) return;
+  function setupCustomerStrip() {
+    var group = document.querySelector("[data-customer-group]");
+    var track = document.querySelector("[data-customer-track]");
+    var strip = document.querySelector("[data-customer-strip]");
+    if (!group) return;
+
     var extras = Array.isArray(window.TIMTEC_EXTRA_CUSTOMERS) ? window.TIMTEC_EXTRA_CUSTOMERS : [];
     extras.forEach(function (item) {
       if (!item || !item.name) return;
@@ -144,41 +147,54 @@
       if (!name) return;
       if (/^(molport|mcule)$/i.test(name)) return;
       var key = name.toLowerCase();
-      var already = Array.prototype.some.call(grid.querySelectorAll("[data-customer-name]"), function (el) {
+      var already = Array.prototype.some.call(group.querySelectorAll("[data-customer-name]"), function (el) {
         return (el.getAttribute("data-customer-name") || "").toLowerCase() === key;
       });
       if (already) return;
-      var cell = document.createElement("div");
+      var cell = document.createElement("li");
       cell.className = "logo-cell text-tile";
       cell.setAttribute("data-customer-name", key);
       cell.setAttribute("data-sort", key);
-      var p = document.createElement("p");
-      p.className = "org-name";
-      p.textContent = name;
-      var note = document.createElement("span");
-      note.className = "org-note";
-      note.textContent = "Name listing";
-      cell.appendChild(p);
-      cell.appendChild(note);
-      grid.appendChild(cell);
+      var label = document.createElement("span");
+      label.className = "org-name";
+      label.textContent = name;
+      cell.appendChild(label);
+      group.appendChild(cell);
     });
 
-    var cells = Array.prototype.slice.call(grid.children);
+    var cells = Array.prototype.slice.call(group.children);
     cells.sort(function (a, b) {
       return (a.getAttribute("data-sort") || "").localeCompare(b.getAttribute("data-sort") || "", "en", {
         sensitivity: "base",
       });
     });
     cells.forEach(function (cell) {
-      grid.appendChild(cell);
+      group.appendChild(cell);
     });
 
-    var count = document.querySelector("[data-customer-count]");
-    if (count) count.textContent = String(grid.children.length);
+    var index = document.querySelector("[data-customer-index]");
+    if (index) {
+      index.innerHTML = "";
+      cells.forEach(function (cell) {
+        var li = document.createElement("li");
+        var nameEl = cell.querySelector(".org-name");
+        var img = cell.querySelector("img");
+        li.textContent = (nameEl && nameEl.textContent) || (img && (img.getAttribute("alt") || img.getAttribute("title"))) || "";
+        if (li.textContent) index.appendChild(li);
+      });
+    }
+
+    if (track && strip && cells.length) {
+      var clone = group.cloneNode(true);
+      clone.removeAttribute("data-customer-group");
+      clone.setAttribute("aria-hidden", "true");
+      track.appendChild(clone);
+      strip.style.setProperty("--strip-duration", Math.max(90, cells.length * 1.15) + "s");
+    }
   }
 
   fillBindings();
   setupNav();
   setupForms();
-  setupCustomerGrid();
+  setupCustomerStrip();
 })();

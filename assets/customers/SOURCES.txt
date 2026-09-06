@@ -1,21 +1,32 @@
-Customer logos downloaded from https://www.timtec.net/our-customers.html
+Customer logos for /our-customers/.
+
+Historical set downloaded from https://www.timtec.net/our-customers.html
 Primary path: https://www.timtec.net/images/customers/<file>
-molport.jpg was missing under /images/customers/ and was taken from https://www.timtec.net/images/molport.jpg (file kept; not shown on the page — aggregators are not listed as primary customers).
-Count: 219
-Extra names without a logo file are listed in js/customers-extra.js (text tiles).
+
+dsm-firmenich.jpg is the official 2023 dsm-firmenich wordmark from
+https://www.dsm-firmenich.com/content/dam/logos/logo-dsm-firmenich%201.svg
+converted to a dark-on-white JPEG. The dual-legacy DSM swirl + Firmenich
+emblem JPEG from Bobby's follow-up was not present in this agent environment.
+
+molport.jpg was removed from the page and from this folder. Catalog
+aggregators are not listed as primary customers.
+
+Logos for companies that no longer operate under that name were removed
+(see the pull request body).
+
+Extra names without a logo file are listed as text tiles in
+our-customers/index.html and js/customers-extra.js.
+
+Count of logo files below: 192
 
 4sc.jpg
 Abbott.jpg
-Achaogen.jpg
 Actelion.jpg
 Amgen.jpg
 Biogen_Idec.jpg
-Biota.jpg
 CMU.jpg
 Catholic_uni_of_korea.jpg
-Celtaxsys.jpg
 Childrens.jpg
-Cubist.jpg
 DANA-FARBER.jpg
 GEISINGER-HEALTH-SYSTEM.jpg
 GeorgiaTech.jpg
@@ -29,32 +40,21 @@ MSSM.jpg
 OICRlogo.jpg
 OSU.jpg
 Oxford.jpg
-Pharmasset.jpg
-Proteologics.jpg
 RTI.jpg
 UNIGE.jpg
 Uni_Lille.jpg
 Yale.jpg
-abraxis.jpg
-achillion.jpg
 active_biotech.jpg
 addex.jpg
-aerovance.jpg
 agave-biosystema.jpg
 alba.jpg
 albany.jpg
 allergan.jpg
 amri.jpg
-arena.jpg
-ariad.jpg
-arqule.jpg
-array.jpg
 asdi.jpg
 asischem.jpg
 astellas.jpg
 auburnu.jpg
-avalonpharma.jpg
-avila.jpg
 az.jpg
 basf.jpg
 bayer.jpg
@@ -72,25 +72,21 @@ burnham.jpg
 california-institute-of-technology.jpg
 calstate.jpg
 case-western-reserve-university.jpg
-cellzome.jpg
 chemdiv.jpg
 chemonaut.jpg
 childrenhboston.jpg
-chiron.jpg
 cocacola.jpg
 columbia.jpg
 cornell.jpg
 cytokinetics.jpg
-divergence.jpg
 dow.jpg
 drexel.jpg
+dsm-firmenich.jpg
 dupont.jpg
 edinburgh.jpg
 einstein.jpg
-elan.jpg
 emd_serono.jpg
 emory.jpg
-envoy-therapeutics.jpg
 evolva.jpg
 evotec.jpg
 exelexis.jpg
@@ -98,7 +94,6 @@ exxonhit.jpg
 fate.jpg
 fisher_scientific.jpg
 galapagos.jpg
-galleon.jpg
 genentech.jpg
 genomics.jpg
 genzyme.jpg
@@ -117,7 +112,6 @@ integralmolecular.jpg
 interieur.jpg
 intervet.jpg
 iowastate.jpg
-ipierian.jpg
 jhu.jpg
 jnj.jpg
 ldc.jpg
@@ -134,7 +128,6 @@ memorialskcc.jpg
 merck.jpg
 millennium.jpg
 mit.jpg
-molport.jpg
 monash.jpg
 montana-state-university.jpg
 mrc.jpg
@@ -146,7 +139,6 @@ newmexico.jpg
 nih.jpg
 north-carolina-state-university.jpg
 novartis.jpg
-nuevolution.jpg
 nyp.jpg
 nyu.jpg
 ohiostate.jpg
@@ -156,7 +148,6 @@ pennstate.jpg
 pfizer.jpg
 pg.jpg
 pitt.jpg
-polyphor.jpg
 polyu.jpg
 portada.jpg
 princeton.jpg
@@ -169,14 +160,11 @@ sanofi.jpg
 sbio.jpg
 scripps.jpg
 scynexis.jpg
-senomyx.jpg
 shigematsu.jpg
 sial.jpg
-siennabio.jpg
 southerres.jpg
 sri.jpg
 stanford.jpg
-supergen.jpg
 takeda.jpg
 telau.jpg
 temple.jpg

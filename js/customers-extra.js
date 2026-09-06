@@ -1,10 +1,12 @@
 /**
- * Names to show on /our-customers/ even when no logo exists
- * under timtec.net/images/customers/. Add 2023–2026 shipping
- * end-customers here. Prefer end-customers over catalog aggregators.
+ * Optional extra names for /our-customers/ when no logo file exists.
+ * Current 2023–2026 shipping end-customers are also in the static HTML
+ * so search engines can index the names without JavaScript.
  *
+ * Add later names here. Prefer end-customers over catalog aggregators.
  * Do not list MolPort or Mcule as primary customers.
  * Do not add endorsement language.
+ * Firmenich is shown as the dsm-firmenich logo tile — do not re-add a text tile.
  */
 window.TIMTEC_EXTRA_CUSTOMERS = [
   { name: "Al Ain University" },
@@ -14,7 +16,6 @@ window.TIMTEC_EXTRA_CUSTOMERS = [
   { name: "Cedarlane" },
   { name: "ChemScene" },
   { name: "Duke University" },
-  { name: "Firmenich" },
   { name: "Ginkgo Bioworks" },
   { name: "i3S" },
   { name: "Integrated Bio" },
