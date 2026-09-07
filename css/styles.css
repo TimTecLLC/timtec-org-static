@@ -114,6 +114,7 @@ html {
     transform: none;
   }
 
+  .site-particles,
   #hero-particles {
     display: none;
   }
@@ -341,6 +342,7 @@ a:hover {
   background-repeat: no-repeat, repeat, no-repeat;
 }
 
+.site-particles,
 #hero-particles {
   position: absolute;
   inset: 0;
@@ -348,13 +350,16 @@ a:hover {
   pointer-events: none;
 }
 
+.site-particles canvas,
 #hero-particles canvas {
   display: block;
   width: 100% !important;
   height: 100% !important;
 }
 
-.hero > .wrap {
+.hero > .wrap,
+.page-hero > .wrap,
+.page-hero .split {
   position: relative;
   z-index: 1;
 }
@@ -640,6 +645,8 @@ a:hover {
 }
 
 .page-hero {
+  position: relative;
+  overflow: hidden;
   padding: var(--page-hero-pad);
   background: var(--page-hero-bg);
 }

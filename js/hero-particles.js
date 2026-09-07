@@ -1,13 +1,16 @@
-/* TimTec home hero particles — Lab Teal linked dots (BLD-style). Respects prefers-reduced-motion. */
+/* TimTec Lab Teal particle field — attaches to every .hero / .page-hero. Respects prefers-reduced-motion. */
 (function () {
   "use strict";
-  var root = document.getElementById("hero-particles");
-  if (!root || typeof particlesJS !== "function") return;
+
+  if (window.TIMTEC_PARTICLES_INIT) return;
+  if (typeof particlesJS !== "function") return;
   if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    root.setAttribute("aria-hidden", "true");
     return;
   }
-  particlesJS("hero-particles", {
+
+  window.TIMTEC_PARTICLES_INIT = true;
+
+  var CONFIG = {
     particles: {
       number: { value: 70, density: { enable: true, value_area: 1000 } },
       color: { value: "#0d9488" },
@@ -51,5 +54,26 @@
       }
     },
     retina_detect: true
+  };
+
+  var heroes = document.querySelectorAll("section.hero, section.page-hero");
+  Array.prototype.forEach.call(heroes, function (hero, index) {
+    var layer = hero.querySelector(".site-particles, #hero-particles");
+    if (!layer) {
+      layer = document.createElement("div");
+      layer.className = "site-particles";
+      layer.id = "site-particles-" + index;
+      layer.setAttribute("aria-hidden", "true");
+      hero.insertBefore(layer, hero.firstChild);
+    } else {
+      if (!layer.classList.contains("site-particles")) {
+        layer.classList.add("site-particles");
+      }
+      if (!layer.id) {
+        layer.id = "site-particles-" + index;
+      }
+      layer.setAttribute("aria-hidden", "true");
+    }
+    particlesJS(layer.id, CONFIG);
   });
 })();
