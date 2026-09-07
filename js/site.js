@@ -316,11 +316,38 @@
     });
   }
 
+  function loadHeroParticles() {
+    if (window.TIMTEC_PARTICLES_LOADING) return;
+    if (!document.querySelector("section.hero, section.page-hero")) return;
+
+    var siteScript = document.querySelector('script[src*="js/site.js"]');
+    if (!siteScript) return;
+
+    var src = siteScript.getAttribute("src") || siteScript.src || "";
+    var base = src.replace(/[#?].*$/, "").replace(/[^/]+$/, "");
+    if (!base) return;
+
+    window.TIMTEC_PARTICLES_LOADING = true;
+
+    function inject(filename, onload) {
+      var script = document.createElement("script");
+      script.src = base + filename;
+      if (onload) script.onload = onload;
+      (document.body || document.documentElement).appendChild(script);
+    }
+
+    inject("vendor/particles.min.js", function () {
+      inject("hero-particles.js");
+    });
+  }
+
   fillBindings();
   applySiteUrls();
   setupThemeChrome();
   setupNav();
   setupForms();
   setupCustomerStrip();
+  loadHeroParticles();
 })();
+
 
