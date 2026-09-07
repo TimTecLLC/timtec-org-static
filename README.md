@@ -19,6 +19,8 @@ Do **not** change [TimTecLLC/remodelingsupplier-us](https://github.com/TimTecLLC
 
 `SITE_URL` follows the current host at runtime (`github.io`, `www.timtec.org`, or localhost). Static HTML defaults to `https://www.timtec.org`.
 
+Corrected `timtec.net` → `www.timtec.org` 301 map: **[docs/timtec-net-to-org-redirects.md](docs/timtec-net-to-org-redirects.md)**. Apache rules for the **timtec.net host only**: **[docs/htaccess-timtec.net.txt](docs/htaccess-timtec.net.txt)** (not GitHub Pages). Old IONOS slugs on this site use HTML redirect stubs and are omitted from `sitemap.xml`.
+
 Locally:
 
 ```bash

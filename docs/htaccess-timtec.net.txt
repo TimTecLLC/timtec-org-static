@@ -1,0 +1,75 @@
+# =============================================================================
+# timtec.net → www.timtec.org  (Apache 2.4)
+# =============================================================================
+#
+# INSTALL ON THE timtec.net HOST ONLY.
+# Copy this file to the timtec.net web root as `.htaccess`, or merge the
+# RewriteRule block into the existing Apache vhost.
+#
+# Do NOT deploy this file on GitHub Pages. Pages does not run Apache rewrite
+# rules from this repository. The corrected destination map is documented in
+# docs/timtec-net-to-org-redirects.md
+#
+# Requires: mod_rewrite
+# =============================================================================
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+# --- Home -------------------------------------------------------------------
+RewriteRule ^$ https://www.timtec.org/ [R=301,L]
+RewriteRule ^index\.html?$ https://www.timtec.org/ [R=301,L]
+
+# --- Company / contact ------------------------------------------------------
+RewriteRule ^about-us(\.html)?/?$ https://www.timtec.org/about/ [R=301,L]
+RewriteRule ^timtec-network(\.html)?/?$ https://www.timtec.org/network/ [R=301,L]
+RewriteRule ^our-partners(\.html)?/?$ https://www.timtec.org/network/ [R=301,L]
+RewriteRule ^our-customers(\.html)?/?$ https://www.timtec.org/our-customers/ [R=301,L]
+RewriteRule ^contact-us(\.html)?/?$ https://www.timtec.org/contact/ [R=301,L]
+RewriteRule ^faqs(\.html)?(/.*)?$ https://www.timtec.org/faq/ [R=301,L]
+RewriteRule ^terms-of-sale(\.html)?/?$ https://www.timtec.org/terms/ [R=301,L]
+
+# --- R&D / catalog tools ----------------------------------------------------
+RewriteRule ^screening-compounds(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L]
+RewriteRule ^building-blocks(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L]
+RewriteRule ^download-databases(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L]
+RewriteRule ^structure-search(\.html)?/?$ http://74.208.206.139/structure [R=301,L]
+
+# --- Screening collections (named libraries first) --------------------------
+RewriteRule ^actiglobe-50k(\.html)?/?$ https://www.timtec.org/screening-collections/actiglobe-50k/ [R=301,L]
+RewriteRule ^actiprobe-series(\.html)?/?$ https://www.timtec.org/screening-collections/actiprobe-10k/ [R=301,L]
+RewriteRule ^actiprobe-10k.*$ https://www.timtec.org/screening-collections/actiprobe-10k/ [R=301,L]
+RewriteRule ^apexscreen(\.html)?/?$ https://www.timtec.org/screening-collections/apexscreen/ [R=301,L]
+RewriteRule ^npl-pure-natural-compounds(\.html)?/?$ https://www.timtec.org/screening-collections/npl-800/ [R=301,L]
+RewriteRule ^natural-products-library(\.html)?/?$ https://www.timtec.org/screening-collections/npl-800/ [R=301,L]
+RewriteRule ^ndl-derivatives(\.html)?/?$ https://www.timtec.org/screening-collections/ndl-3040/ [R=301,L]
+RewriteRule ^flavonoids(\.html)?/?$ https://www.timtec.org/screening-collections/fl-500/ [R=301,L]
+
+# --- Screening collections (hub) --------------------------------------------
+RewriteRule ^screening-compound-libraries(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
+RewriteRule ^libraries(/.*)?$ https://www.timtec.org/screening-collections/ [R=301,L]
+RewriteRule ^myriascreen(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
+RewriteRule ^plant-extracts(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
+RewriteRule ^actitarg-.*$ https://www.timtec.org/screening-collections/ [R=301,L]
+RewriteRule ^acticom(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
+RewriteRule ^privileged-structures(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
+RewriteRule ^fbl-fragment(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
+
+# --- Services ---------------------------------------------------------------
+RewriteRule ^services(\.html)?/?$ https://www.timtec.org/services/ [R=301,L]
+RewriteRule ^compound-management.*$ https://www.timtec.org/services/ [R=301,L]
+RewriteRule ^custom-synthesis(\.html)?/?$ https://www.timtec.org/services/ [R=301,L]
+RewriteRule ^cheminformatics(\.html)?/?$ https://www.timtec.org/services/ [R=301,L]
+
+# --- News / publications (no publications page yet) -------------------------
+RewriteRule ^news-and-articles(\.html)?/?$ https://www.timtec.org/about/ [R=301,L]
+RewriteRule ^timtec-in-publications(\.html)?/?$ https://www.timtec.org/about/ [R=301,L]
+
+# --- Software ---------------------------------------------------------------
+RewriteRule ^software(\.html)?/?$ http://www.chemdbsoft.com/ [R=301,L]
+RewriteRule ^chemdbsoft(\.html)?/?$ http://www.chemdbsoft.com/ [R=301,L]
+
+# --- Sitemap + catch-all ----------------------------------------------------
+RewriteRule ^sitemap(\.html)?/?$ https://www.timtec.org/ [R=301,L]
+RewriteRule . https://www.timtec.org/ [R=301,L]
