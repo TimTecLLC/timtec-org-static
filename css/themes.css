@@ -68,6 +68,11 @@
   letter-spacing: 0.01em;
 }
 
+[data-theme="clean-air"] .tool-btn.structure {
+  min-height: 5.8rem;
+  font-size: 1.28rem;
+}
+
 [data-theme="clean-air"] .hero {
   background-size: cover, auto, cover;
 }

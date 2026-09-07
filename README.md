@@ -61,7 +61,7 @@ Edit the same fields in `js/config.js` if they change. Header has **no** social 
 | CoA | http://74.208.206.139/coa |
 | Legacy catalog | http://35.143.96.5:8081/cws/LoginUser.asp |
 
-Homepage: centered 2×2 colored buttons (Structure Search, ID/SMILES, CoA, TT-BOT) plus a full-width SDS button (max-width 720px).
+Homepage: Structure Search as a full-width primary tool button, then ID/SMILES, CoA, TT-BOT, and SDS as secondary buttons (2×2 on small screens, 4-across from 800px; max-width 720px).
 
 ## Site map (public)
 

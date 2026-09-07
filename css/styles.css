@@ -64,11 +64,16 @@
   --logo-cell-bg: #fff;
   --logo-cell-text-bg: #f8f9fd;
   --index-chip-bg: #fff;
-  --tool-structure: var(--blue);
-  --tool-idsearch: var(--teal);
-  --tool-coa: var(--violet);
-  --tool-ttbot: var(--orange);
-  --tool-sds: var(--amber);
+  --tool-structure: #14b8a6;
+  --tool-idsearch: #0ea5e9;
+  --tool-coa: #7c3aed;
+  --tool-ttbot: #f97316;
+  --tool-sds: #f59e0b;
+  --tool-structure-ink: #042f2e;
+  --tool-idsearch-ink: #082f49;
+  --tool-coa-ink: #fff;
+  --tool-ttbot-ink: #1c1917;
+  --tool-sds-ink: #1c1917;
   --tool-radius: 12px;
   --tool-shadow: 0 8px 18px rgba(19, 42, 122, 0.12);
   --link: var(--blue-deep);
@@ -374,7 +379,7 @@ a:hover {
   min-height: 4.4rem;
   padding: 0.85rem 0.7rem;
   border-radius: var(--tool-radius);
-  color: #fff;
+  color: var(--tool-ink, #fff);
   text-decoration: none;
   font-weight: 700;
   text-align: center;
@@ -382,31 +387,55 @@ a:hover {
 }
 
 .tool-btn:hover {
-  color: #fff;
+  color: var(--tool-ink, #fff);
   filter: brightness(1.06);
 }
 
 .tool-btn.structure {
+  grid-column: 1 / -1;
+  min-height: 5.25rem;
+  padding: 1.05rem 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.01em;
   background: var(--tool-structure);
+  --tool-ink: var(--tool-structure-ink, #fff);
+  color: var(--tool-ink);
+  box-shadow: var(--tool-shadow), 0 6px 0 rgba(12, 36, 34, 0.12);
 }
 
 .tool-btn.idsearch {
   background: var(--tool-idsearch);
+  --tool-ink: var(--tool-idsearch-ink, #fff);
+  color: var(--tool-ink);
 }
 
 .tool-btn.coa {
   background: var(--tool-coa);
+  --tool-ink: var(--tool-coa-ink, #fff);
+  color: var(--tool-ink);
 }
 
 .tool-btn.ttbot {
   background: var(--tool-ttbot);
+  --tool-ink: var(--tool-ttbot-ink, #fff);
+  color: var(--tool-ink);
 }
 
 .tool-btn.sds {
   background: var(--tool-sds);
-  width: 100%;
-  margin-top: 0.75rem;
-  min-height: 3.6rem;
+  --tool-ink: var(--tool-sds-ink, #fff);
+  color: var(--tool-ink);
+}
+
+@media (min-width: 800px) {
+  .tool-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .tool-btn.structure {
+    min-height: 5.6rem;
+    font-size: 1.28rem;
+  }
 }
 
 .section {
