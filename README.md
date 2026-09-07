@@ -80,6 +80,14 @@ Homepage: Structure Search as a full-width primary tool button, then ID/SMILES, 
 | `/screening-collections/ndl-3040/` | NDL-3040 |
 | `/screening-collections/fl-500/` | FL-500 |
 | `/screening-collections/fbl/` | FBL-3200 fragment-based library |
+| `/screening-collections/actitarg-g/` | ActiTarg-G GPCR ligands |
+| `/screening-collections/actitarg-k/` | ActiTarg-K kinase modulators |
+| `/screening-collections/actitarg-p/` | ActiTarg-P protease inhibitors |
+| `/screening-collections/actitarg-s/` | ActiTarg-S serine proteinase inhibitors |
+| `/screening-collections/actitarg-i/` | ActiTarg-I potassium-channel modulators |
+| `/screening-collections/actitarg-n/` | ActiTarg-N nuclear-receptor ligands |
+| `/screening-collections/actitarg-h/` | ActiTarg-H HDAC inhibitors |
+| `/screening-collections/actitarg-cns/` | ActiTarg-CNS CNS modulators |
 | `/services/` | Synthesis, plating, management, cheminformatics |
 | `/contact/` | NAP, EIN/DUNS/UEI/CAGE, mailto form |
 | `/about/` | Company history (Kissimmee / Orlando) |

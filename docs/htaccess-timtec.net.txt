@@ -49,6 +49,14 @@ RewriteRule ^myriascreen(\.html)?/?$ https://www.timtec.org/screening-collection
 RewriteRule ^myriascreen-diversity(-collection)?(\.html)?/?$ https://www.timtec.org/screening-collections/ms-10000/ [R=301,L]
 RewriteRule ^fbl-fragment(\.html)?/?$ https://www.timtec.org/screening-collections/fbl/ [R=301,L]
 RewriteRule ^fbl-fragment-based-library(\.html)?/?$ https://www.timtec.org/screening-collections/fbl/ [R=301,L]
+RewriteRule ^gpcr-ligands-actitarg-g-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-g/ [R=301,L]
+RewriteRule ^kinase-modulators-actitarg-k-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-k/ [R=301,L]
+RewriteRule ^protease-inhibitors-actitarg-p-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-p/ [R=301,L]
+RewriteRule ^serine-proteinase-inhibitors-actitarg-s-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-s/ [R=301,L]
+RewriteRule ^[Aa]cti[Tt]arg-[Ii]-potassium-channel-modulators(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-i/ [R=301,L]
+RewriteRule ^actitarg-n-nuclear-receptor-ligands(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-n/ [R=301,L]
+RewriteRule ^hdac-inhibitors-actitarg-h-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-h/ [R=301,L]
+RewriteRule ^actitarg-cns(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-cns/ [R=301,L]
 
 # --- Screening collections (hub) --------------------------------------------
 RewriteRule ^screening-compound-libraries(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]

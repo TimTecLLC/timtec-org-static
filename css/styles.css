@@ -872,6 +872,8 @@ th {
     top: 100%;
     left: 0;
     min-width: 15rem;
+    max-height: calc(100vh - 5.5rem);
+    overflow-y: auto;
     background: var(--submenu-bg);
     border: 1px solid var(--line);
     border-radius: 12px;

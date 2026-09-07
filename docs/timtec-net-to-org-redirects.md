@@ -36,7 +36,15 @@ GitHub Pages also cannot emit a true HTTP 301 for old **www.timtec.org** IONOS s
 | `myriascreen` | `https://www.timtec.org/screening-collections/ms-10000/` |
 | `myriascreen-diversity-collection` | `https://www.timtec.org/screening-collections/ms-10000/` |
 | `plant-extracts` | `https://www.timtec.org/screening-collections/` |
-| `actitarg-*` | `https://www.timtec.org/screening-collections/` |
+| `gpcr-ligands-actitarg-g-library` | `https://www.timtec.org/screening-collections/actitarg-g/` |
+| `kinase-modulators-actitarg-k-library` | `https://www.timtec.org/screening-collections/actitarg-k/` |
+| `protease-inhibitors-actitarg-p-library` | `https://www.timtec.org/screening-collections/actitarg-p/` |
+| `serine-proteinase-inhibitors-actitarg-s-library` | `https://www.timtec.org/screening-collections/actitarg-s/` |
+| `actitarg-i-potassium-channel-modulators` (any case) | `https://www.timtec.org/screening-collections/actitarg-i/` |
+| `actitarg-n-nuclear-receptor-ligands` | `https://www.timtec.org/screening-collections/actitarg-n/` |
+| `hdac-inhibitors-actitarg-h-library` | `https://www.timtec.org/screening-collections/actitarg-h/` |
+| `actitarg-cns` | `https://www.timtec.org/screening-collections/actitarg-cns/` |
+| leftover `actitarg-*` | `https://www.timtec.org/screening-collections/` |
 | `acticom` | `https://www.timtec.org/screening-collections/` |
 | `privileged-structures` | `https://www.timtec.org/screening-collections/` |
 | `fbl-fragment` | `https://www.timtec.org/screening-collections/fbl/` |
