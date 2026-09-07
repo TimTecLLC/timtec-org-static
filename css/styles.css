@@ -64,18 +64,20 @@
   --logo-cell-bg: #fff;
   --logo-cell-text-bg: #f8f9fd;
   --index-chip-bg: #fff;
-  --tool-structure: #14b8a6;
-  --tool-idsearch: #0ea5e9;
-  --tool-coa: #7c3aed;
-  --tool-ttbot: #f97316;
-  --tool-sds: #f59e0b;
-  --tool-structure-ink: #042f2e;
-  --tool-idsearch-ink: #082f49;
-  --tool-coa-ink: #fff;
-  --tool-ttbot-ink: #1c1917;
-  --tool-sds-ink: #1c1917;
+  --tool-structure: #8fd6ca;
+  --tool-idsearch: #8ecdef;
+  --tool-coa: #cbb6ea;
+  --tool-ttbot: #f3c2b4;
+  --tool-sds: #c8e6b0;
+  --tool-structure-ink: #0c4f48;
+  --tool-idsearch-ink: #0c4a6e;
+  --tool-coa-ink: #4c1d95;
+  --tool-ttbot-ink: #9a3412;
+  --tool-sds-ink: #3f6212;
+  --tool-ttbot-accent: #ea580c;
+  --tool-border: rgba(255, 255, 255, 0.92);
   --tool-radius: 12px;
-  --tool-shadow: 0 8px 18px rgba(19, 42, 122, 0.12);
+  --tool-shadow: 0 8px 18px rgba(15, 35, 40, 0.12);
   --link: var(--blue-deep);
   --link-hover: var(--navy);
   --h1-size: clamp(1.85rem, 3.4vw, 2.35rem);
@@ -106,6 +108,10 @@ html {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+
+  .tool-btn:hover {
+    transform: none;
   }
 }
 
@@ -378,53 +384,66 @@ a:hover {
   justify-content: center;
   min-height: 4.4rem;
   padding: 0.85rem 0.7rem;
+  border: 1px solid var(--tool-border);
   border-radius: var(--tool-radius);
-  color: var(--tool-ink, #fff);
+  background-color: var(--tool-fill, #d7efe9);
+  background-image:
+    radial-gradient(140% 90% at 10% -8%, rgba(255, 255, 255, 0.92) 0%, rgba(255, 255, 255, 0) 46%),
+    radial-gradient(140% 90% at 90% -8%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 42%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0.12) 46%, rgba(255, 255, 255, 0) 54%),
+    linear-gradient(180deg, color-mix(in srgb, var(--tool-fill) 52%, white) 0%, var(--tool-fill) 100%);
+  color: var(--tool-ink, #0c2422);
   text-decoration: none;
   font-weight: 700;
   text-align: center;
-  box-shadow: var(--tool-shadow);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+  box-shadow:
+    var(--tool-shadow),
+    0 0 0 1px color-mix(in srgb, var(--tool-ink) 10%, transparent),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95),
+    inset 0 -2px 6px rgba(15, 35, 40, 0.06);
 }
 
 .tool-btn:hover {
-  color: var(--tool-ink, #fff);
-  filter: brightness(1.06);
+  color: var(--tool-ink, #0c2422);
+  transform: translateY(-1px);
+  box-shadow:
+    0 12px 22px rgba(15, 35, 40, 0.14),
+    0 0 0 1px color-mix(in srgb, var(--tool-ink) 14%, transparent),
+    inset 0 1px 0 rgba(255, 255, 255, 0.98),
+    inset 0 -2px 6px rgba(15, 35, 40, 0.05);
 }
 
 .tool-btn.structure {
+  --tool-fill: var(--tool-structure);
+  --tool-ink: var(--tool-structure-ink);
   grid-column: 1 / -1;
   min-height: 5.25rem;
   padding: 1.05rem 1rem;
   font-size: 1.2rem;
   letter-spacing: 0.01em;
-  background: var(--tool-structure);
-  --tool-ink: var(--tool-structure-ink, #fff);
-  color: var(--tool-ink);
-  box-shadow: var(--tool-shadow), 0 6px 0 rgba(12, 36, 34, 0.12);
 }
 
 .tool-btn.idsearch {
-  background: var(--tool-idsearch);
-  --tool-ink: var(--tool-idsearch-ink, #fff);
-  color: var(--tool-ink);
+  --tool-fill: var(--tool-idsearch);
+  --tool-ink: var(--tool-idsearch-ink);
 }
 
 .tool-btn.coa {
-  background: var(--tool-coa);
-  --tool-ink: var(--tool-coa-ink, #fff);
-  color: var(--tool-ink);
+  --tool-fill: var(--tool-coa);
+  --tool-ink: var(--tool-coa-ink);
 }
 
 .tool-btn.ttbot {
-  background: var(--tool-ttbot);
-  --tool-ink: var(--tool-ttbot-ink, #fff);
-  color: var(--tool-ink);
+  --tool-fill: var(--tool-ttbot);
+  --tool-ink: var(--tool-ttbot-ink);
 }
 
 .tool-btn.sds {
-  background: var(--tool-sds);
-  --tool-ink: var(--tool-sds-ink, #fff);
-  color: var(--tool-ink);
+  --tool-fill: var(--tool-sds);
+  --tool-ink: var(--tool-sds-ink);
 }
 
 @media (min-width: 800px) {

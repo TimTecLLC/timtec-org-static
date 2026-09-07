@@ -51,17 +51,18 @@
   --h1-size: clamp(2.05rem, 4.1vw, 2.85rem);
   --h2-size: 1.55rem;
   --lede-size: 1.18rem;
-  --tool-structure: #14b8a6;
-  --tool-idsearch: #0ea5e9;
-  --tool-coa: #7c3aed;
-  --tool-ttbot: #f97316;
-  --tool-sds: #f59e0b;
-  --tool-structure-ink: #042f2e;
-  --tool-idsearch-ink: #082f49;
-  --tool-coa-ink: #fff;
-  --tool-ttbot-ink: #1c1917;
-  --tool-sds-ink: #1c1917;
-  --tool-shadow: 0 10px 22px rgba(13, 79, 75, 0.16);
+  --tool-structure: #8fd6ca;
+  --tool-idsearch: #8ecdef;
+  --tool-coa: #cbb6ea;
+  --tool-ttbot: #f3c2b4;
+  --tool-sds: #c8e6b0;
+  --tool-structure-ink: #0c4f48;
+  --tool-idsearch-ink: #0c4a6e;
+  --tool-coa-ink: #4c1d95;
+  --tool-ttbot-ink: #9a3412;
+  --tool-sds-ink: #3f6212;
+  --tool-ttbot-accent: #ea580c;
+  --tool-shadow: 0 8px 18px rgba(13, 79, 75, 0.1);
   --logo-cell-text-bg: #eef8f6;
 }
 

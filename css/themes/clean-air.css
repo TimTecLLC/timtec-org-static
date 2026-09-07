@@ -53,18 +53,19 @@
   --h1-size: clamp(2.1rem, 4.4vw, 3.05rem);
   --h2-size: 1.65rem;
   --lede-size: 1.2rem;
-  --tool-structure: #2563eb;
-  --tool-idsearch: #0d9488;
-  --tool-coa: #7c3aed;
-  --tool-ttbot: #f97316;
-  --tool-sds: #f59e0b;
-  --tool-structure-ink: #fff;
-  --tool-idsearch-ink: #fff;
-  --tool-coa-ink: #fff;
-  --tool-ttbot-ink: #1c1917;
-  --tool-sds-ink: #1c1917;
+  --tool-structure: #9ec5f5;
+  --tool-idsearch: #8fd6ca;
+  --tool-coa: #cbb6ea;
+  --tool-ttbot: #f3c2b4;
+  --tool-sds: #c8e6b0;
+  --tool-structure-ink: #1e3a8a;
+  --tool-idsearch-ink: #115e59;
+  --tool-coa-ink: #4c1d95;
+  --tool-ttbot-ink: #9a3412;
+  --tool-sds-ink: #3f6212;
+  --tool-ttbot-accent: #ea580c;
   --tool-radius: 14px;
-  --tool-shadow: 0 12px 24px rgba(3, 105, 161, 0.16);
+  --tool-shadow: 0 8px 18px rgba(3, 105, 161, 0.1);
   --logo-cell-text-bg: #f0f9ff;
 }
 
