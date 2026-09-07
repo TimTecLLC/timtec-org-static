@@ -398,6 +398,7 @@ a:hover {
   text-align: center;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
   box-shadow:
     var(--tool-shadow),
     0 0 0 1px color-mix(in srgb, var(--tool-ink) 10%, transparent),
