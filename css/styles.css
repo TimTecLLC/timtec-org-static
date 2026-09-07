@@ -64,18 +64,24 @@
   --logo-cell-bg: #fff;
   --logo-cell-text-bg: #f8f9fd;
   --index-chip-bg: #fff;
-  --tool-structure: #14b8a6;
-  --tool-idsearch: #0ea5e9;
-  --tool-coa: #7c3aed;
-  --tool-ttbot: #f97316;
-  --tool-sds: #f59e0b;
-  --tool-structure-ink: #042f2e;
-  --tool-idsearch-ink: #082f49;
-  --tool-coa-ink: #fff;
-  --tool-ttbot-ink: #1c1917;
-  --tool-sds-ink: #1c1917;
+  --tool-structure: rgba(13, 148, 136, 0.22);
+  --tool-idsearch: rgba(14, 165, 233, 0.16);
+  --tool-coa: rgba(124, 58, 237, 0.14);
+  --tool-ttbot: rgba(249, 115, 22, 0.16);
+  --tool-sds: rgba(245, 158, 11, 0.18);
+  --tool-structure-line: rgba(13, 148, 136, 0.42);
+  --tool-idsearch-line: rgba(2, 132, 199, 0.38);
+  --tool-coa-line: rgba(124, 58, 237, 0.36);
+  --tool-ttbot-line: rgba(234, 88, 12, 0.38);
+  --tool-sds-line: rgba(217, 119, 6, 0.4);
+  --tool-structure-ink: #0c4f48;
+  --tool-idsearch-ink: #075985;
+  --tool-coa-ink: #5b21b6;
+  --tool-ttbot-ink: #9a3412;
+  --tool-sds-ink: #92400e;
+  --tool-ttbot-accent: #ea580c;
   --tool-radius: 12px;
-  --tool-shadow: 0 8px 18px rgba(19, 42, 122, 0.12);
+  --tool-shadow: 0 4px 12px rgba(19, 42, 122, 0.06);
   --link: var(--blue-deep);
   --link-hover: var(--navy);
   --h1-size: clamp(1.85rem, 3.4vw, 2.35rem);
@@ -378,53 +384,57 @@ a:hover {
   justify-content: center;
   min-height: 4.4rem;
   padding: 0.85rem 0.7rem;
+  border: 1.5px solid var(--tool-line, rgba(12, 36, 34, 0.14));
   border-radius: var(--tool-radius);
-  color: var(--tool-ink, #fff);
+  background: var(--tool-fill, rgba(255, 255, 255, 0.42));
+  color: var(--tool-ink, #0c2422);
   text-decoration: none;
   font-weight: 700;
   text-align: center;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   box-shadow: var(--tool-shadow);
 }
 
 .tool-btn:hover {
-  color: var(--tool-ink, #fff);
-  filter: brightness(1.06);
+  color: var(--tool-ink, #0c2422);
+  border-color: color-mix(in srgb, var(--tool-line) 70%, var(--tool-ink));
+  box-shadow: 0 6px 16px rgba(12, 36, 34, 0.08);
 }
 
 .tool-btn.structure {
+  --tool-fill: var(--tool-structure);
+  --tool-line: var(--tool-structure-line);
+  --tool-ink: var(--tool-structure-ink);
   grid-column: 1 / -1;
   min-height: 5.25rem;
   padding: 1.05rem 1rem;
   font-size: 1.2rem;
   letter-spacing: 0.01em;
-  background: var(--tool-structure);
-  --tool-ink: var(--tool-structure-ink, #fff);
-  color: var(--tool-ink);
-  box-shadow: var(--tool-shadow), 0 6px 0 rgba(12, 36, 34, 0.12);
 }
 
 .tool-btn.idsearch {
-  background: var(--tool-idsearch);
-  --tool-ink: var(--tool-idsearch-ink, #fff);
-  color: var(--tool-ink);
+  --tool-fill: var(--tool-idsearch);
+  --tool-line: var(--tool-idsearch-line);
+  --tool-ink: var(--tool-idsearch-ink);
 }
 
 .tool-btn.coa {
-  background: var(--tool-coa);
-  --tool-ink: var(--tool-coa-ink, #fff);
-  color: var(--tool-ink);
+  --tool-fill: var(--tool-coa);
+  --tool-line: var(--tool-coa-line);
+  --tool-ink: var(--tool-coa-ink);
 }
 
 .tool-btn.ttbot {
-  background: var(--tool-ttbot);
-  --tool-ink: var(--tool-ttbot-ink, #fff);
-  color: var(--tool-ink);
+  --tool-fill: var(--tool-ttbot);
+  --tool-line: var(--tool-ttbot-line);
+  --tool-ink: var(--tool-ttbot-ink);
 }
 
 .tool-btn.sds {
-  background: var(--tool-sds);
-  --tool-ink: var(--tool-sds-ink, #fff);
-  color: var(--tool-ink);
+  --tool-fill: var(--tool-sds);
+  --tool-line: var(--tool-sds-line);
+  --tool-ink: var(--tool-sds-ink);
 }
 
 @media (min-width: 800px) {

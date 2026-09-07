@@ -53,18 +53,24 @@
   --h1-size: clamp(2.1rem, 4.4vw, 3.05rem);
   --h2-size: 1.65rem;
   --lede-size: 1.2rem;
-  --tool-structure: #2563eb;
-  --tool-idsearch: #0d9488;
-  --tool-coa: #7c3aed;
-  --tool-ttbot: #f97316;
-  --tool-sds: #f59e0b;
-  --tool-structure-ink: #fff;
-  --tool-idsearch-ink: #fff;
-  --tool-coa-ink: #fff;
-  --tool-ttbot-ink: #1c1917;
-  --tool-sds-ink: #1c1917;
+  --tool-structure: rgba(37, 99, 235, 0.16);
+  --tool-idsearch: rgba(13, 148, 136, 0.16);
+  --tool-coa: rgba(124, 58, 237, 0.14);
+  --tool-ttbot: rgba(249, 115, 22, 0.16);
+  --tool-sds: rgba(245, 158, 11, 0.18);
+  --tool-structure-line: rgba(37, 99, 235, 0.4);
+  --tool-idsearch-line: rgba(13, 148, 136, 0.38);
+  --tool-coa-line: rgba(124, 58, 237, 0.36);
+  --tool-ttbot-line: rgba(234, 88, 12, 0.38);
+  --tool-sds-line: rgba(217, 119, 6, 0.4);
+  --tool-structure-ink: #1e3a8a;
+  --tool-idsearch-ink: #115e59;
+  --tool-coa-ink: #5b21b6;
+  --tool-ttbot-ink: #9a3412;
+  --tool-sds-ink: #92400e;
+  --tool-ttbot-accent: #ea580c;
   --tool-radius: 14px;
-  --tool-shadow: 0 12px 24px rgba(3, 105, 161, 0.16);
+  --tool-shadow: 0 4px 14px rgba(3, 105, 161, 0.06);
   --logo-cell-text-bg: #f0f9ff;
 }
 
