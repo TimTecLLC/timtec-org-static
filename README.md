@@ -57,10 +57,10 @@ Edit the same fields in `js/config.js` if they change. Header has **no** social 
 | --- | --- |
 | Customer Portal | https://timtec-customer-portal.onrender.com |
 | TT-BOT | https://timtec-catalog-bot.onrender.com/ |
-| Structure Search | http://74.208.206.139/structure |
-| ID / SMILES | http://74.208.206.139/search |
-| SDS | http://74.208.206.139/msds |
-| CoA | http://74.208.206.139/coa |
+| Structure Search | https://structure.timtec.org/structure |
+| ID / SMILES | https://structure.timtec.org/search |
+| SDS | https://structure.timtec.org/msds |
+| CoA | https://structure.timtec.org/coa |
 | Legacy catalog | http://35.143.96.5:8081/cws/LoginUser.asp |
 
 Homepage: Structure Search as a full-width primary tool button, then ID/SMILES, CoA, TT-BOT, and SDS as secondary buttons (2×2 on small screens, 4-across from 800px; max-width 720px).

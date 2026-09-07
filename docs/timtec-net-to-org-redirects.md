@@ -30,7 +30,7 @@ GitHub Pages also cannot emit a true HTTP 301 for old **www.timtec.org** IONOS s
 | `screening-compounds` | `https://www.timtec.org/r-and-d-chemicals/` |
 | `building-blocks` | `https://www.timtec.org/r-and-d-chemicals/` |
 | `download-databases` | `https://www.timtec.org/r-and-d-chemicals/` |
-| `structure-search.html` | `http://74.208.206.139/structure` |
+| `structure-search.html` | `https://structure.timtec.org/structure` |
 | `screening-compound-libraries` | `https://www.timtec.org/screening-collections/` |
 | `libraries/*` | `https://www.timtec.org/screening-collections/` |
 | `myriascreen` | `https://www.timtec.org/screening-collections/ms-10000/` |
@@ -97,6 +97,6 @@ Each stub is `noindex`, omitted from `sitemap.xml`, and redirects with:
 | `/screening-collections/acti-globe-50-k/` | `/screening-collections/actiglobe-50k/` |
 | `/screening-collections/natural-compound-library-npl-800/` | `/screening-collections/npl-800/` |
 | `/screening-collections/myriascreen/` | `/screening-collections/ms-10000/` |
-| `/structure-search/` | `http://74.208.206.139/structure` |
+| `/structure-search/` | `https://structure.timtec.org/structure` |
 
 These are **not** HTTP 301 responses. They are a GitHub Pages workaround until `timtec.net` hosting can issue real 301s and until search indexes drop the old IONOS slugs.

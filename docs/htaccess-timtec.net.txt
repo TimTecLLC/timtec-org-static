@@ -34,7 +34,7 @@ RewriteRule ^terms-of-sale(\.html)?/?$ https://www.timtec.org/terms/ [R=301,L]
 RewriteRule ^screening-compounds(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L]
 RewriteRule ^building-blocks(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L]
 RewriteRule ^download-databases(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L]
-RewriteRule ^structure-search(\.html)?/?$ http://74.208.206.139/structure [R=301,L]
+RewriteRule ^structure-search(\.html)?/?$ https://structure.timtec.org/structure [R=301,L]
 
 # --- Screening collections (named libraries first) --------------------------
 RewriteRule ^actiglobe-50k(\.html)?/?$ https://www.timtec.org/screening-collections/actiglobe-50k/ [R=301,L]
