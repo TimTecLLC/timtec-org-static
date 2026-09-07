@@ -113,6 +113,10 @@ html {
   .tool-btn:hover {
     transform: none;
   }
+
+  #hero-particles {
+    display: none;
+  }
 }
 
 body {
@@ -327,12 +331,32 @@ a:hover {
 }
 
 .hero {
+  position: relative;
+  overflow: hidden;
   padding: var(--hero-pad);
   background-color: var(--paper);
   background-image: var(--hero-overlay), var(--hero-texture), url("../assets/hero.webp");
   background-position: center;
   background-size: cover, 220px 200px, cover;
   background-repeat: no-repeat, repeat, no-repeat;
+}
+
+#hero-particles {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+#hero-particles canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.hero > .wrap {
+  position: relative;
+  z-index: 1;
 }
 
 .hero-copy {

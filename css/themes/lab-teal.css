@@ -30,8 +30,9 @@
   --nav-current: #0d4f4b;
   --hero-pad: 2.8rem 0 2rem;
   --hero-pad-wide: 3.6rem 0 2.6rem;
-  --hero-overlay: linear-gradient(180deg, rgba(242, 250, 248, 0.78), rgba(214, 237, 232, 0.9));
+  --hero-overlay: linear-gradient(180deg, rgba(242, 250, 248, 0.84), rgba(214, 237, 232, 0.93));
   --hero-texture: url("../../assets/theme-lab-molecules.svg");
+  --hero-particles-color: #0d9488;
   --page-hero-bg: linear-gradient(180deg, #e5f4f1, #f2faf8 70%);
   --section-alt-bg: #e8f4f1;
   --section-pad: 2.6rem 0;
