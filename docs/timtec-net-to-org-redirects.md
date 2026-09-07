@@ -33,12 +33,22 @@ GitHub Pages also cannot emit a true HTTP 301 for old **www.timtec.org** IONOS s
 | `structure-search.html` | `http://74.208.206.139/structure` |
 | `screening-compound-libraries` | `https://www.timtec.org/screening-collections/` |
 | `libraries/*` | `https://www.timtec.org/screening-collections/` |
-| `myriascreen` | `https://www.timtec.org/screening-collections/` |
+| `myriascreen` | `https://www.timtec.org/screening-collections/ms-10000/` |
+| `myriascreen-diversity-collection` | `https://www.timtec.org/screening-collections/ms-10000/` |
 | `plant-extracts` | `https://www.timtec.org/screening-collections/` |
-| `actitarg-*` | `https://www.timtec.org/screening-collections/` |
+| `gpcr-ligands-actitarg-g-library` | `https://www.timtec.org/screening-collections/actitarg-g/` |
+| `kinase-modulators-actitarg-k-library` | `https://www.timtec.org/screening-collections/actitarg-k/` |
+| `protease-inhibitors-actitarg-p-library` | `https://www.timtec.org/screening-collections/actitarg-p/` |
+| `serine-proteinase-inhibitors-actitarg-s-library` | `https://www.timtec.org/screening-collections/actitarg-s/` |
+| `actitarg-i-potassium-channel-modulators` (any case) | `https://www.timtec.org/screening-collections/actitarg-i/` |
+| `actitarg-n-nuclear-receptor-ligands` | `https://www.timtec.org/screening-collections/actitarg-n/` |
+| `hdac-inhibitors-actitarg-h-library` | `https://www.timtec.org/screening-collections/actitarg-h/` |
+| `actitarg-cns` | `https://www.timtec.org/screening-collections/actitarg-cns/` |
+| leftover `actitarg-*` | `https://www.timtec.org/screening-collections/` |
 | `acticom` | `https://www.timtec.org/screening-collections/` |
 | `privileged-structures` | `https://www.timtec.org/screening-collections/` |
-| `fbl-fragment` | `https://www.timtec.org/screening-collections/` |
+| `fbl-fragment` | `https://www.timtec.org/screening-collections/fbl/` |
+| `fbl-fragment-based-library` | `https://www.timtec.org/screening-collections/fbl/` |
 | `actiglobe-50k.html` | `https://www.timtec.org/screening-collections/actiglobe-50k/` |
 | `actiprobe-series` | `https://www.timtec.org/screening-collections/actiprobe-10k/` |
 | `actiprobe-10k` (and `*10k*` ActiProbe paths) | `https://www.timtec.org/screening-collections/actiprobe-10k/` |
@@ -86,6 +96,7 @@ Each stub is `noindex`, omitted from `sitemap.xml`, and redirects with:
 | `/contact-us/tt-in-publications/` | `/about/` |
 | `/screening-collections/acti-globe-50-k/` | `/screening-collections/actiglobe-50k/` |
 | `/screening-collections/natural-compound-library-npl-800/` | `/screening-collections/npl-800/` |
+| `/screening-collections/myriascreen/` | `/screening-collections/ms-10000/` |
 | `/structure-search/` | `http://74.208.206.139/structure` |
 
 These are **not** HTTP 301 responses. They are a GitHub Pages workaround until `timtec.net` hosting can issue real 301s and until search indexes drop the old IONOS slugs.

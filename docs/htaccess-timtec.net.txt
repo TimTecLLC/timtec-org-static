@@ -45,16 +45,26 @@ RewriteRule ^npl-pure-natural-compounds(\.html)?/?$ https://www.timtec.org/scree
 RewriteRule ^natural-products-library(\.html)?/?$ https://www.timtec.org/screening-collections/npl-800/ [R=301,L]
 RewriteRule ^ndl-derivatives(\.html)?/?$ https://www.timtec.org/screening-collections/ndl-3040/ [R=301,L]
 RewriteRule ^flavonoids(\.html)?/?$ https://www.timtec.org/screening-collections/fl-500/ [R=301,L]
+RewriteRule ^myriascreen(\.html)?/?$ https://www.timtec.org/screening-collections/ms-10000/ [R=301,L]
+RewriteRule ^myriascreen-diversity(-collection)?(\.html)?/?$ https://www.timtec.org/screening-collections/ms-10000/ [R=301,L]
+RewriteRule ^fbl-fragment(\.html)?/?$ https://www.timtec.org/screening-collections/fbl/ [R=301,L]
+RewriteRule ^fbl-fragment-based-library(\.html)?/?$ https://www.timtec.org/screening-collections/fbl/ [R=301,L]
+RewriteRule ^gpcr-ligands-actitarg-g-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-g/ [R=301,L]
+RewriteRule ^kinase-modulators-actitarg-k-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-k/ [R=301,L]
+RewriteRule ^protease-inhibitors-actitarg-p-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-p/ [R=301,L]
+RewriteRule ^serine-proteinase-inhibitors-actitarg-s-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-s/ [R=301,L]
+RewriteRule ^[Aa]cti[Tt]arg-[Ii]-potassium-channel-modulators(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-i/ [R=301,L]
+RewriteRule ^actitarg-n-nuclear-receptor-ligands(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-n/ [R=301,L]
+RewriteRule ^hdac-inhibitors-actitarg-h-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-h/ [R=301,L]
+RewriteRule ^actitarg-cns(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-cns/ [R=301,L]
 
 # --- Screening collections (hub) --------------------------------------------
 RewriteRule ^screening-compound-libraries(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
 RewriteRule ^libraries(/.*)?$ https://www.timtec.org/screening-collections/ [R=301,L]
-RewriteRule ^myriascreen(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
 RewriteRule ^plant-extracts(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
 RewriteRule ^actitarg-.*$ https://www.timtec.org/screening-collections/ [R=301,L]
 RewriteRule ^acticom(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
 RewriteRule ^privileged-structures(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
-RewriteRule ^fbl-fragment(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
 
 # --- Services ---------------------------------------------------------------
 RewriteRule ^services(\.html)?/?$ https://www.timtec.org/services/ [R=301,L]
