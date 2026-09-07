@@ -56,8 +56,13 @@
   --tool-structure: #2563eb;
   --tool-idsearch: #0d9488;
   --tool-coa: #7c3aed;
-  --tool-ttbot: #ea580c;
-  --tool-sds: #d97706;
+  --tool-ttbot: #f97316;
+  --tool-sds: #f59e0b;
+  --tool-structure-ink: #fff;
+  --tool-idsearch-ink: #fff;
+  --tool-coa-ink: #fff;
+  --tool-ttbot-ink: #1c1917;
+  --tool-sds-ink: #1c1917;
   --tool-radius: 14px;
   --tool-shadow: 0 12px 24px rgba(3, 105, 161, 0.16);
   --logo-cell-text-bg: #f0f9ff;

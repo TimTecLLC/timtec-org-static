@@ -51,11 +51,16 @@
   --h1-size: clamp(2.05rem, 4.1vw, 2.85rem);
   --h2-size: 1.55rem;
   --lede-size: 1.18rem;
-  --tool-structure: #0f766e;
-  --tool-idsearch: #0e7490;
-  --tool-coa: #155e75;
-  --tool-ttbot: #c2410c;
-  --tool-sds: #b45309;
+  --tool-structure: #0d9488;
+  --tool-idsearch: #0284c7;
+  --tool-coa: #7c3aed;
+  --tool-ttbot: #f97316;
+  --tool-sds: #f59e0b;
+  --tool-structure-ink: #fff;
+  --tool-idsearch-ink: #fff;
+  --tool-coa-ink: #fff;
+  --tool-ttbot-ink: #1c1917;
+  --tool-sds-ink: #1c1917;
   --tool-shadow: 0 10px 22px rgba(13, 79, 75, 0.16);
   --logo-cell-text-bg: #eef8f6;
 }
