@@ -30,6 +30,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&amp;display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/themes.css" />
+    <style>
+      .pack-gallery .pack-figure img {
+        aspect-ratio: 3 / 4;
+        object-fit: contain;
+        background: #fff;
+      }
+      .pack-gallery .pack-figure figcaption {
+        margin: 0;
+        padding: 0.7rem 0.95rem 0.9rem;
+        color: var(--ink-muted);
+        font-size: 0.95rem;
+      }
+    </style>
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -145,6 +158,22 @@
           <p class="kicker">R&amp;D Chemicals</p>
           <h1>Individual compounds and custom selections</h1>
           <p class="lede">In addition to pre-designed libraries, you can choose any number of samples from TimTec screening stock using your own criteria. Compounds from the named collections are also available for cherry-picking.</p>
+        </div>
+      </section>
+      <section class="section" aria-labelledby="compound-packaging">
+        <div class="wrap">
+          <h2 id="compound-packaging">Compound packaging</h2>
+          <p>Cherry-picked ActiMol samples ship in branded, foam-lined boxes that hold labeled vials for bench receipt and storage.</p>
+          <div class="card-grid pack-gallery">
+            <figure class="media-figure pack-figure">
+              <img src="../assets/rnd-compound-boxes-1.jpg" alt="TimTec research compounds in foam-lined shipping box" width="1600" height="2133" />
+              <figcaption>Foam-lined vial kit, front view.</figcaption>
+            </figure>
+            <figure class="media-figure pack-figure">
+              <img src="../assets/rnd-compound-boxes-2.jpg" alt="TimTec compound kit box, angled view" width="1600" height="2133" loading="lazy" />
+              <figcaption>Same kit format, three-quarter view.</figcaption>
+            </figure>
+          </div>
         </div>
       </section>
       <section class="section">
