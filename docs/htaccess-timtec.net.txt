@@ -45,8 +45,8 @@ RewriteRule ^npl-pure-natural-compounds(\.html)?/?$ https://www.timtec.org/scree
 RewriteRule ^natural-products-library(\.html)?/?$ https://www.timtec.org/screening-collections/npl-800/ [R=301,L]
 RewriteRule ^ndl-derivatives(\.html)?/?$ https://www.timtec.org/screening-collections/ndl-3040/ [R=301,L]
 RewriteRule ^flavonoids(\.html)?/?$ https://www.timtec.org/screening-collections/fl-500/ [R=301,L]
-RewriteRule ^myriascreen(\.html)?/?$ https://www.timtec.org/screening-collections/myriascreen/ [R=301,L]
-RewriteRule ^myriascreen-diversity(-collection)?(\.html)?/?$ https://www.timtec.org/screening-collections/myriascreen/ [R=301,L]
+RewriteRule ^myriascreen(\.html)?/?$ https://www.timtec.org/screening-collections/ms-10000/ [R=301,L]
+RewriteRule ^myriascreen-diversity(-collection)?(\.html)?/?$ https://www.timtec.org/screening-collections/ms-10000/ [R=301,L]
 RewriteRule ^fbl-fragment(\.html)?/?$ https://www.timtec.org/screening-collections/fbl/ [R=301,L]
 RewriteRule ^fbl-fragment-based-library(\.html)?/?$ https://www.timtec.org/screening-collections/fbl/ [R=301,L]
 

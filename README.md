@@ -76,7 +76,7 @@ Homepage: Structure Search as a full-width primary tool button, then ID/SMILES, 
 | `/screening-collections/apexscreen/` | ApexScreen-5040 |
 | `/screening-collections/actiglobe-50k/` | ActiGlobe-50K |
 | `/screening-collections/actiprobe-10k/` | ActiProbe-10K |
-| `/screening-collections/myriascreen/` | MyriaScreen II · MS-10000 |
+| `/screening-collections/ms-10000/` | MS-10000 diversity library |
 | `/screening-collections/ndl-3040/` | NDL-3040 |
 | `/screening-collections/fl-500/` | FL-500 |
 | `/screening-collections/fbl/` | FBL-3200 fragment-based library |

@@ -33,8 +33,8 @@ GitHub Pages also cannot emit a true HTTP 301 for old **www.timtec.org** IONOS s
 | `structure-search.html` | `http://74.208.206.139/structure` |
 | `screening-compound-libraries` | `https://www.timtec.org/screening-collections/` |
 | `libraries/*` | `https://www.timtec.org/screening-collections/` |
-| `myriascreen` | `https://www.timtec.org/screening-collections/myriascreen/` |
-| `myriascreen-diversity-collection` | `https://www.timtec.org/screening-collections/myriascreen/` |
+| `myriascreen` | `https://www.timtec.org/screening-collections/ms-10000/` |
+| `myriascreen-diversity-collection` | `https://www.timtec.org/screening-collections/ms-10000/` |
 | `plant-extracts` | `https://www.timtec.org/screening-collections/` |
 | `actitarg-*` | `https://www.timtec.org/screening-collections/` |
 | `acticom` | `https://www.timtec.org/screening-collections/` |
@@ -88,6 +88,7 @@ Each stub is `noindex`, omitted from `sitemap.xml`, and redirects with:
 | `/contact-us/tt-in-publications/` | `/about/` |
 | `/screening-collections/acti-globe-50-k/` | `/screening-collections/actiglobe-50k/` |
 | `/screening-collections/natural-compound-library-npl-800/` | `/screening-collections/npl-800/` |
+| `/screening-collections/myriascreen/` | `/screening-collections/ms-10000/` |
 | `/structure-search/` | `http://74.208.206.139/structure` |
 
 These are **not** HTTP 301 responses. They are a GitHub Pages workaround until `timtec.net` hosting can issue real 301s and until search indexes drop the old IONOS slugs.
