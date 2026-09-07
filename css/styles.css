@@ -529,6 +529,46 @@ a:hover {
   color: var(--ink-muted);
 }
 
+.card.has-media {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  overflow: hidden;
+}
+
+.card-figure {
+  margin: 0;
+}
+
+.card-figure img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: var(--card-pad);
+}
+
+.card.has-media .card-body > .btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.page-hero .split {
+  align-items: center;
+}
+
+.page-hero .hero-figure {
+  width: 100%;
+}
+
 .meta {
   display: flex;
   flex-wrap: wrap;
