@@ -33,12 +33,14 @@ GitHub Pages also cannot emit a true HTTP 301 for old **www.timtec.org** IONOS s
 | `structure-search.html` | `http://74.208.206.139/structure` |
 | `screening-compound-libraries` | `https://www.timtec.org/screening-collections/` |
 | `libraries/*` | `https://www.timtec.org/screening-collections/` |
-| `myriascreen` | `https://www.timtec.org/screening-collections/` |
+| `myriascreen` | `https://www.timtec.org/screening-collections/myriascreen/` |
+| `myriascreen-diversity-collection` | `https://www.timtec.org/screening-collections/myriascreen/` |
 | `plant-extracts` | `https://www.timtec.org/screening-collections/` |
 | `actitarg-*` | `https://www.timtec.org/screening-collections/` |
 | `acticom` | `https://www.timtec.org/screening-collections/` |
 | `privileged-structures` | `https://www.timtec.org/screening-collections/` |
-| `fbl-fragment` | `https://www.timtec.org/screening-collections/` |
+| `fbl-fragment` | `https://www.timtec.org/screening-collections/fbl/` |
+| `fbl-fragment-based-library` | `https://www.timtec.org/screening-collections/fbl/` |
 | `actiglobe-50k.html` | `https://www.timtec.org/screening-collections/actiglobe-50k/` |
 | `actiprobe-series` | `https://www.timtec.org/screening-collections/actiprobe-10k/` |
 | `actiprobe-10k` (and `*10k*` ActiProbe paths) | `https://www.timtec.org/screening-collections/actiprobe-10k/` |
