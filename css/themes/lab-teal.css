@@ -51,23 +51,18 @@
   --h1-size: clamp(2.05rem, 4.1vw, 2.85rem);
   --h2-size: 1.55rem;
   --lede-size: 1.18rem;
-  --tool-structure: rgba(13, 148, 136, 0.24);
-  --tool-idsearch: rgba(14, 165, 233, 0.16);
-  --tool-coa: rgba(124, 58, 237, 0.14);
-  --tool-ttbot: rgba(249, 115, 22, 0.16);
-  --tool-sds: rgba(245, 158, 11, 0.18);
-  --tool-structure-line: rgba(13, 116, 106, 0.45);
-  --tool-idsearch-line: rgba(2, 132, 199, 0.38);
-  --tool-coa-line: rgba(109, 40, 217, 0.36);
-  --tool-ttbot-line: rgba(234, 88, 12, 0.38);
-  --tool-sds-line: rgba(217, 119, 6, 0.4);
+  --tool-structure: #8fd6ca;
+  --tool-idsearch: #8ecdef;
+  --tool-coa: #cbb6ea;
+  --tool-ttbot: #f3c2b4;
+  --tool-sds: #c8e6b0;
   --tool-structure-ink: #0c4f48;
-  --tool-idsearch-ink: #075985;
-  --tool-coa-ink: #5b21b6;
+  --tool-idsearch-ink: #0c4a6e;
+  --tool-coa-ink: #4c1d95;
   --tool-ttbot-ink: #9a3412;
-  --tool-sds-ink: #92400e;
+  --tool-sds-ink: #3f6212;
   --tool-ttbot-accent: #ea580c;
-  --tool-shadow: 0 4px 14px rgba(13, 79, 75, 0.06);
+  --tool-shadow: 0 8px 18px rgba(13, 79, 75, 0.1);
   --logo-cell-text-bg: #eef8f6;
 }
 
