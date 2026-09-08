@@ -25,7 +25,7 @@ window.SITE_CONFIG = {
   COA_URL: "https://structure.timtec.org/coa",
   LEGACY_URL: "http://35.143.96.5:8081/cws/LoginUser.asp",
   CATALOG_URL:
-    "https://www.timtec.org/wp-content/uploads/go-x/u/48e2d4a7-88cf-47b8-9be6-7dab9704a98c/TimTec_Tim-Tec-Product-and-Services-catalog-2026.pdf",
+    "https://www.timtec.org/assets/TimTec-Product-and-Services-catalog-2026.pdf",
   EIN: "92-1623387",
   DUNS: "124563630",
   UEI: "RHR9P95ATEU3",
