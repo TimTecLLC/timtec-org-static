@@ -1266,6 +1266,16 @@ th {
   line-height: 1.35;
 }
 
+.customer-index a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.customer-index a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
 @keyframes customer-marquee {
   from {
     transform: translateX(0);
