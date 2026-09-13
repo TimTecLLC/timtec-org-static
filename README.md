@@ -80,6 +80,7 @@ Homepage: Structure Search as a full-width primary tool button, then ID/SMILES, 
 | `/screening-collections/ndl-3040/` | NDL-3040 |
 | `/screening-collections/fl-500/` | FL-500 |
 | `/screening-collections/fbl/` | FBL-3200 fragment-based library |
+| `/screening-collections/mac-15000/` | MAC-15000 macrocycle screening collection |
 | `/screening-collections/actitarg-g/` | ActiTarg-G GPCR ligands |
 | `/screening-collections/actitarg-k/` | ActiTarg-K kinase modulators |
 | `/screening-collections/actitarg-p/` | ActiTarg-P protease inhibitors |
