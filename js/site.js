@@ -341,6 +341,23 @@
     });
   }
 
+  function loadSiteStatus() {
+    if (window.TIMTEC_SITE_STATUS_LOADING || window.TIMTEC_SITE_STATUS_STARTED) return;
+
+    var siteScript = document.querySelector('script[src*="js/site.js"]');
+    if (!siteScript) return;
+
+    var src = siteScript.getAttribute("src") || siteScript.src || "";
+    var base = src.replace(/[#?].*$/, "").replace(/[^/]+$/, "");
+    if (!base) return;
+
+    window.TIMTEC_SITE_STATUS_LOADING = true;
+    var script = document.createElement("script");
+    script.src = base + "site-status.js";
+    script.defer = true;
+    (document.body || document.documentElement).appendChild(script);
+  }
+
   fillBindings();
   applySiteUrls();
   setupThemeChrome();
@@ -348,6 +365,7 @@
   setupForms();
   setupCustomerStrip();
   loadHeroParticles();
+  loadSiteStatus();
 })();
 
 
