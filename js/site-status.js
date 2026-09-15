@@ -89,14 +89,14 @@
     var stamp = formatCheckedAt(checkedAt);
     var kicker = document.createElement("span");
     kicker.className = "site-status-kicker";
-    kicker.textContent = "Status";
+    kicker.textContent = "System status";
     meta.appendChild(kicker);
     meta.appendChild(document.createTextNode(stamp ? " · " + stamp : " · checking"));
     inner.appendChild(meta);
 
     var list = document.createElement("ul");
     list.className = "site-status-list";
-    list.setAttribute("aria-label", "Service status");
+    list.setAttribute("aria-label", "System status");
 
     items.forEach(function (item) {
       var state = ledState(item);
