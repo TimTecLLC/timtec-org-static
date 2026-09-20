@@ -17,6 +17,7 @@
     { id: "website", label: "Website", ok: false, status: "checking" },
     { id: "portal", label: "Customer portal", ok: false, status: "checking" },
     { id: "collections", label: "Screening Libraries", ok: false, status: "checking" },
+    { id: "ttbot", label: "TT-BOT", ok: false, status: "checking" },
   ];
 
   var items = DEFAULT_ITEMS.map(copyItem);
