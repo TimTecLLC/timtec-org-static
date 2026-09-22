@@ -74,7 +74,7 @@
 }
 
 [data-theme="clean-air"] .hero {
-  background-size: cover, 220px 200px;
+  background-size: cover, auto, cover;
 }
 
 [data-theme="lab-teal"] .stat,

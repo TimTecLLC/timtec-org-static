@@ -339,52 +339,10 @@ a:hover {
   overflow: hidden;
   padding: var(--hero-pad);
   background-color: var(--paper);
-  background-image: var(--hero-overlay), var(--hero-texture);
+  background-image: var(--hero-overlay), var(--hero-texture), url("../assets/hero.webp");
   background-position: center;
-  background-size: cover, 220px 200px;
-  background-repeat: no-repeat, repeat;
-}
-
-.hero-layout {
-  display: grid;
-  grid-template-areas:
-    "copy"
-    "visual"
-    "tools";
-  justify-items: center;
-  gap: 0.35rem 1.5rem;
-}
-
-.hero-layout .hero-copy {
-  grid-area: copy;
-  margin-bottom: 0.35rem;
-}
-
-.hero-layout .hero-visual {
-  grid-area: visual;
-}
-
-.hero-layout .tool-grid-wrap {
-  grid-area: tools;
-}
-
-.hero-visual {
-  margin: 0.35rem auto 0.55rem;
-  width: min(100%, 16.5rem);
-  background: rgba(255, 255, 255, 0.82);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  overflow: hidden;
-}
-
-.hero-visual img {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1;
-  object-fit: cover;
-  object-position: center 42%;
+  background-size: cover, 220px 200px, cover;
+  background-repeat: no-repeat, repeat, no-repeat;
 }
 
 .site-particles,
@@ -1092,29 +1050,6 @@ th {
 
   .logo img {
     height: 3.5rem;
-  }
-}
-
-@media (min-width: 960px) {
-  .hero-layout {
-    grid-template-columns: minmax(0, 1.45fr) minmax(220px, 20rem);
-    grid-template-areas:
-      "copy visual"
-      "tools visual";
-    justify-items: stretch;
-    align-items: center;
-    gap: 0.85rem 2rem;
-  }
-
-  .hero-layout .hero-copy {
-    text-align: left;
-    margin-inline: 0;
-    max-width: none;
-  }
-
-  .hero-layout .hero-visual {
-    width: 100%;
-    margin: 0;
   }
 }
 
