@@ -2,9 +2,11 @@
 
 Static marketing site for [TimTec LLC](https://www.timtec.org/): screening compounds, building blocks, and pre-designed libraries.
 
-**Working public URL right now:** https://timtecllc.github.io/timtec-org-static/
+**Public site:** https://www.timtec.org/ is this repository on GitHub Pages (`CNAME` = `www.timtec.org`). Do not remove that `CNAME`.
 
-Custom domain `www.timtec.org` is **not** attached. Do **not** add a root `CNAME` until DNS is stable (an early attach took the site offline). Canonical, Open Graph, and JSON-LD still use `https://www.timtec.org/` as SEO prep.
+`https://timtec.org/` (no www) still points at the old IONOS address `217.160.0.175`. HTTPS there fails with a TLS internal error, and HTTP returns nginx 404. This repo cannot change that DNS. The registrar fix is in [docs/MIGRATION-IONOS.md](docs/MIGRATION-IONOS.md): point the apex at GitHub Pages, or redirect the apex to `https://www.timtec.org/`.
+
+The github.io project URL redirects to www while the custom domain is attached.
 
 The IONOS MyWebsite stays **published as rollback** — do not delete or unpublish it. DNS is changed in the IONOS registrar panel, not from this repo. Cutover plan and rollback A/AAAA values: **[docs/MIGRATION-IONOS.md](docs/MIGRATION-IONOS.md)**.
 
@@ -14,8 +16,9 @@ Do **not** change [TimTecLLC/remodelingsupplier-us](https://github.com/TimTecLLC
 
 | Host | Role |
 | --- | --- |
-| https://timtecllc.github.io/timtec-org-static/ | Working GitHub Pages fallback |
-| https://www.timtec.org/ | Intended custom domain after DNS is stable |
+| https://www.timtec.org/ | Live site (GitHub Pages) |
+| https://timtecllc.github.io/timtec-org-static/ | Redirects to www while the custom domain is attached |
+| https://timtec.org/ | Apex still on old IONOS DNS; TLS fails until the registrar is updated |
 
 `SITE_URL` follows the current host at runtime (`github.io`, `www.timtec.org`, or localhost). Static HTML defaults to `https://www.timtec.org`.
 
@@ -32,8 +35,8 @@ Then open http://127.0.0.1:8080/
 ## GitHub Pages
 
 1. **Settings → Pages** → Deploy from a branch → `main`, folder `/` (root).
-2. Leave the custom domain **empty** until `www` DNS is a CNAME to `timtecllc.github.io` and apex is not pointed at GitHub early.
-3. Do not commit a root `CNAME` file until that cutover is ready.
+2. Keep the custom domain as `www.timtec.org`. The root `CNAME` file is already committed for that host.
+3. Do not point the apex at GitHub from this repo. Apex DNS is an IONOS registrar change. See [docs/MIGRATION-IONOS.md](docs/MIGRATION-IONOS.md).
 
 ## Brand and NAP
 

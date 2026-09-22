@@ -272,6 +272,9 @@ a:hover {
   border-bottom: 1px solid var(--header-line);
   box-shadow: var(--shadow);
   padding: 0.4rem 0.9rem 1rem;
+  max-height: calc(100dvh - 5.75rem);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .nav-list {
@@ -336,10 +339,52 @@ a:hover {
   overflow: hidden;
   padding: var(--hero-pad);
   background-color: var(--paper);
-  background-image: var(--hero-overlay), var(--hero-texture), url("../assets/hero.webp");
+  background-image: var(--hero-overlay), var(--hero-texture);
   background-position: center;
-  background-size: cover, 220px 200px, cover;
-  background-repeat: no-repeat, repeat, no-repeat;
+  background-size: cover, 220px 200px;
+  background-repeat: no-repeat, repeat;
+}
+
+.hero-layout {
+  display: grid;
+  grid-template-areas:
+    "copy"
+    "visual"
+    "tools";
+  justify-items: center;
+  gap: 0.35rem 1.5rem;
+}
+
+.hero-layout .hero-copy {
+  grid-area: copy;
+  margin-bottom: 0.35rem;
+}
+
+.hero-layout .hero-visual {
+  grid-area: visual;
+}
+
+.hero-layout .tool-grid-wrap {
+  grid-area: tools;
+}
+
+.hero-visual {
+  margin: 0.35rem auto 0.55rem;
+  width: min(100%, 16.5rem);
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.hero-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center 42%;
 }
 
 .site-particles,
@@ -399,6 +444,16 @@ a:hover {
 .tool-grid-wrap {
   width: min(100% - 0.5rem, 720px);
   margin: 0 auto;
+}
+
+.page-tools {
+  margin-top: 1.2rem;
+}
+
+.page-hero .page-tools,
+.prose .page-tools {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .tool-grid {
@@ -1025,6 +1080,41 @@ th {
 
   .hero {
     padding: var(--hero-pad-wide);
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1180px) {
+  .nav-list a,
+  .nav-list button.has-sub {
+    padding: 0.5rem 0.4rem;
+    font-size: 0.92rem;
+  }
+
+  .logo img {
+    height: 3.5rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .hero-layout {
+    grid-template-columns: minmax(0, 1.45fr) minmax(220px, 20rem);
+    grid-template-areas:
+      "copy visual"
+      "tools visual";
+    justify-items: stretch;
+    align-items: center;
+    gap: 0.85rem 2rem;
+  }
+
+  .hero-layout .hero-copy {
+    text-align: left;
+    margin-inline: 0;
+    max-width: none;
+  }
+
+  .hero-layout .hero-visual {
+    width: 100%;
+    margin: 0;
   }
 }
 
