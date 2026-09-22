@@ -28,11 +28,25 @@ Related hosts checked the same day (HTTP 200): `structure.timtec.org` structure 
 - Kissimmee NAP was already in JSON-LD, the contact card, and footers before this pass. This pass adds the website and the “TimTec, LLC” contact heading.
 - Old IONOS slugs under `/contact-us/…` are HTML redirects to the current pages.
 
+## Live smoke (22 September 2026, follow-up)
+
+| Check | Result |
+| --- | --- |
+| `https://timtec.org/` | Still a TLS internal error. Handshake reaches `217.160.0.175` / `2001:8d8:100f:f000::200`, then OpenSSL `tlsv1 alert internal error`. `http://timtec.org/` is nginx 404. Unchanged from the earlier pass. |
+| `https://www.timtec.org/` | HTTP 200, `server: GitHub.com`. |
+| CoA from the live homepage | `href` is `https://structure.timtec.org/coa`. HTTP 200, Caddy, title “Certificate of Analysis \| TimTec”. |
+| SDS from the live homepage | `href` is `https://structure.timtec.org/msds`. HTTP 200, Caddy, title “Safety Data Sheets \| TimTec”. |
+| TT-BOT from the live homepage | `href` is `https://timtec-catalog-bot.onrender.com/`. HTTP 200, title “TimTec Catalog Assistant v2”. |
+| Structure Search and ID/SMILES | `https://structure.timtec.org/structure` and `/search` both HTTP 200, title “Search our catalog \| TimTec”. |
+
+The public site does not link to `ledger.timtec.org`. Billing on the contact page is the mailto `ledger@timtec.org`.
+
 ## Still open
 
 | Issue | Why it is still open |
 | --- | --- |
 | `https://timtec.org/` TLS internal error | Apex A `217.160.0.175` and AAAA `2001:8d8:100f:f000::200` are still the old IONOS host. HTTP is nginx 404. GitHub Pages `CNAME` only covers `www.timtec.org`. Fix in the IONOS DNS panel: GitHub Pages apex A/AAAA records in `docs/MIGRATION-IONOS.md`, or an HTTPS redirect to `https://www.timtec.org/`. Do not delete the IONOS site until that cutover is confirmed. |
+| `https://ledger.timtec.org/` 307 body | Separate Caddy app, not this static repo. `GET /` returns 307. The `Location` header is `https://ledger.timtec.org/login?next=%2F`. The response body is the text `https://localhost:8443/login?next=%2F`. `/login` itself is HTTP 200 with title “TimTec Ledger”. Documented only; no change in this repository. |
 | `timtec.net` → www 301s | Still a host-level Apache change (`docs/htaccess-timtec.net.txt`). GitHub Pages cannot emit those redirects. |
 | Some customer logos are very small source files | They load. Replacing them needs official artwork; this pass does not redraw third-party marks. |
 | Legacy catalog is plain HTTP (`35.143.96.5:8081`) | Left as the existing bookmark. It is no longer a primary button. |
