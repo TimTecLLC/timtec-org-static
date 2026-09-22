@@ -1,7 +1,8 @@
 /**
  * TimTec LLC — public site configuration
- * Intended production host is www.timtec.org. Custom domain stays off until
- * DNS is stable. IONOS MyWebsite remains published as rollback — do not delete
+ * Production host is https://www.timtec.org (GitHub Pages). Apex timtec.org
+ * still resolves to old IONOS addresses and is not fixed in this repo.
+ * IONOS MyWebsite remains published as rollback — do not delete
  * (see docs/MIGRATION-IONOS.md).
  */
 window.SITE_CONFIG = {

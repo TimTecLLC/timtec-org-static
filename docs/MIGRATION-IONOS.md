@@ -11,10 +11,11 @@ Bobby confirmed: **flip www.timtec.org DNS to GitHub Pages now.** Apply the reco
 | Item | State |
 | --- | --- |
 | IONOS MyWebsite | **Keep published.** Do not delete. |
-| This repo | Custom-domain ready (`CNAME` = `www.timtec.org`) |
+| This repo | Live on `www` (`CNAME` = `www.timtec.org`) |
 | github.io project URL | 301 → www.timtec.org while the Pages custom domain is attached |
-| Public www.timtec.org | Still IONOS until the registrar DNS change propagates |
-| DNS change | Bobby / IONOS panel (not this repo) |
+| Public www.timtec.org | **GitHub Pages**, observed 2026-09-22 (`server: GitHub.com`, HTTP 200) |
+| Apex `https://timtec.org/` | **Still broken.** A `217.160.0.175`, AAAA `2001:8d8:100f:f000::200` (IONOS). TLS alert internal error. HTTP is nginx 404. This repo cannot change those records. |
+| DNS change | Registrar / IONOS panel (not this repo). Apex still needs the GitHub A/AAAA rows below, or an HTTPS redirect to www. |
 
 Pattern: [TimTecLLC/remodelingsupplier-us](https://github.com/TimTecLLC/remodelingsupplier-us) already serves a custom domain from GitHub Pages (`CNAME` + Pages custom domain).
 
@@ -76,6 +77,8 @@ Optional: IONOS URL redirect `timtec.org` → `https://www.timtec.org` if you on
 ---
 
 ## HTTPS / certificate
+
+**Observed 2026-09-22:** `https://www.timtec.org/` is already GitHub Pages (`server: GitHub.com`). The notes below that still say www is IONOS are the pre-cutover plan. What is still broken is the apex: `https://timtec.org/` resolves to IONOS `217.160.0.175` / `2001:8d8:100f:f000::200`, TLS fails with an internal error, and `http://timtec.org/` is nginx 404. Fix that in the IONOS DNS panel (apex A/AAAA below, or an HTTPS redirect to `https://www.timtec.org/`). Do not remove this repo’s `CNAME`.
 
 This repo includes a root `CNAME` file with `www.timtec.org`. GitHub Pages will not finish HTTPS for that name until **public DNS** for `www` points at GitHub (`timtecllc.github.io`).
 
