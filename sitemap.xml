@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>https://www.timtec.org/</loc></url>
-  <url><loc>https://www.timtec.org/r-and-d-chemicals/</loc></url>
+  <url><loc>https://www.timtec.org/r-and-d-chemicals/</loc><image:image><image:loc>https://www.timtec.org/assets/timtec-a01-a02-in-stock-compounds-physicochemical-profile.png</image:loc></image:image><image:image><image:loc>https://www.timtec.org/assets/timtec-a01-a02-in-stock-compounds-physicochemical-profile.webp</image:loc></image:image></url>
   <url><loc>https://www.timtec.org/screening-collections/</loc></url>
   <url><loc>https://www.timtec.org/screening-collections/npl-800/</loc></url>
   <url><loc>https://www.timtec.org/screening-collections/apexscreen/</loc></url>
