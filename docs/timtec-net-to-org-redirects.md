@@ -98,5 +98,6 @@ Each stub is `noindex`, omitted from `sitemap.xml`, and redirects with:
 | `/screening-collections/natural-compound-library-npl-800/` | `/screening-collections/npl-800/` |
 | `/screening-collections/myriascreen/` | `/screening-collections/ms-10000/` |
 | `/structure-search/` | `https://structure.timtec.org/structure` |
+| `/products/` | `/r-and-d-chemicals/` |
 
 These are **not** HTTP 301 responses. They are a GitHub Pages workaround until `timtec.net` hosting can issue real 301s and until search indexes drop the old IONOS slugs.
