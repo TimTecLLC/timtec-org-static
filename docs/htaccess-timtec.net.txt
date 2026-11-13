@@ -11,6 +11,8 @@
 # docs/timtec-net-to-org-redirects.md
 #
 # Requires: mod_rewrite
+# Rules are case-insensitive ([NC]) so mixed-case legacy URLs match, including
+# ApexScreen-Compound-Library.html, Terms-of-Sale.html, and Structure-Search.html.
 # =============================================================================
 
 Options +FollowSymLinks
@@ -18,68 +20,103 @@ RewriteEngine On
 RewriteBase /
 
 # --- Home -------------------------------------------------------------------
-RewriteRule ^$ https://www.timtec.org/ [R=301,L]
-RewriteRule ^index\.html?$ https://www.timtec.org/ [R=301,L]
+RewriteRule ^$ https://www.timtec.org/ [R=301,L,NC]
+RewriteRule ^index\.html?$ https://www.timtec.org/ [R=301,L,NC]
 
 # --- Company / contact ------------------------------------------------------
-RewriteRule ^about-us(\.html)?/?$ https://www.timtec.org/about/ [R=301,L]
-RewriteRule ^timtec-network(\.html)?/?$ https://www.timtec.org/network/ [R=301,L]
-RewriteRule ^our-partners(\.html)?/?$ https://www.timtec.org/network/ [R=301,L]
-RewriteRule ^our-customers(\.html)?/?$ https://www.timtec.org/our-customers/ [R=301,L]
-RewriteRule ^contact-us(\.html)?/?$ https://www.timtec.org/contact/ [R=301,L]
-RewriteRule ^faqs(\.html)?(/.*)?$ https://www.timtec.org/faq/ [R=301,L]
-RewriteRule ^terms-of-sale(\.html)?/?$ https://www.timtec.org/terms/ [R=301,L]
+RewriteRule ^about-timtec(\.html)?/?$ https://www.timtec.org/about/ [R=301,L,NC]
+RewriteRule ^about-us(\.html)?/?$ https://www.timtec.org/about/ [R=301,L,NC]
+RewriteRule ^timtec-network(\.html)?/?$ https://www.timtec.org/network/ [R=301,L,NC]
+RewriteRule ^our-partners(\.html)?/?$ https://www.timtec.org/network/ [R=301,L,NC]
+RewriteRule ^partners(\.html)?/?$ https://www.timtec.org/network/ [R=301,L,NC]
+RewriteRule ^our-customers(\.html)?/?$ https://www.timtec.org/our-customers/ [R=301,L,NC]
+RewriteRule ^contact-us(\.html)?/?$ https://www.timtec.org/contact/ [R=301,L,NC]
+RewriteRule ^faqs(\.html)?(/.*)?$ https://www.timtec.org/faq/ [R=301,L,NC]
+RewriteRule ^terms-of-sale(\.html)?/?$ https://www.timtec.org/terms/ [R=301,L,NC]
+RewriteRule ^natural-products-in-publications(\.html)?/?$ https://www.timtec.org/about/ [R=301,L,NC]
 
 # --- R&D / catalog tools ----------------------------------------------------
-RewriteRule ^screening-compounds(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L]
-RewriteRule ^building-blocks(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L]
-RewriteRule ^download-databases(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L]
-RewriteRule ^structure-search(\.html)?/?$ https://structure.timtec.org/structure [R=301,L]
+RewriteRule ^screening-compounds(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L,NC]
+RewriteRule ^compounds-for-screening(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L,NC]
+RewriteRule ^building-blocks-and-intermediates(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L,NC]
+RewriteRule ^building-blocks(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L,NC]
+RewriteRule ^home/download-databases(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L,NC]
+RewriteRule ^download-databases(\.html)?/?$ https://www.timtec.org/r-and-d-chemicals/ [R=301,L,NC]
+RewriteRule ^structure-search(\.html)?/?$ https://structure.timtec.org/structure [R=301,L,NC]
 
 # --- Screening collections (named libraries first) --------------------------
-RewriteRule ^actiglobe-50k(\.html)?/?$ https://www.timtec.org/screening-collections/actiglobe-50k/ [R=301,L]
-RewriteRule ^actiprobe-series(\.html)?/?$ https://www.timtec.org/screening-collections/actiprobe-10k/ [R=301,L]
-RewriteRule ^actiprobe-10k.*$ https://www.timtec.org/screening-collections/actiprobe-10k/ [R=301,L]
-RewriteRule ^apexscreen(\.html)?/?$ https://www.timtec.org/screening-collections/apexscreen/ [R=301,L]
-RewriteRule ^npl-pure-natural-compounds(\.html)?/?$ https://www.timtec.org/screening-collections/npl-800/ [R=301,L]
-RewriteRule ^natural-products-library(\.html)?/?$ https://www.timtec.org/screening-collections/npl-800/ [R=301,L]
-RewriteRule ^ndl-derivatives(\.html)?/?$ https://www.timtec.org/screening-collections/ndl-3040/ [R=301,L]
-RewriteRule ^flavonoids(\.html)?/?$ https://www.timtec.org/screening-collections/fl-500/ [R=301,L]
-RewriteRule ^myriascreen(\.html)?/?$ https://www.timtec.org/screening-collections/ms-10000/ [R=301,L]
-RewriteRule ^myriascreen-diversity(-collection)?(\.html)?/?$ https://www.timtec.org/screening-collections/ms-10000/ [R=301,L]
-RewriteRule ^fbl-fragment(\.html)?/?$ https://www.timtec.org/screening-collections/fbl/ [R=301,L]
-RewriteRule ^fbl-fragment-based-library(\.html)?/?$ https://www.timtec.org/screening-collections/fbl/ [R=301,L]
-RewriteRule ^gpcr-ligands-actitarg-g-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-g/ [R=301,L]
-RewriteRule ^kinase-modulators-actitarg-k-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-k/ [R=301,L]
-RewriteRule ^protease-inhibitors-actitarg-p-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-p/ [R=301,L]
-RewriteRule ^serine-proteinase-inhibitors-actitarg-s-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-s/ [R=301,L]
-RewriteRule ^[Aa]cti[Tt]arg-[Ii]-potassium-channel-modulators(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-i/ [R=301,L]
-RewriteRule ^actitarg-n-nuclear-receptor-ligands(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-n/ [R=301,L]
-RewriteRule ^hdac-inhibitors-actitarg-h-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-h/ [R=301,L]
-RewriteRule ^actitarg-cns(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-cns/ [R=301,L]
+RewriteRule ^actiglobe-50k(\.html)?/?$ https://www.timtec.org/screening-collections/actiglobe-50k/ [R=301,L,NC]
+RewriteRule ^actiprobe-10k.*$ https://www.timtec.org/screening-collections/actiprobe-10k/ [R=301,L,NC]
+RewriteRule ^actiprobe-series(\.html)?/?$ https://www.timtec.org/screening-collections/actiprobe-10k/ [R=301,L,NC]
+RewriteRule ^actiprobe-2k.*$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^actiprobe-25k(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^apexscreen-compound-library(\.html)?/?$ https://www.timtec.org/screening-collections/apexscreen/ [R=301,L,NC]
+RewriteRule ^apexscreen(\.html)?/?$ https://www.timtec.org/screening-collections/apexscreen/ [R=301,L,NC]
+RewriteRule ^natural-compound-library(\.html)?/?$ https://www.timtec.org/screening-collections/npl-800/ [R=301,L,NC]
+RewriteRule ^npl-pure-natural-compounds(\.html)?/?$ https://www.timtec.org/screening-collections/npl-800/ [R=301,L,NC]
+RewriteRule ^natural-products-library(\.html)?/?$ https://www.timtec.org/screening-collections/npl-800/ [R=301,L,NC]
+RewriteRule ^ndl-3000.*$ https://www.timtec.org/screening-collections/ndl-3040/ [R=301,L,NC]
+RewriteRule ^ndl-derivatives(\.html)?/?$ https://www.timtec.org/screening-collections/ndl-3040/ [R=301,L,NC]
+RewriteRule ^flavonoid-derivatives(\.html)?/?$ https://www.timtec.org/screening-collections/fl-500/ [R=301,L,NC]
+RewriteRule ^flavonoids(\.html)?/?$ https://www.timtec.org/screening-collections/fl-500/ [R=301,L,NC]
+RewriteRule ^myriascreen-diversity(-collection)?(\.html)?/?$ https://www.timtec.org/screening-collections/ms-10000/ [R=301,L,NC]
+RewriteRule ^myriascreen(\.html)?/?$ https://www.timtec.org/screening-collections/ms-10000/ [R=301,L,NC]
+RewriteRule ^fbl-fragment-based-library(\.html)?/?$ https://www.timtec.org/screening-collections/fbl/ [R=301,L,NC]
+RewriteRule ^fbl-fragment(\.html)?/?$ https://www.timtec.org/screening-collections/fbl/ [R=301,L,NC]
+RewriteRule ^gpcr-ligands-actitarg-g-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-g/ [R=301,L,NC]
+RewriteRule ^kinase-modulators-actitarg-k-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-k/ [R=301,L,NC]
+RewriteRule ^protease-inhibitors-actitarg-p-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-p/ [R=301,L,NC]
+RewriteRule ^serine-proteinase-inhibitors-actitarg-s-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-s/ [R=301,L,NC]
+RewriteRule ^actitarg-i-potassium-channel-modulators(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-i/ [R=301,L,NC]
+RewriteRule ^actitarg-n-nuclear-receptor-ligands(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-n/ [R=301,L,NC]
+RewriteRule ^hdac-inhibitors-actitarg-h-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-h/ [R=301,L,NC]
+RewriteRule ^actitarg-cns(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-cns/ [R=301,L,NC]
 
-# --- Screening collections (hub) --------------------------------------------
-RewriteRule ^screening-compound-libraries(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
-RewriteRule ^libraries(/.*)?$ https://www.timtec.org/screening-collections/ [R=301,L]
-RewriteRule ^plant-extracts(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
-RewriteRule ^actitarg-.*$ https://www.timtec.org/screening-collections/ [R=301,L]
-RewriteRule ^acticom(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
-RewriteRule ^privileged-structures(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L]
+# --- Library offers that use the same collections ---------------------------
+RewriteRule ^specials/current-specials/actiprobe-10k-special-offer(\.html)?/?$ https://www.timtec.org/screening-collections/actiprobe-10k/ [R=301,L,NC]
+RewriteRule ^specials/current-specials/actitarg-g-gpcr-ligands-library(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-g/ [R=301,L,NC]
+RewriteRule ^specials/current-specials/actitarg-p-protease-inhibitors(\.html)?/?$ https://www.timtec.org/screening-collections/actitarg-p/ [R=301,L,NC]
+RewriteRule ^specials/current-specials/ndl-3000-natural-product-derivatives-library(\.html)?/?$ https://www.timtec.org/screening-collections/ndl-3040/ [R=301,L,NC]
+RewriteRule ^specials/current-specials/diversity-screening-set-10k(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+
+# --- Screening collections (hub: no single .org library page) ---------------
+RewriteRule ^screening-compound-libraries(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^diversity-compound-libraries(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^diversity-screening-set-10k(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^libraries(/.*)?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^plant-extracts(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^targeted(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^template-based-compound-libraries(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^activity-aimed-sets(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^anti-inflammatory(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^anti-infectives(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^activators-of-neutrophils(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^inhibitors-of-anthrax-lf(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^o-glcnac-transferase-inhibitors(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^natural-products(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^featured-natural-compounds(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^actitarg-.*$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^acticom.*$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
+RewriteRule ^privileged-structures(\.html)?/?$ https://www.timtec.org/screening-collections/ [R=301,L,NC]
 
 # --- Services ---------------------------------------------------------------
-RewriteRule ^services(\.html)?/?$ https://www.timtec.org/services/ [R=301,L]
-RewriteRule ^compound-management.*$ https://www.timtec.org/services/ [R=301,L]
-RewriteRule ^custom-synthesis(\.html)?/?$ https://www.timtec.org/services/ [R=301,L]
-RewriteRule ^cheminformatics(\.html)?/?$ https://www.timtec.org/services/ [R=301,L]
+RewriteRule ^services(\.html)?/?$ https://www.timtec.org/services/ [R=301,L,NC]
+RewriteRule ^compound-management.*$ https://www.timtec.org/services/ [R=301,L,NC]
+RewriteRule ^sample-handling-weighing-plating-compound-library-management(\.html)?/?$ https://www.timtec.org/services/ [R=301,L,NC]
+RewriteRule ^custom-synthesis(\.html)?/?$ https://www.timtec.org/services/ [R=301,L,NC]
+RewriteRule ^cheminformatics.*$ https://www.timtec.org/services/ [R=301,L,NC]
+RewriteRule ^contract-research-services(\.html)?/?$ https://www.timtec.org/services/ [R=301,L,NC]
 
 # --- News / publications (no publications page yet) -------------------------
-RewriteRule ^news-and-articles(\.html)?/?$ https://www.timtec.org/about/ [R=301,L]
-RewriteRule ^timtec-in-publications(\.html)?/?$ https://www.timtec.org/about/ [R=301,L]
+RewriteRule ^news-and-articles(\.html)?/?$ https://www.timtec.org/about/ [R=301,L,NC]
+RewriteRule ^timtec-in-publications(\.html)?/?$ https://www.timtec.org/about/ [R=301,L,NC]
+RewriteRule ^news(/.*)?$ https://www.timtec.org/about/ [R=301,L,NC]
 
 # --- Software ---------------------------------------------------------------
-RewriteRule ^software(\.html)?/?$ http://www.chemdbsoft.com/ [R=301,L]
-RewriteRule ^chemdbsoft(\.html)?/?$ http://www.chemdbsoft.com/ [R=301,L]
+RewriteRule ^software(\.html)?(/.*)?$ http://www.chemdbsoft.com/ [R=301,L,NC]
+RewriteRule ^chemdbsoft(\.html)?(/.*)?$ http://www.chemdbsoft.com/ [R=301,L,NC]
 
 # --- Sitemap + catch-all ----------------------------------------------------
-RewriteRule ^sitemap(\.html)?/?$ https://www.timtec.org/ [R=301,L]
-RewriteRule . https://www.timtec.org/ [R=301,L]
+RewriteRule ^sitemap(\.html)?/?$ https://www.timtec.org/ [R=301,L,NC]
+RewriteRule ^site-map-1(\.html)?/?$ https://www.timtec.org/ [R=301,L,NC]
+RewriteRule . https://www.timtec.org/ [R=301,L,NC]

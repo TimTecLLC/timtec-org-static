@@ -183,9 +183,10 @@
           
         <form class="form-card" data-mailto-form novalidate>
           <h2>Email TimTec</h2>
-          <p>This form opens your email app. Attach SDF, MOL, or SMILES files in that message, with TimTec IDs and amounts in mg or g.</p>
           <label for="name">Name</label>
           <input id="name" name="name" autocomplete="name" required />
+          <label for="institution">Institution</label>
+          <input id="institution" name="institution" autocomplete="organization" />
           <label for="email">Email</label>
           <input id="email" name="email" type="email" autocomplete="email" required />
           <label for="phone">Phone <span class="visually-hidden">(optional)</span></label>
@@ -199,12 +200,14 @@
             <option>SDF / structure file</option>
             <option>Other</option>
           </select>
+          <label for="structure-file">Structure file (.sdf, .mol, .smi, .csv, .xlsx, up to 10 MB)</label>
+          <input id="structure-file" name="file" type="file" accept=".sdf,.mol,.smi,.csv,.xlsx" />
           <label for="message">Message</label>
           <textarea id="message" name="message" required></textarea>
           <label class="honeypot" for="website">Website</label>
           <input class="honeypot" id="website" name="website" tabindex="-1" autocomplete="off" />
-          <p><button class="btn btn-primary" type="submit">Open email to timtec@timtec.org</button></p>
-          <p class="form-status" data-form-status></p>
+          <p><button class="btn btn-primary" type="submit">Send inquiry</button></p>
+          <p class="form-status" data-form-status role="status" aria-live="polite"></p>
         </form>
 
         </div>
@@ -223,6 +226,7 @@
           </p>
           <p>
             <a href="tel:+13022928500">302-292-8500</a><br />
+            <span class="phone-note">Our long-standing line, answered at our Kissimmee, FL facility.</span><br />
             Fax 302-292-8520<br />
             <a href="mailto:timtec@timtec.org">timtec@timtec.org</a><br />
             <a href="https://www.timtec.org/">www.timtec.org</a>
@@ -231,12 +235,6 @@
         <div>
           <h2>Catalog tools</h2>
           <ul>
-            <li><a href="https://structure.timtec.org/structure" target="_blank" rel="noopener noreferrer">Structure Search</a></li>
-            <li><a href="https://structure.timtec.org/search" target="_blank" rel="noopener noreferrer">ID / SMILES</a></li>
-            <li><a href="https://structure.timtec.org/msds" target="_blank" rel="noopener noreferrer">SDS</a></li>
-            <li><a href="https://structure.timtec.org/coa" target="_blank" rel="noopener noreferrer">Certificate of Analysis</a></li>
-            <li><a href="https://timtec-catalog-bot.onrender.com/" target="_blank" rel="noopener noreferrer">TT-BOT</a></li>
-            <li><a href="https://timtec-customer-portal.onrender.com">Customer Portal</a></li>
             <li><a href="http://35.143.96.5:8081/cws/LoginUser.asp" target="_blank" rel="noopener noreferrer">Legacy catalog login</a></li>
           </ul>
         </div>

@@ -82,54 +82,182 @@
     });
   }
 
+  var INQUIRY_URL = "https://structure.timtec.org/api/inquiry";
+  var MAX_FILE_BYTES = 10 * 1024 * 1024;
+  var FILE_EXTS = [".sdf", ".mol", ".smi", ".csv", ".xlsx"];
+
+  function fieldValue(form, name) {
+    var el = form.querySelector("[name='" + name + "']");
+    if (!el || el.value == null) return "";
+    return String(el.value);
+  }
+
+  function fileExtension(name) {
+    var base = String(name || "").toLowerCase();
+    var dot = base.lastIndexOf(".");
+    return dot === -1 ? "" : base.slice(dot);
+  }
+
+  function selectedFile(form) {
+    var input = form.querySelector("input[type='file'][name='file']");
+    if (!input || !input.files || !input.files.length) return null;
+    return input.files[0];
+  }
+
+  function mailtoHref(fields) {
+    var lines = ["Name: " + fields.name];
+    if (fields.institution) lines.push("Institution: " + fields.institution);
+    lines.push("Email: " + fields.email);
+    if (fields.phone) lines.push("Phone: " + fields.phone);
+    lines.push("Topic: " + fields.topic);
+    lines.push("");
+    lines.push(fields.message);
+    lines.push("");
+    lines.push(
+      fields.fileName
+        ? "A structure file (" + fields.fileName + ") was selected on the website form. Please attach it to this email."
+        : "If sending SDF, MOL, SMILES, CSV, or other structure files, attach them to this email with TimTec IDs and required amounts in mg/g."
+    );
+    var body = lines.join("\n");
+    var subject = "TimTec website inquiry — " + (fields.topic || "Inquiry");
+    return (
+      "mailto:" +
+      encodeURIComponent(config.EMAIL || "timtec@timtec.org") +
+      "?subject=" +
+      encodeURIComponent(subject) +
+      "&body=" +
+      encodeURIComponent(body)
+    );
+  }
+
+  function showMailtoFallback(status, href) {
+    if (!status) return;
+    status.className = "form-status error";
+    status.textContent = "";
+    status.appendChild(document.createTextNode("The inquiry could not be sent. "));
+    var link = document.createElement("a");
+    link.href = href;
+    link.textContent = "Email timtec@timtec.org";
+    status.appendChild(link);
+    status.appendChild(document.createTextNode(" instead."));
+  }
+
   function setupForms() {
     document.querySelectorAll("[data-mailto-form]").forEach(function (form) {
       form.addEventListener("submit", function (event) {
         event.preventDefault();
         var status = form.querySelector("[data-form-status]");
+        var button = form.querySelector("button[type='submit']");
         var honey = form.querySelector("[name='website']");
         if (honey && honey.value) {
           return;
         }
-        var name = (form.querySelector("[name='name']") || {}).value || "";
-        var email = (form.querySelector("[name='email']") || {}).value || "";
-        var phone = (form.querySelector("[name='phone']") || {}).value || "";
-        var topic = (form.querySelector("[name='topic']") || {}).value || "Inquiry";
-        var message = (form.querySelector("[name='message']") || {}).value || "";
-        if (!name.trim() || !email.trim() || !message.trim()) {
+        var fields = {
+          name: fieldValue(form, "name").trim(),
+          institution: fieldValue(form, "institution").trim(),
+          email: fieldValue(form, "email").trim(),
+          phone: fieldValue(form, "phone").trim(),
+          topic: fieldValue(form, "topic").trim() || "Inquiry",
+          message: fieldValue(form, "message").trim(),
+          website: honey ? honey.value : "",
+          fileName: "",
+        };
+        if (!fields.email) {
+          if (status) {
+            status.textContent = "Email is required.";
+            status.className = "form-status error";
+          }
+          return;
+        }
+        if (!fields.name || !fields.message) {
           if (status) {
             status.textContent = "Please complete name, email, and message.";
             status.className = "form-status error";
           }
           return;
         }
-        var body = [
-          "Name: " + name.trim(),
-          "Email: " + email.trim(),
-          phone.trim() ? "Phone: " + phone.trim() : "",
-          "Topic: " + topic,
-          "",
-          message.trim(),
-          "",
-          "If sending SDF, MOL, SMILES, or other structure files, attach them to this email with TimTec IDs and required amounts in mg/g.",
-        ]
-          .filter(function (line, idx, arr) {
-            return line !== "" || (idx > 0 && arr[idx - 1] !== "");
-          })
-          .join("\n");
-        var subject = "TimTec website inquiry — " + topic;
-        var href =
-          "mailto:" +
-          encodeURIComponent(config.EMAIL || "timtec@timtec.org") +
-          "?subject=" +
-          encodeURIComponent(subject) +
-          "&body=" +
-          encodeURIComponent(body);
-        if (status) {
-          status.textContent = "Opening your email app…";
-          status.className = "form-status ok";
+        var file = selectedFile(form);
+        if (file) {
+          var ext = fileExtension(file.name);
+          if (FILE_EXTS.indexOf(ext) === -1) {
+            if (status) {
+              status.textContent = "Attach a .sdf, .mol, .smi, .csv, or .xlsx file.";
+              status.className = "form-status error";
+            }
+            return;
+          }
+          if (file.size > MAX_FILE_BYTES) {
+            if (status) {
+              status.textContent = "That file is over 10 MB.";
+              status.className = "form-status error";
+            }
+            return;
+          }
+          fields.fileName = file.name;
         }
-        window.location.href = href;
+
+        var href = mailtoHref(fields);
+        if (button) button.disabled = true;
+        if (status) {
+          status.textContent = "Sending…";
+          status.className = "form-status";
+        }
+
+        var payload;
+        var init = { method: "POST" };
+        if (file) {
+          payload = new FormData();
+          payload.append("name", fields.name);
+          payload.append("institution", fields.institution);
+          payload.append("email", fields.email);
+          payload.append("phone", fields.phone);
+          payload.append("topic", fields.topic);
+          payload.append("message", fields.message);
+          payload.append("website", fields.website);
+          payload.append("file", file, file.name);
+          init.body = payload;
+        } else {
+          init.headers = { "Content-Type": "application/json" };
+          init.body = JSON.stringify({
+            name: fields.name,
+            institution: fields.institution,
+            email: fields.email,
+            phone: fields.phone,
+            topic: fields.topic,
+            message: fields.message,
+            website: fields.website,
+          });
+        }
+
+        fetch(INQUIRY_URL, init)
+          .then(function (res) {
+            return res.text().then(function (text) {
+              var data = null;
+              if (text) {
+                try {
+                  data = JSON.parse(text);
+                } catch (err) {
+                  data = null;
+                }
+              }
+              if (!res.ok || (data && (data.ok === false || data.error))) {
+                throw new Error("inquiry_failed");
+              }
+            });
+          })
+          .then(function () {
+            if (status) {
+              status.textContent = "Inquiry sent.";
+              status.className = "form-status ok";
+            }
+            form.reset();
+          })
+          .catch(function () {
+            showMailtoFallback(status, href);
+          })
+          .then(function () {
+            if (button) button.disabled = false;
+          });
       });
     });
   }
