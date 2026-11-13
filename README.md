@@ -93,7 +93,7 @@ Homepage: Structure Search as a full-width primary tool button, then ID/SMILES, 
 | `/screening-collections/actitarg-h/` | ActiTarg-H HDAC inhibitors |
 | `/screening-collections/actitarg-cns/` | ActiTarg-CNS CNS modulators |
 | `/services/` | Synthesis, plating, management, cheminformatics |
-| `/contact/` | NAP, EIN/DUNS/UEI/CAGE, mailto form |
+| `/contact/` | NAP, EIN/DUNS/UEI/CAGE, inquiry form |
 | `/about/` | Company history (Kissimmee / Orlando) |
 | `/our-customers/` | Selected customer logos in a running strip, plus a crawlable name list |
 | `/faq/` | Ordering, freight, formats |
@@ -118,7 +118,7 @@ Themes are CSS custom properties on `<html data-theme="…">` (`css/themes/*.css
 
 ## Forms
 
-The contact form is `mailto:timtec@timtec.org`. There is no application server. A hidden `website` field is a honeypot.
+The home and contact inquiry forms POST JSON, or multipart when a structure file is attached, to `https://structure.timtec.org/api/inquiry`. If that request fails, the form shows the mailto link to timtec@timtec.org. A hidden `website` field is a honeypot. Accepted files are .sdf, .mol, .smi, .csv, and .xlsx, up to 10 MB.
 
 ## Deploy (GitHub Pages)
 

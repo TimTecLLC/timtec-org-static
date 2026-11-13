@@ -16,22 +16,31 @@ GitHub Pages also cannot emit a true HTTP 301 for old **www.timtec.org** IONOS s
 
 ## Corrected 301 map (timtec.net)
 
+Rules are case-insensitive, so `ApexScreen-Compound-Library.html`, `Terms-of-Sale.html`, and `Structure-Search.html` use the same destinations as the lowercase paths.
+
 | Source on `timtec.net` | Destination |
 | --- | --- |
 | `/` (and `index.html`) | `https://www.timtec.org/` |
+| `about-timtec.html` | `https://www.timtec.org/about/` |
 | `about-us.html` | `https://www.timtec.org/about/` |
 | `timtec-network.html` | `https://www.timtec.org/network/` |
 | `our-partners.html` | `https://www.timtec.org/network/` |
+| `partners.html` | `https://www.timtec.org/network/` |
 | `our-customers.html` | `https://www.timtec.org/our-customers/` |
 | `contact-us.html` | `https://www.timtec.org/contact/` |
 | `faqs.html` | `https://www.timtec.org/faq/` |
 | `faqs/*` | `https://www.timtec.org/faq/` |
 | `terms-of-sale.html` | `https://www.timtec.org/terms/` |
+| `natural-products-in-publications.html` | `https://www.timtec.org/about/` |
 | `screening-compounds` | `https://www.timtec.org/r-and-d-chemicals/` |
+| `compounds-for-screening.html` | `https://www.timtec.org/r-and-d-chemicals/` |
 | `building-blocks` | `https://www.timtec.org/r-and-d-chemicals/` |
+| `building-blocks-and-intermediates.html` | `https://www.timtec.org/r-and-d-chemicals/` |
 | `download-databases` | `https://www.timtec.org/r-and-d-chemicals/` |
+| `home/download-databases.html` | `https://www.timtec.org/r-and-d-chemicals/` |
 | `structure-search.html` | `https://structure.timtec.org/structure` |
 | `screening-compound-libraries` | `https://www.timtec.org/screening-collections/` |
+| `diversity-compound-libraries.html` | `https://www.timtec.org/screening-collections/` |
 | `libraries/*` | `https://www.timtec.org/screening-collections/` |
 | `myriascreen` | `https://www.timtec.org/screening-collections/ms-10000/` |
 | `myriascreen-diversity-collection` | `https://www.timtec.org/screening-collections/ms-10000/` |
@@ -45,27 +54,46 @@ GitHub Pages also cannot emit a true HTTP 301 for old **www.timtec.org** IONOS s
 | `hdac-inhibitors-actitarg-h-library` | `https://www.timtec.org/screening-collections/actitarg-h/` |
 | `actitarg-cns` | `https://www.timtec.org/screening-collections/actitarg-cns/` |
 | leftover `actitarg-*` | `https://www.timtec.org/screening-collections/` |
-| `acticom` | `https://www.timtec.org/screening-collections/` |
+| `acticom` and `acticom-collection-of-active-compounds.html` | `https://www.timtec.org/screening-collections/` |
 | `privileged-structures` | `https://www.timtec.org/screening-collections/` |
 | `fbl-fragment` | `https://www.timtec.org/screening-collections/fbl/` |
 | `fbl-fragment-based-library` | `https://www.timtec.org/screening-collections/fbl/` |
 | `actiglobe-50k.html` | `https://www.timtec.org/screening-collections/actiglobe-50k/` |
 | `actiprobe-series` | `https://www.timtec.org/screening-collections/actiprobe-10k/` |
-| `actiprobe-10k` (and `*10k*` ActiProbe paths) | `https://www.timtec.org/screening-collections/actiprobe-10k/` |
+| `actiprobe-10k` and `actiprobe-10k-library.html` | `https://www.timtec.org/screening-collections/actiprobe-10k/` |
+| `actiprobe-2k-screening-starter-kit-library.html` | `https://www.timtec.org/screening-collections/` |
+| `actiprobe-25k.html` | `https://www.timtec.org/screening-collections/` |
 | `apexscreen` | `https://www.timtec.org/screening-collections/apexscreen/` |
+| `apexscreen-compound-library.html` | `https://www.timtec.org/screening-collections/apexscreen/` |
 | `npl-pure-natural-compounds` | `https://www.timtec.org/screening-collections/npl-800/` |
 | `natural-products-library` | `https://www.timtec.org/screening-collections/npl-800/` |
+| `natural-compound-library.html` | `https://www.timtec.org/screening-collections/npl-800/` |
 | `ndl-derivatives` | `https://www.timtec.org/screening-collections/ndl-3040/` |
+| `ndl-3000-natural-derivatives-library.html` | `https://www.timtec.org/screening-collections/ndl-3040/` |
 | `flavonoids` | `https://www.timtec.org/screening-collections/fl-500/` |
-| `services` | `https://www.timtec.org/services/` |
+| `flavonoid-derivatives.html` | `https://www.timtec.org/screening-collections/fl-500/` |
+| `diversity-screening-set-10k.html` | `https://www.timtec.org/screening-collections/` |
+| `targeted.html` | `https://www.timtec.org/screening-collections/` |
+| `template-based-compound-libraries.html` | `https://www.timtec.org/screening-collections/` |
+| `activity-aimed-sets.html` and the named activity sets on that page | `https://www.timtec.org/screening-collections/` |
+| `natural-products.html` | `https://www.timtec.org/screening-collections/` |
+| `featured-natural-compounds.html` | `https://www.timtec.org/screening-collections/` |
+| `specials/current-specials/actiprobe-10k-special-offer.html` | `https://www.timtec.org/screening-collections/actiprobe-10k/` |
+| `specials/current-specials/actitarg-g-gpcr-ligands-library.html` | `https://www.timtec.org/screening-collections/actitarg-g/` |
+| `specials/current-specials/actitarg-p-protease-inhibitors.html` | `https://www.timtec.org/screening-collections/actitarg-p/` |
+| `specials/current-specials/ndl-3000-natural-product-derivatives-library.html` | `https://www.timtec.org/screening-collections/ndl-3040/` |
+| `services` and `services.html` | `https://www.timtec.org/services/` |
 | `compound-management` | `https://www.timtec.org/services/` |
+| `sample-handling-weighing-plating-compound-library-management.html` | `https://www.timtec.org/services/` |
 | `custom-synthesis` | `https://www.timtec.org/services/` |
-| `cheminformatics` | `https://www.timtec.org/services/` |
+| `cheminformatics` and `cheminformatics-services.html` | `https://www.timtec.org/services/` |
+| `contract-research-services.html` | `https://www.timtec.org/services/` |
 | `news-and-articles` | `https://www.timtec.org/about/` |
 | `timtec-in-publications` | `https://www.timtec.org/about/` |
-| `software` | `http://www.chemdbsoft.com/` |
+| `news/*` | `https://www.timtec.org/about/` |
+| `software` and `software/*` | `http://www.chemdbsoft.com/` |
 | `chemdbsoft` | `http://www.chemdbsoft.com/` |
-| `sitemap.html` | `https://www.timtec.org/` |
+| `sitemap.html` and `site-map-1.html` | `https://www.timtec.org/` |
 | Catch-all (any other `timtec.net` path) | `https://www.timtec.org/` |
 
 Notes:
@@ -73,6 +101,7 @@ Notes:
 - There is **no publications page yet**. News and “TimTec in publications” URLs go to `/about/`.
 - The Apache file also accepts an optional `.html` suffix and trailing slash on the sources that were listed without an extension (legacy CMS URLs vary).
 - External destinations (`structure-search.html` → the structure-search host, `software` / `chemdbsoft` → ChemDBsoft) stay on those hosts. They are not rewritten to IONOS or GitHub paths.
+- There is no timtec.net URL for MAC-15000. ActiProbe-2K, ActiProbe-25K, and Diversity Screening Set 10K have no one-to-one library page on www.timtec.org, so those URLs go to the screening-collections hub. Individual compound SKU pages stay on the catch-all.
 
 ---
 
@@ -82,9 +111,9 @@ Bookmarks and search results still hit IONOS slugs on **www.timtec.org**. Those 
 
 Each stub is `noindex`, omitted from `sitemap.xml`, and redirects with:
 
-1. `<link rel="canonical">` to the destination
-2. `<meta http-equiv="refresh">`
-3. `location.replace(...)`
+1. `<link rel="canonical">` to its own `https://www.timtec.org/...` URL
+2. `<meta http-equiv="refresh">` to the destination below
+3. `location.replace(...)` to that same destination
 
 | Stub on `www.timtec.org` | Destination |
 | --- | --- |
