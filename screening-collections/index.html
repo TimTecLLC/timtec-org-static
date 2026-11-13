@@ -164,6 +164,19 @@
         <div class="wrap">
           <h2>Featured libraries</h2>
           <p>Selected publications that name a given collection are listed on that collection’s detail page. These are literature reports, not TimTec efficacy claims.</p>
+          <div class="library-finder" data-library-finder>
+            <label for="library-find">Find a library</label>
+            <input id="library-find" type="search" data-library-query autocomplete="off" placeholder="Name, target, or compound count" />
+            <div class="finder-groups" role="group" aria-label="Library groups">
+              <button type="button" class="pill is-on" data-library-group="all" aria-pressed="true">All</button>
+              <button type="button" class="pill" data-library-group="diversity" aria-pressed="false">Diversity</button>
+              <button type="button" class="pill" data-library-group="natural" aria-pressed="false">Natural products</button>
+              <button type="button" class="pill" data-library-group="fragments" aria-pressed="false">Fragments</button>
+              <button type="button" class="pill" data-library-group="macrocycles" aria-pressed="false">Macrocycles</button>
+              <button type="button" class="pill" data-library-group="actitarg" aria-pressed="false">ActiTarg</button>
+            </div>
+            <p class="note" data-library-empty hidden>No libraries match that search.</p>
+          </div>
           <div class="card-grid libs">
             <article class="card has-media">
               <figure class="card-figure">
@@ -356,7 +369,7 @@
               <div class="card-body">
                 <div class="meta"><span class="pill">3,600 compounds</span><span class="pill">CNS</span></div>
                 <h3>ActiTarg-CNS</h3>
-                <p>Structurally diverse CNS-property compounds focused on serotonin, dopamine, and acetylcholine receptor families. Predesigned set of about 3,600; typically 10 mM DMSO.</p>
+                <p>Structurally diverse CNS-property compounds focused on serotonin, dopamine, and acetylcholine receptor families. A pre-designed set of about 3,600; typically 10 mM DMSO.</p>
                 <a class="btn btn-ghost" href="../screening-collections/actitarg-cns/">ActiTarg-CNS details</a>
               </div>
             </article>
@@ -368,7 +381,7 @@
           <h2>Other series available on request</h2>
           <p>The live catalog also lists template-based heterocyclic groups, privileged-structure sets, ActiCom compounds with annotated activities, Diversity Set 10K, plant extracts, and gossypol derivatives. Ask for current plate maps and SDF files rather than assuming a legacy count is still exact.</p>
           <h2>Formatting</h2>
-          <p>Typical delivery is dry solid or DMSO solution, in 1-dram (3.75 mL) vials or 96- / 384-well plates, at catalog or custom concentration. Contact TimTec for a free consultation on which collection fits the assay capacity and purpose.</p>
+          <p>Typical delivery is dry solid or DMSO solution, in 1-dram (3.75 mL) vials or 96- and 384-well plates, at catalog or custom concentration. Contact TimTec for a free consultation on which collection fits the assay capacity and purpose.</p>
           <p class="note">Purity statement used across collections: generally at least 95% by high-field <sup>1</sup>H-NMR and/or MS, minimum 90%. Re-supply from U.S. stock is offered for library members that remain in inventory.</p>
         </div>
       </section>
