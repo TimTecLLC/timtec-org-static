@@ -205,7 +205,17 @@ def search_epmc() -> list[dict]:
                 "synonym": "false",
             }
         )
-        payload = json.loads(get_bytes(EPMC_SEARCH + "?" + params, "application/json").decode("utf-8"))
+        payload = None
+        for attempt in range(6):
+            try:
+                payload = json.loads(get_bytes(EPMC_SEARCH + "?" + params, "application/json", attempts=1).decode("utf-8"))
+                break
+            except Exception as exc:
+                print(f"Europe PMC page {_page + 1} attempt {attempt + 1} failed: {exc}", flush=True)
+                time.sleep(8 * (attempt + 1))
+        if payload is None:
+            print(f"stopping Europe PMC search after {len(records)} records", flush=True)
+            break
         batch = as_list((payload.get("resultList") or {}).get("result"))
         if not batch:
             break
@@ -464,7 +474,10 @@ def main() -> int:
     except Exception as exc:
         print(f"Europe PMC search failed: {exc}", file=sys.stderr)
         return 1
-    print(f"Europe PMC records: {len(records)}")
+    if not records:
+        print("Europe PMC returned no records", file=sys.stderr)
+        return 1
+    print(f"Europe PMC records: {len(records)}", flush=True)
     texts = preload_full_text(records)
 
     def full_text_for(pmcid: str) -> str:
