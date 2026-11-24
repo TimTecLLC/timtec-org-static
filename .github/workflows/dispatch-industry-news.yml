@@ -1,0 +1,20 @@
+name: Dispatch industry news
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/dispatch-industry-news.yml
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start the industry news workflow
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run "Industry news" --repo TimTecLLC/timtec-org-static --ref main
