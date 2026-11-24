@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T16:52:37Z",
+  "updated": "2026-11-24T17:03:44Z",
   "max_items": 40,
   "feeds": [
     {
@@ -129,18 +129,10 @@
     {
       "feed_id": "nature-news",
       "source": "Nature",
-      "title": "Pregnancy rewires the brain — scientists are finally mapping it",
-      "url": "https://www.nature.com/articles/d41586-026-03804-7",
-      "published": "2026-11-24T00:00:00Z",
-      "excerpt": "Brain scans show what healthy pregnancy looks like, and offer clues about how depression and pre-eclampsia arise."
-    },
-    {
-      "feed_id": "nature-news",
-      "source": "Nature",
       "title": "The brain keeps the score: how trauma leaves molecular scars in cells",
       "url": "https://www.nature.com/articles/d41586-026-03821-6",
       "published": "2026-11-24T00:00:00Z",
-      "excerpt": "Large post-mortem study identifies epigenetic changes in the brain linked to post-traumatic stress disorder."
+      "excerpt": "Large postmortem study identifies epigenetic changes in the brain linked to post-traumatic stress disorder."
     },
     {
       "feed_id": "nature-news",
@@ -379,6 +371,14 @@
       "source": "Nature (Biochemistry)",
       "title": "Synthesis, anticancer activity, and molecular docking of gemcitabine–hydroxycinnamic acid conjugates against breast cancer cells",
       "url": "https://www.nature.com/articles/s41598-026-82056-x",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Chiral cobalt-catalysed electrochemical enantioselective C–P coupling via phosphinoyl radicals",
+      "url": "https://www.nature.com/articles/s41929-026-01643-3",
       "published": "2026-11-24T00:00:00Z",
       "excerpt": ""
     }
