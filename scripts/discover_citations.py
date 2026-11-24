@@ -12,6 +12,7 @@ import argparse
 import json
 import re
 import sys
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -64,9 +65,9 @@ def as_list(value):
     return [value]
 
 
-def get_bytes(url: str, accept: str, timeout: int = 120) -> bytes:
+def get_bytes(url: str, accept: str, timeout: int = 120, attempts: int = 3) -> bytes:
     last_error = None
-    for attempt in range(3):
+    for attempt in range(attempts):
         request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": accept})
         try:
             with urllib.request.urlopen(request, timeout=timeout) as response:
@@ -220,15 +221,44 @@ def search_epmc() -> list[dict]:
     return records
 
 
+_NCBI_LOCK = threading.Lock()
+_NCBI_NEXT = 0.0
+
+
+def ncbi_slot() -> None:
+    """Stay under the NCBI limit of 3 requests per second."""
+    global _NCBI_NEXT
+    with _NCBI_LOCK:
+        wait = _NCBI_NEXT - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
+        _NCBI_NEXT = time.monotonic() + 0.4
+
+
 def fetch_full_text(pmcid: str) -> str:
+    """Open full text from PMC. Europe PMC fullTextXML was timing out."""
     pmcid = (pmcid or "").strip().upper()
     if not pmcid:
         return ""
     if not pmcid.startswith("PMC"):
         pmcid = "PMC" + pmcid
-    url = f"https://www.ebi.ac.uk/europepmc/webservices/rest/{pmcid}/fullTextXML"
+    number = pmcid[3:]
+    if not number.isdigit():
+        return ""
+    url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?" + urllib.parse.urlencode(
+        {
+            "db": "pmc",
+            "id": number,
+            "retmode": "xml",
+            "tool": "timtec_cited_research",
+            "email": "timtec@timtec.org",
+        }
+    )
+    ncbi_slot()
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/xml"})
     try:
-        raw = get_bytes(url, "application/xml, text/xml, */*", timeout=45)
+        with urllib.request.urlopen(request, timeout=25) as response:
+            raw = response.read()
     except Exception as exc:
         print(f"full text skipped {pmcid}: {exc}", file=sys.stderr)
         return ""
@@ -252,15 +282,20 @@ def preload_full_text(records: list[dict]) -> dict[str, str]:
     unique = list(dict.fromkeys(needed))
     if not unique:
         return texts
-    with ThreadPoolExecutor(max_workers=3) as pool:
+    print(f"fetching full text for {len(unique)} PMC articles", flush=True)
+    done = 0
+    with ThreadPoolExecutor(max_workers=2) as pool:
         futures = {pool.submit(fetch_full_text, pmcid): pmcid for pmcid in unique}
         for future in as_completed(futures):
             pmcid = futures[future]
+            done += 1
             try:
                 texts[pmcid] = future.result()
             except Exception as exc:
                 print(f"full text skipped {pmcid}: {exc}", file=sys.stderr)
                 texts[pmcid] = ""
+            if done % 25 == 0 or done == len(unique):
+                print(f"full text {done}/{len(unique)}", flush=True)
     return texts
 
 
@@ -278,7 +313,8 @@ def search_pubmed(existing_keys: set[str]) -> list[dict]:
     )
     url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?" + query
     try:
-        payload = json.loads(get_bytes(url, "application/json", timeout=40).decode("utf-8"))
+        ncbi_slot()
+        payload = json.loads(get_bytes(url, "application/json", timeout=40, attempts=1).decode("utf-8"))
     except Exception as exc:
         print(f"PubMed search skipped: {exc}", file=sys.stderr)
         return []
@@ -286,7 +322,7 @@ def search_pubmed(existing_keys: set[str]) -> list[dict]:
     wanted = [pmid for pmid in ids if f"pmid:{pmid}" not in existing_keys]
     if not wanted:
         return []
-    time.sleep(0.4)
+    ncbi_slot()
     fetch_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?" + urllib.parse.urlencode(
         {
             "db": "pubmed",
