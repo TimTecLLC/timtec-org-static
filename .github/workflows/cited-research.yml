@@ -1,0 +1,62 @@
+name: Cited research drafts
+
+on:
+  schedule:
+    # Mondays at 13:00 UTC.
+    - cron: "0 13 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: cited-research-drafts
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Continue the open review branch when it exists
+        run: |
+          git fetch origin news/cited-research-drafts || true
+          if git rev-parse --verify origin/news/cited-research-drafts >/dev/null 2>&1; then
+            git checkout -B news/cited-research-drafts origin/news/cited-research-drafts
+            git merge origin/main --no-edit
+          else
+            git checkout -B news/cited-research-drafts
+          fi
+
+      - name: Search Europe PMC for TimTec mentions
+        run: python3 scripts/discover_citations.py --pr-body /tmp/cited-pr-body.md
+
+      - name: Open or update the review pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- data/cited-research.json; then
+            echo "No new drafts"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/cited-research.json
+          git commit -m "Add cited-research drafts for review"
+          git push origin HEAD:news/cited-research-drafts
+          if gh pr view news/cited-research-drafts --json url --jq .url >/tmp/cited-pr-url; then
+            gh pr edit news/cited-research-drafts --body-file /tmp/cited-pr-body.md
+          else
+            gh pr create \
+              --base main \
+              --head news/cited-research-drafts \
+              --title "Cited in Research: review draft papers" \
+              --body-file /tmp/cited-pr-body.md
+          fi

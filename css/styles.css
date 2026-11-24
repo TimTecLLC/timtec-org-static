@@ -1600,3 +1600,49 @@ th {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* News hubs. Uses the existing card, pill, and prose styles. */
+.news-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.news-item h2 {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: var(--heading-weight);
+  letter-spacing: var(--heading-tracking);
+  line-height: 1.3;
+  margin: 0 0 0.4rem;
+}
+
+.news-item h2 a {
+  color: var(--navy);
+  text-decoration: none;
+}
+
+.news-item h2 a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+.news-meta,
+.news-disclaimer {
+  color: var(--ink-muted);
+  font-size: 0.95rem;
+}
+
+.news-meta {
+  margin: 0 0 0.45rem;
+}
+
+.news-disclaimer {
+  margin: 1rem 0 0;
+}
+
+.news-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.9rem 0 0;
+}

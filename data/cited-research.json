@@ -1,0 +1,782 @@
+{
+  "review": {
+    "rule": "Public pages include an entry only when status is published. Discovery always inserts status draft.",
+    "steps": [
+      "Open the pull request, or edit data/cited-research.json on a branch.",
+      "For each entry with status draft, read title, author_display, journal, year, doi_url, and snippet.",
+      "If the paper did not use TimTec compounds or a TimTec library, set status to rejected.",
+      "To publish, set status to published, replace summary with a short neutral summary, and set collections to the TimTec library names stated in the paper.",
+      "Merge into main. The render workflow rebuilds /news/cited-in-research/ from entries whose status is published. Drafts stay off the public page."
+    ]
+  },
+  "entries": [
+    {
+      "id": "doi:10.1186/1743-422x-3-68",
+      "status": "published",
+      "title": "Natural products that reduce rotavirus infectivity identified by a cell-based moderate-throughput screening assay",
+      "author_display": "Shaneyfelt, M. E.; Burke, A. D.; Graff, J. W.; Jutila, M. A.; Hardy, M. E.",
+      "journal": "Virol. J.",
+      "year": 2006,
+      "doi": "10.1186/1743-422X-3-68",
+      "doi_url": "https://doi.org/10.1186/1743-422X-3-68",
+      "summary": "Listed on the TimTec NPL-800 page. The assay used a TimTec natural product library, 280 purified plant compounds at the time of the screen.",
+      "snippet": "TimTec natural product library; 280 purified plant compounds at the time of the screen.",
+      "collections": [
+        "NPL-800"
+      ],
+      "seeded_from": [
+        "screening-collections/npl-800/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1021/jm900199u",
+      "status": "published",
+      "title": "Modeling of the aryl hydrocarbon receptor (AhR) ligand binding domain and its utility in virtual ligand screening to predict new AhR ligands",
+      "author_display": "Bisson, W. H.; Koch, D. C.; O'Donnell, E. F.; Khalil, S. M.; Kerkvliet, N. I.; Tanguay, R. L.; Abagyan, R.; Kolluri, S. K.",
+      "journal": "J. Med. Chem.",
+      "year": 2009,
+      "doi": "10.1021/jm900199u",
+      "doi_url": "https://doi.org/10.1021/jm900199u",
+      "summary": "Listed on the TimTec NPL-800 page. Virtual screen of 498 TimTec natural compounds. The paper does not name NPL-800.",
+      "snippet": "Virtual screen of 498 TimTec natural compounds (NPL-class / TimTec naturals; the paper does not name NPL-800).",
+      "collections": [
+        "NPL-800"
+      ],
+      "seeded_from": [
+        "screening-collections/npl-800/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1016/j.antiviral.2008.11.004",
+      "status": "published",
+      "title": "Validation of BKV large T-antigen ATP-binding site as a target for drug discovery",
+      "author_display": "Zeng, G.; Bueno, M.; Camachos, C. J.; Ramaswami, B.; Luo, C.; Randhawa, P.",
+      "journal": "Antiviral Res.",
+      "year": 2009,
+      "doi": "10.1016/j.antiviral.2008.11.004",
+      "doi_url": "https://doi.org/10.1016/j.antiviral.2008.11.004",
+      "summary": "Listed on the TimTec ActiTarg-K page. Pilot screen of 300 compounds from the TimTec ActiTarg-K library.",
+      "snippet": "Pilot screen of 300 compounds from the TimTec ActiTarg-K library (written “Tim Tec ActiTarg K”).",
+      "collections": [
+        "ActiTarg-K"
+      ],
+      "seeded_from": [
+        "screening-collections/actitarg-k/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1021/ci900275w",
+      "status": "published",
+      "title": "RED: A set of molecular descriptors based on Rényi entropy",
+      "author_display": "Delgado-Soler, L.; Toral, R.; Tomás, M. S.; Rubio-Martinez, J.",
+      "journal": "J. Chem. Inf. Model.",
+      "year": 2009,
+      "doi": "10.1021/ci900275w",
+      "doi_url": "https://doi.org/10.1021/ci900275w",
+      "summary": "Listed on the TimTec MS-10000 page for cheminformatics use of the collection descriptors.",
+      "snippet": "Cheminformatics / virtual-screen use of the collection descriptors.",
+      "collections": [
+        "MS-10000"
+      ],
+      "seeded_from": [
+        "screening-collections/ms-10000/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1016/j.jalz.2008.05.1418",
+      "status": "published",
+      "title": "P2-341: A robotic screen of a small-molecule chemical library for inhibitors of Aβ oligomer formation",
+      "author_display": "LeVine, H., III",
+      "journal": "Alzheimers Dement.",
+      "year": 2008,
+      "doi": "10.1016/j.jalz.2008.05.1418",
+      "doi_url": "https://doi.org/10.1016/j.jalz.2008.05.1418",
+      "summary": "Meeting abstract listed on the TimTec ApexScreen page. It names the ApexScreen 5040 library.",
+      "snippet": "Meeting abstract; names Apexscreen 5040.",
+      "collections": [
+        "ApexScreen"
+      ],
+      "seeded_from": [
+        "screening-collections/apexscreen/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1007/s00216-012-6335-6",
+      "status": "published",
+      "title": "Fragment screening of cyclin G-associated kinase by weak affinity chromatography",
+      "author_display": "Meiby, E.; Knapp, S.; et al.",
+      "journal": "Anal. Bioanal. Chem.",
+      "year": 2012,
+      "doi": "10.1007/s00216-012-6335-6",
+      "doi_url": "https://doi.org/10.1007/s00216-012-6335-6",
+      "summary": "Listed on the TimTec FBL page. A fragment-based library of 3,200 fragments from TimTec was used.",
+      "snippet": "TimTec FBL (3,200 fragments) used for GAK / WAC–MS.",
+      "collections": [
+        "FBL"
+      ],
+      "seeded_from": [
+        "screening-collections/fbl/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1016/j.febslet.2012.03.001",
+      "status": "published",
+      "title": "Identification of catechols as histone-lysine demethylase inhibitors",
+      "author_display": "Nielsen, A. L.; et al.",
+      "journal": "FEBS Lett.",
+      "year": 2012,
+      "doi": "10.1016/j.febslet.2012.03.001",
+      "doi_url": "https://doi.org/10.1016/j.febslet.2012.03.001",
+      "summary": "Listed on the TimTec NPL-800 page. A catechol from the natural products library is identified with NPL.",
+      "snippet": "A catechol from NPL.",
+      "collections": [
+        "NPL-800"
+      ],
+      "seeded_from": [
+        "screening-collections/npl-800/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1021/bi201288x",
+      "status": "published",
+      "title": "Dihydroxybenzoic acid isomers differentially dissociate soluble biotinyl-Aβ(1–42) oligomers",
+      "author_display": "LeVine, H., III; Lampe, L.; Abdelmoti, L.; Augelli-Szafran, C. E.",
+      "journal": "Biochemistry",
+      "year": 2012,
+      "doi": "10.1021/bi201288x",
+      "doi_url": "https://doi.org/10.1021/bi201288x",
+      "summary": "Listed on the TimTec ApexScreen page as follow-on chemistry from the ApexScreen Aβ-oligomer screen.",
+      "snippet": "Follow-on chemistry from the ApexScreen Aβ-oligomer screen.",
+      "collections": [
+        "ApexScreen"
+      ],
+      "seeded_from": [
+        "screening-collections/apexscreen/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1177/1087057112448216",
+      "status": "published",
+      "title": "High-throughput screening of a diversity collection using biodefense category A and B priority pathogens",
+      "author_display": "Barrow, E. W.; Clinkenbeard, P. A.; et al.",
+      "journal": "J. Biomol. Screen.",
+      "year": 2012,
+      "doi": "10.1177/1087057112448216",
+      "doi_url": "https://doi.org/10.1177/1087057112448216",
+      "summary": "Listed on the TimTec MS-10000 page. The study screened a 10,000-compound diversity collection.",
+      "snippet": "10,000-compound diversity collection against NIAID category A/B pathogens.",
+      "collections": [
+        "MS-10000"
+      ],
+      "seeded_from": [
+        "screening-collections/ms-10000/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1177/1087057112459271",
+      "status": "published",
+      "title": "High-throughput fragment screening by affinity LC-MS",
+      "author_display": "Duong-Thi, M.-D.; Bergström, M.; et al.",
+      "journal": "J. Biomol. Screen.",
+      "year": 2013,
+      "doi": "10.1177/1087057112459271",
+      "doi_url": "https://doi.org/10.1177/1087057112459271",
+      "summary": "Listed on the TimTec FBL page. The work used a TimTec FBL subset.",
+      "snippet": "TimTec FBL subset.",
+      "collections": [
+        "FBL"
+      ],
+      "seeded_from": [
+        "screening-collections/fbl/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1177/1087057113480391",
+      "status": "published",
+      "title": "Weak affinity chromatography for evaluation of stereoisomers in early drug discovery",
+      "author_display": "Duong-Thi, M.-D.; Bergström, M.; et al.",
+      "journal": "J. Biomol. Screen.",
+      "year": 2013,
+      "doi": "10.1177/1087057113480391",
+      "doi_url": "https://doi.org/10.1177/1087057113480391",
+      "summary": "Listed on the TimTec FBL page as follow-on weak-affinity chromatography work from the same FBL series.",
+      "snippet": "Follow-on WAC stereoisomer work from the same FBL series.",
+      "collections": [
+        "FBL"
+      ],
+      "seeded_from": [
+        "screening-collections/fbl/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.3390/ijms141019434",
+      "status": "published",
+      "title": "Systematic exploration of natural and synthetic flavonoids for the inhibition of Staphylococcus aureus biofilms",
+      "author_display": "Manner, S.; Skogman, M.; Goeres, D. M.; Vuorela, P.; Fallarero, A.",
+      "journal": "Int. J. Mol. Sci.",
+      "year": 2013,
+      "doi": "10.3390/ijms141019434",
+      "doi_url": "https://doi.org/10.3390/ijms141019434",
+      "summary": "Listed on the TimTec FL-500 page. The study screened a TimTec collection of 500 synthetic and natural flavonoids.",
+      "snippet": "Explicit TimTec collection of 500 synthetic and natural flavonoids (nine cores).",
+      "collections": [
+        "FL-500"
+      ],
+      "seeded_from": [
+        "screening-collections/fl-500/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1021/jm3018783",
+      "status": "published",
+      "title": "Screening and structural analysis of flavones inhibiting tankyrases",
+      "author_display": "Narwal, M.; Haikarainen, T.; Fallarero, A.; Vuorela, P. M.; Lehtiö, L.",
+      "journal": "J. Med. Chem.",
+      "year": 2013,
+      "doi": "10.1021/jm3018783",
+      "doi_url": "https://doi.org/10.1021/jm3018783",
+      "summary": "Listed on the TimTec FL-500 page. The study screened 500 natural and naturally derived flavonoids covering nine classes.",
+      "snippet": "Screened 500 natural and naturally derived flavonoids covering nine flavonoid classes.",
+      "collections": [
+        "FL-500"
+      ],
+      "seeded_from": [
+        "screening-collections/fl-500/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1089/adt.2012.495",
+      "status": "published",
+      "title": "Development of a high-throughput screening-compatible assay for the discovery of inhibitors of the AF4-AF9 interaction using AlphaScreen technology",
+      "author_display": "Watson, V. G.; Drake, K. M.; Napper, A. D.",
+      "journal": "Assay Drug Dev. Technol.",
+      "year": 2013,
+      "doi": "10.1089/adt.2012.495",
+      "doi_url": "https://doi.org/10.1089/adt.2012.495",
+      "summary": "Listed on the TimTec NPL-800 and NDL-3040 pages. The methods name TimTec NPL and TimTec NDL, screened together.",
+      "snippet": "Methods name TimTec NPL (680 natural products at that screen), paired with NDL. TimTec NDL is described as 3,000 natural-product-derived synthetics.",
+      "collections": [
+        "NPL-800",
+        "NDL-3040"
+      ],
+      "seeded_from": [
+        "screening-collections/npl-800/",
+        "screening-collections/ndl-3040/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1128/aac.00955-13",
+      "status": "published",
+      "title": "Identification of five structurally unrelated quorum-sensing inhibitors of Pseudomonas aeruginosa from a natural-derivative database",
+      "author_display": "Tan, S. Y.; Chua, S. L.; Chen, Y.; Wong, S. C.; Nielsen, T. E.; Givskov, M.; Yang, L.; et al.",
+      "journal": "Antimicrob. Agents Chemother.",
+      "year": 2013,
+      "doi": "10.1128/AAC.00955-13",
+      "doi_url": "https://doi.org/10.1128/AAC.00955-13",
+      "summary": "Listed on the TimTec NDL-3040 page. Structure-based screen of the TimTec Natural Derivatives Library (3,040 compounds).",
+      "snippet": "Structure-based screen of TimTec Natural Derivatives Library (3,040 compounds).",
+      "collections": [
+        "NDL-3040"
+      ],
+      "seeded_from": [
+        "screening-collections/ndl-3040/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1177/1087057113495295",
+      "status": "published",
+      "title": "Screen for small molecules increasing the mitochondrial membrane potential",
+      "author_display": "Montague, C. R.; Fitzmaurice, A.; Hover, B. M.; Salazar, N. A.; Fey, J. P.",
+      "journal": "J. Biomol. Screen.",
+      "year": 2014,
+      "doi": "10.1177/1087057113495295",
+      "doi_url": "https://doi.org/10.1177/1087057113495295",
+      "summary": "Listed on the TimTec ActiProbe-10K page. The screen used ActiProbe-10K, with NPL-640 and NDL-3000, from TimTec.",
+      "snippet": "ActiProbe-10K, with NPL-640 and NDL-3000, from TimTec.",
+      "collections": [
+        "ActiProbe-10K",
+        "NPL-800",
+        "NDL-3040"
+      ],
+      "seeded_from": [
+        "screening-collections/actiprobe-10k/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1021/ci400460q",
+      "status": "published",
+      "title": "Application of quantitative structure–activity relationship models of 5-HT1A receptor binding to virtual screening identifies novel and potent 5-HT1A ligands",
+      "author_display": "Luo, M.; Wang, X. S.; Roth, B. L.; Golbraikh, A.; Tropsha, A.",
+      "journal": "J. Chem. Inf. Model.",
+      "year": 2014,
+      "doi": "10.1021/ci400460q",
+      "doi_url": "https://doi.org/10.1021/ci400460q",
+      "summary": "Listed on the TimTec ActiTarg-G page. The virtual screen included the TimTec ActiTarg-G library of 2,300 GPCR-targeted compounds.",
+      "snippet": "Virtual screen included the TimTec ActiTarg-G library of 2,300 GPCR-targeted compounds (also written as AntiTarg-G in the paper).",
+      "collections": [
+        "ActiTarg-G"
+      ],
+      "seeded_from": [
+        "screening-collections/actitarg-g/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1016/j.molmet.2013.11.005",
+      "status": "published",
+      "title": "Identification of a novel mitochondrial uncoupler that does not depolarize the plasma membrane",
+      "author_display": "Kenwood, B. M.; et al.",
+      "journal": "Mol. Metab.",
+      "year": 2014,
+      "doi": "10.1016/j.molmet.2013.11.005",
+      "doi_url": "https://doi.org/10.1016/j.molmet.2013.11.005",
+      "summary": "Listed on the TimTec ApexScreen page. ApexScreen 5040 was purchased from TimTec.",
+      "snippet": "ApexScreen 5040 purchased from TimTec.",
+      "collections": [
+        "ApexScreen"
+      ],
+      "seeded_from": [
+        "screening-collections/apexscreen/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1042/bj20140365",
+      "status": "published",
+      "title": "Novel high-throughput screen identifies an HIV-1 reverse transcriptase inhibitor with a unique mechanism of action",
+      "author_display": "Sheen, C.-W.; Alptürk, O.; Sluis-Cremer, N.",
+      "journal": "Biochem. J.",
+      "year": 2014,
+      "doi": "10.1042/BJ20140365",
+      "doi_url": "https://doi.org/10.1042/BJ20140365",
+      "summary": "Listed on the TimTec ApexScreen page. The ApexScreen library was purchased from TimTec.",
+      "snippet": "ApexScreen purchased from TimTec.",
+      "collections": [
+        "ApexScreen"
+      ],
+      "seeded_from": [
+        "screening-collections/apexscreen/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.2119/molmed.2015.00197",
+      "status": "published",
+      "title": "The HIV protease inhibitor saquinavir inhibits HMGB1-driven inflammation by targeting the interaction of cathepsin V with TLR4/MyD88",
+      "author_display": "Pribis, J. P.; Al-Abed, Y.; Yang, H.; et al.",
+      "journal": "Mol. Med.",
+      "year": 2015,
+      "doi": "10.2119/molmed.2015.00197",
+      "doi_url": "https://doi.org/10.2119/molmed.2015.00197",
+      "summary": "Listed on the TimTec ActiTarg-P page. The study screened the TimTec ACTITARG-P library (1,520 protease inhibitors).",
+      "snippet": "Screened the TimTec ACTITARG-P library (1,520 protease inhibitors).",
+      "collections": [
+        "ActiTarg-P"
+      ],
+      "seeded_from": [
+        "screening-collections/actitarg-p/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.3390/pathogens4040708",
+      "status": "published",
+      "title": "Kinase inhibitors that increase the sensitivity of methicillin resistant Staphylococcus aureus to β-lactam antibiotics",
+      "author_display": "Vornhagen, J.; Burnside, K.; Whidbey, C.; Berry, J.; Qin, X.; Rajagopal, L.",
+      "journal": "Pathogens",
+      "year": 2015,
+      "doi": "10.3390/pathogens4040708",
+      "doi_url": "https://doi.org/10.3390/pathogens4040708",
+      "summary": "Listed on the TimTec ActiTarg-K page. The study used a 280-compound TimTec kinase-inhibitor set and cites the ActiTarg-K product.",
+      "snippet": "280-compound TimTec kinase-inhibitor set; methods cite the ActiTarg-K product URL.",
+      "collections": [
+        "ActiTarg-K"
+      ],
+      "seeded_from": [
+        "screening-collections/actitarg-k/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.18632/oncotarget.7980",
+      "status": "published",
+      "title": "A chemical screen for medulloblastoma identifies quercetin as a putative radiosensitizer",
+      "author_display": "Lagerweij, T.; Hiddingh, L.; et al.",
+      "journal": "Oncotarget",
+      "year": 2016,
+      "doi": "10.18632/oncotarget.7980",
+      "doi_url": "https://doi.org/10.18632/oncotarget.7980",
+      "summary": "Listed on the TimTec ActiTarg-K page. ActiTarg-K960 (960 putative kinase inhibitors) was obtained from TimTec.",
+      "snippet": "ActiTarg-K960 (960 putative kinase inhibitors) obtained from TimTec.",
+      "collections": [
+        "ActiTarg-K"
+      ],
+      "seeded_from": [
+        "screening-collections/actitarg-k/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1016/j.phrs.2016.08.016",
+      "status": "published",
+      "title": "Screening of a composite library of clinically used drugs and well-characterized pharmacological compounds for cystathionine β-synthase inhibition identifies benserazide as a drug potentially suitable for repurposing for the experimental therapy of colon cancer",
+      "author_display": "Druzhyna, N.; et al.",
+      "journal": "Pharmacol. Res.",
+      "year": 2016,
+      "doi": "10.1016/j.phrs.2016.08.016",
+      "doi_url": "https://doi.org/10.1016/j.phrs.2016.08.016",
+      "summary": "Listed on the TimTec ActiTarg-K and ActiTarg-P pages. The composite screen included ActiTarg-K and ActiTarg-P from TimTec.",
+      "snippet": "Composite screen included ActiTarg-K (960 kinase modulators) and ActiTarg-P (1,140 proteinase inhibitors) from TimTec.",
+      "collections": [
+        "ActiTarg-K",
+        "ActiTarg-P"
+      ],
+      "seeded_from": [
+        "screening-collections/actitarg-k/",
+        "screening-collections/actitarg-p/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1039/c5an02105g",
+      "status": "published",
+      "title": "Lipodisks integrated with weak affinity chromatography enable fragment screening of integral membrane proteins",
+      "author_display": "Duong-Thi, M.-D.; Bergström, M.; et al.",
+      "journal": "Analyst",
+      "year": 2016,
+      "doi": "10.1039/c5an02105g",
+      "doi_url": "https://doi.org/10.1039/c5an02105g",
+      "summary": "Listed on the TimTec FBL page. The methods used the TimTec fragment set PO6300-FBL-3200.",
+      "snippet": "TimTec fragment set PO6300-FBL-3200.",
+      "collections": [
+        "FBL"
+      ],
+      "seeded_from": [
+        "screening-collections/fbl/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.7554/elife.35755",
+      "status": "published",
+      "title": "Coalescing beneficial host and deleterious antiparasitic actions as an antischistosomal strategy",
+      "author_display": "Chan, J. D.; Day, T. A.; Marchant, J. S.",
+      "journal": "eLife",
+      "year": 2018,
+      "doi": "10.7554/eLife.35755",
+      "doi_url": "https://doi.org/10.7554/eLife.35755",
+      "summary": "Listed on the TimTec NPL-800 and NDL-3040 pages. The screen included TimTec NPL-800 and NDL-3000.",
+      "snippet": "Screened TimTec NPL-800 and NDL-3000 alongside an NCI natural-product set.",
+      "collections": [
+        "NPL-800",
+        "NDL-3040"
+      ],
+      "seeded_from": [
+        "screening-collections/npl-800/",
+        "screening-collections/ndl-3040/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1016/j.cell.2018.09.051",
+      "status": "published",
+      "title": "Targeting CDK9 reactivates epigenetically silenced genes in cancer",
+      "author_display": "Zhang, H.; Pandey, S.; Travers, M.; Sun, H.; et al.",
+      "journal": "Cell",
+      "year": 2018,
+      "doi": "10.1016/j.cell.2018.09.051",
+      "doi_url": "https://doi.org/10.1016/j.cell.2018.09.051",
+      "summary": "Listed on the TimTec NDL-3040 page. The phenotypic screen used the NDL-3040 library purchased from TimTec (3,040 compounds).",
+      "snippet": "Phenotypic GFP screen of the NDL-3040 natural compound library purchased from TimTec (3,040 compounds).",
+      "collections": [
+        "NDL-3040"
+      ],
+      "seeded_from": [
+        "screening-collections/ndl-3040/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.3390/molecules23071691",
+      "status": "published",
+      "title": "A high-content screen reveals new small-molecule enhancers of Ras/Mapk signaling as probes for zebrafish heart development",
+      "author_display": "Saydmohammed, M.; Vollmer, L. L.; Onuoha, E. O.; Maskrey, T. S.; Gibson, G. A.; Watkins, S. C.; Wipf, P.; Vogt, A.; Tsang, M.",
+      "journal": "Molecules",
+      "year": 2018,
+      "doi": "10.3390/molecules23071691",
+      "doi_url": "https://doi.org/10.3390/molecules23071691",
+      "summary": "Listed on the TimTec ActiProbe-10K page. The screen used 10,000 compounds from the TimTec ActiProbe library.",
+      "snippet": "10,000 compounds from the TimTec ActiProbe library.",
+      "collections": [
+        "ActiProbe-10K"
+      ],
+      "seeded_from": [
+        "screening-collections/actiprobe-10k/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1177/2472555219834699",
+      "status": "published",
+      "title": "Identification of novel mast cell activators using cell-based high-throughput screening",
+      "author_display": "Choi, H. W.; Chan, C.; Shterev, I. D.; Lynch, H. E.; Robinette, T. J.; Johnson-Weaver, B. T.; Shi, J.; Sempowski, G. D.; Kim, S. Y.; Dickson, J. K.; Gooden, D. M.; Abraham, S. N.; Staats, H. F.",
+      "journal": "SLAS Discovery",
+      "year": 2019,
+      "doi": "10.1177/2472555219834699",
+      "doi_url": "https://doi.org/10.1177/2472555219834699",
+      "summary": "Listed on the TimTec ActiGlobe-50K page. ActiGlobe-50K (51,040 compounds) was purchased from TimTec.",
+      "snippet": "ActiGlobe-50K (51,040 compounds) purchased from TimTec (also written Acti-Globe 50K).",
+      "collections": [
+        "ActiGlobe-50K"
+      ],
+      "seeded_from": [
+        "screening-collections/actiglobe-50k/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1186/s12860-019-0214-3",
+      "status": "published",
+      "title": "Identification of potential binding pocket on viral oncoprotein HPV16 E6: a promising anti-cancer target for small molecule drug discovery",
+      "author_display": "Kolluru, S.; Momoh, R.; Lin, L.; Mallareddy, J. R.; Krstenansky, J. L.",
+      "journal": "BMC Mol. Cell Biol.",
+      "year": 2019,
+      "doi": "10.1186/s12860-019-0214-3",
+      "doi_url": "https://doi.org/10.1186/s12860-019-0214-3",
+      "summary": "Listed on the TimTec ActiTarg-K page. The study screened the ActiTarg-K library from TimTec.",
+      "snippet": "Screened the ActiTarg-K Library (TimTec).",
+      "collections": [
+        "ActiTarg-K"
+      ],
+      "seeded_from": [
+        "screening-collections/actitarg-k/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1016/j.redox.2019.101374",
+      "status": "published",
+      "title": "Phenotypic screen for oxygen consumption rate identifies an anti-cancer naphthoquinone that induces mitochondrial oxidative stress",
+      "author_display": "Byrne, F. L.; et al.",
+      "journal": "Redox Biol.",
+      "year": 2020,
+      "doi": "10.1016/j.redox.2019.101374",
+      "doi_url": "https://doi.org/10.1016/j.redox.2019.101374",
+      "summary": "Listed on the TimTec ApexScreen page. The paper used the ApexScreen 5040 diversity library purchased from TimTec.",
+      "snippet": "ApexScreen 5040 small-molecule diversity library purchased from TimTec.",
+      "collections": [
+        "ApexScreen"
+      ],
+      "seeded_from": [
+        "screening-collections/apexscreen/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1016/j.ymthe.2019.11.010",
+      "status": "published",
+      "title": "A pharmacological chaperone therapy for acute intermittent porphyria",
+      "author_display": "Bustad, H. J.; Toska, K.; Schmitt, C.; et al.",
+      "journal": "Mol. Ther.",
+      "year": 2020,
+      "doi": "10.1016/j.ymthe.2019.11.010",
+      "doi_url": "https://doi.org/10.1016/j.ymthe.2019.11.010",
+      "summary": "Listed on the TimTec MS-10000 page. The methods name a 10,000-compound drug-like diversity collection.",
+      "snippet": "Methods name a 10,000-compound drug-like diversity collection.",
+      "collections": [
+        "MS-10000"
+      ],
+      "seeded_from": [
+        "screening-collections/ms-10000/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1080/14756366.2020.1816999",
+      "status": "published",
+      "title": "Rational design of small molecules able to inhibit α-synuclein amyloid aggregation for the treatment of Parkinson’s disease",
+      "author_display": "Vittorio, S.; Adornato, I.; Gitto, R.; Peña-Díaz, S.; Ventura, S.; De Luca, L.",
+      "journal": "J. Enzyme Inhib. Med. Chem.",
+      "year": 2020,
+      "doi": "10.1080/14756366.2020.1816999",
+      "doi_url": "https://doi.org/10.1080/14756366.2020.1816999",
+      "summary": "Listed on the TimTec MS-10000 page. The work used a virtual screen of a 10,000-compound diversity library.",
+      "snippet": "Virtual screen of a 10,000-compound diversity library.",
+      "collections": [
+        "MS-10000"
+      ],
+      "seeded_from": [
+        "screening-collections/ms-10000/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1007/s40487-020-00113-5",
+      "status": "published",
+      "title": "Identification of novel small-molecule kinase modulators for the treatment of neuroblastoma",
+      "author_display": "Serra-Roma, A.; Shakhova, O.",
+      "journal": "Oncol. Ther.",
+      "year": 2020,
+      "doi": "10.1007/s40487-020-00113-5",
+      "doi_url": "https://doi.org/10.1007/s40487-020-00113-5",
+      "summary": "Listed on the TimTec ActiTarg-K page. High-throughput screen of ActiTarg-K960 from TimTec, the 960-compound diversity subset of ActiTarg-K.",
+      "snippet": "HTS of ActiTarg-K960 (TimTec Inc.), the 960-compound diversity subset of ActiTarg-K.",
+      "collections": [
+        "ActiTarg-K"
+      ],
+      "seeded_from": [
+        "screening-collections/actitarg-k/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1111/pbi.13894",
+      "status": "published",
+      "title": "Genetic modification of flavone biosynthesis in rice enhances biofilm formation of soil diazotrophic bacteria and biological nitrogen fixation",
+      "author_display": "Yan, D.; Tajima, H.; Cline, L. C.; Fong, R. Y.; Ottaviani, J. I.; Shapiro, H.; Blumwald, E.",
+      "journal": "Plant Biotechnol. J.",
+      "year": 2022,
+      "doi": "10.1111/pbi.13894",
+      "doi_url": "https://doi.org/10.1111/pbi.13894",
+      "summary": "Listed on the TimTec FL-500 page. Chemical libraries used include the flavonoid derivatives collection FL-500 from TimTec.",
+      "snippet": "Chemical libraries used include the flavonoid derivatives collection FL-500 (TimTec).",
+      "collections": [
+        "FL-500"
+      ],
+      "seeded_from": [
+        "screening-collections/fl-500/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.3389/fimmu.2023.1196116",
+      "status": "published",
+      "title": "Luteolin peracetate and gossypolone inhibit immune complex-mediated neutrophil activation in vitro and dermal-epidermal separation in an ex vivo model of epidermolysis bullosa acquisita",
+      "author_display": "Yang, K.; Yin, J.; Yue, X.; Bieber, K.; Riemekasten, G.; Ludwig, R. J.; Petersen, F.; Yu, X.",
+      "journal": "Front. Immunol.",
+      "year": 2023,
+      "doi": "10.3389/fimmu.2023.1196116",
+      "doi_url": "https://doi.org/10.3389/fimmu.2023.1196116",
+      "summary": "Listed on the TimTec NPL-800 page. The natural product library was obtained from TimTec (NPL-800).",
+      "snippet": "Natural product library obtained from TimTec (NPL-800).",
+      "collections": [
+        "NPL-800"
+      ],
+      "seeded_from": [
+        "screening-collections/npl-800/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1158/0008-5472.can-22-1826",
+      "status": "published",
+      "title": "ROS induction targets persister cancer cells with low metabolic activity in NRAS-mutated melanoma",
+      "author_display": "Eichhoff, O. M.; et al.",
+      "journal": "Cancer Res.",
+      "year": 2023,
+      "doi": "10.1158/0008-5472.CAN-22-1826",
+      "doi_url": "https://doi.org/10.1158/0008-5472.CAN-22-1826",
+      "summary": "Listed on the TimTec ActiTarg-K page. The work used ActiTarg-K kinase modulators from TimTec.",
+      "snippet": "ActiTarg-K kinase modulators (TimTec).",
+      "collections": [
+        "ActiTarg-K"
+      ],
+      "seeded_from": [
+        "screening-collections/actitarg-k/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1091/mbc.e24-09-0425",
+      "status": "published",
+      "title": "Imaging-based screen identifies novel natural compounds that perturb cell and chloroplast division in Chlamydomonas reinhardtii",
+      "author_display": "Clark-Cotton, M. R.; Chen, S. A.; Gomez, A.; Mulabagal, A. J.; Perry, A.; Malhotra, V.; Onishi, M.",
+      "journal": "Mol. Biol. Cell",
+      "year": 2025,
+      "doi": "10.1091/mbc.E24-09-0425",
+      "doi_url": "https://doi.org/10.1091/mbc.E24-09-0425",
+      "summary": "Listed on the TimTec NPL-800 page. The TimTec Natural Product Library used in the screen contained 720 compounds and was obtained from the Duke Functional Genomics Shared Resource.",
+      "snippet": "TimTec Natural Product Library (720 compounds at the time of the screen) obtained from the Duke Functional Genomics Shared Resource.",
+      "collections": [
+        "NPL-800"
+      ],
+      "seeded_from": [
+        "screening-collections/npl-800/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0341835",
+      "status": "published",
+      "title": "A virtual screening and molecular dynamics approach in search of novel antibiotic chemotypes",
+      "author_display": "Noor, T.; Schultz, D. C.; Zhai, Y.; Snoke, H. E.; Noh, S.; Seabra, G.; Lee, R. E.; Jeong, K. C.; Li, C.; Siddiqi, A. R.",
+      "journal": "PLOS One",
+      "year": 2026,
+      "doi": "10.1371/journal.pone.0341835",
+      "doi_url": "https://doi.org/10.1371/journal.pone.0341835",
+      "summary": "Listed on the TimTec ActiGlobe-50K page. The virtual screen included TimTec ActiGlobe-50K (50,000 compounds).",
+      "snippet": "Virtual screen including TimTec ActiGlobe-50K (50,000 compounds).",
+      "collections": [
+        "ActiGlobe-50K"
+      ],
+      "seeded_from": [
+        "screening-collections/actiglobe-50k/"
+      ],
+      "source": "TimTec screening-collection page",
+      "discovered_at": "2026-11-24"
+    }
+  ]
+}

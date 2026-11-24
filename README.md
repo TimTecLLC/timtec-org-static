@@ -100,8 +100,16 @@ Homepage: Structure Search as a full-width primary tool button, then ID/SMILES, 
 | `/network/` | Published customer / partner figures |
 | `/terms/` | Terms of Sale |
 | `/privacy/` | How TimTec handles contact and order information |
+| `/news/` | Industry news headlines. Each item links to the publisher. |
+| `/news/cited-in-research/` | Papers that used TimTec libraries, after review |
 
 Public pages include unique title, description, keywords, canonical (`https://www.timtec.org/...`), Open Graph / Twitter tags, and Organization JSON-LD. `robots.txt` and `sitemap.xml` use www.timtec.org URLs.
+
+## News
+
+`/news/` is Industry News. `.github/workflows/industry-news.yml` fetches the verified publisher feeds every 6 hours (and on `workflow_dispatch`), keeps the newest 40 headlines, and commits `data/industry-news.json`, `news/index.html`, and the sitemap only when the headlines change. One failed feed does not remove the others. The page shows the headline, source, date, and a short excerpt, and links to the publisher.
+
+`/news/cited-in-research/` lists only entries in `data/cited-research.json` whose `status` is `published`. `.github/workflows/cited-research.yml` searches Europe PMC for the word TimTec once a week and opens a pull request of new `draft` entries. It does not publish them. To publish one, set `status` to `published`, write `summary`, set `collections`, and merge. `.github/workflows/render-cited-research.yml` then rebuilds the public pages.
 
 ## Design variants (internal)
 

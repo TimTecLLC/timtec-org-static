@@ -1,0 +1,386 @@
+{
+  "updated": "2026-11-24T16:52:37Z",
+  "max_items": 40,
+  "feeds": [
+    {
+      "id": "fierce-biotech",
+      "name": "Fierce Biotech",
+      "url": "https://www.fiercebiotech.com/rss/xml",
+      "ok": true,
+      "items": 25,
+      "error": ""
+    },
+    {
+      "id": "nature-news",
+      "name": "Nature",
+      "url": "https://www.nature.com/latest-news.rss",
+      "ok": true,
+      "items": 25,
+      "error": ""
+    },
+    {
+      "id": "nature-chemical-biology",
+      "name": "Nature Chemical Biology",
+      "url": "https://www.nature.com/nchembio.rss",
+      "ok": true,
+      "items": 8,
+      "error": ""
+    },
+    {
+      "id": "nature-chemistry",
+      "name": "Nature (Chemistry)",
+      "url": "https://www.nature.com/subjects/chemistry.rss",
+      "ok": true,
+      "items": 30,
+      "error": ""
+    },
+    {
+      "id": "nature-biochemistry",
+      "name": "Nature (Biochemistry)",
+      "url": "https://www.nature.com/subjects/biochemistry.rss",
+      "ok": true,
+      "items": 30,
+      "error": ""
+    },
+    {
+      "id": "sciencedaily-pharmacology",
+      "name": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/rss/health_medicine/pharmacology.xml",
+      "ok": true,
+      "items": 60,
+      "error": ""
+    }
+  ],
+  "not_used": [
+    {
+      "name": "C&EN",
+      "reason": "No checked cen.acs.org or pubs.acs.org URL returned RSS or Atom XML."
+    },
+    {
+      "name": "ScienceDaily chemistry, organic chemistry, and biochemistry",
+      "reason": "The XML is valid, but the items are not chemistry or biochemistry headlines. ScienceDaily pharmacology is used instead."
+    }
+  ],
+  "items": [
+    {
+      "feed_id": "sciencedaily-pharmacology",
+      "source": "ScienceDaily",
+      "title": "Scientists discover a new type of depression that common antidepressants struggle to treat",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261123005352.htm",
+      "published": "2026-11-24T10:47:51Z",
+      "excerpt": "Researchers have discovered a new subtype of depression that may affect nearly one in four people with severe, recurrent, or persistent depression. Known as \"circadian depression,\" it is linked to…"
+    },
+    {
+      "feed_id": "fierce-biotech",
+      "source": "Fierce Biotech",
+      "title": "DiaMedica shares signs that drug extends pregnancy in fetal growth restriction trial",
+      "url": "https://www.fiercebiotech.com/biotech/diamedica-shares-signs-drug-extends-pregnancy-fetal-growth-restriction-trial",
+      "published": "2026-11-24T09:34:00Z",
+      "excerpt": "DiaMedica Therapeutics has shared phase 2 results in severe early-onset fetal growth restriction, reporting that most participants with known delivery dates remained pregnant longer than expected."
+    },
+    {
+      "feed_id": "fierce-biotech",
+      "source": "Fierce Biotech",
+      "title": "FDA signs off on Siemens Healthineers next gen multiple sclerosis blood test",
+      "url": "https://www.fiercebiotech.com/medtech/fda-signs-siemens-healthineers-next-gen-multiple-sclerosis-blood-test",
+      "published": "2026-11-24T05:34:00Z",
+      "excerpt": "The FDA has given de novo marketing authorization for Siemens Healthineers’ Atellica IM Neurofilament Light Chain (NfL) assay."
+    },
+    {
+      "feed_id": "fierce-biotech",
+      "source": "Fierce Biotech",
+      "title": "GE HealthCare launches ViewPoint Ultra to simplify ultrasound workflows",
+      "url": "https://www.fiercebiotech.com/medtech/ge-healthcare-launches-viewpoint-ultra-simplify-ultrasound-workflows",
+      "published": "2026-11-24T05:25:00Z",
+      "excerpt": "GE HealthCare has launched ViewPoint Ultra, an ultrasound workflow solution designed to help health systems standardize clinical documentation and reporting across sites and departments while…"
+    },
+    {
+      "feed_id": "fierce-biotech",
+      "source": "Fierce Biotech",
+      "title": "Sanofi inks massive $41B Insmed buyout for post-Dupixent growth drivers",
+      "url": "https://www.fiercebiotech.com/pharma/sanofi-inks-41b-insmed-buyout-post-dupixent-growth-drivers",
+      "published": "2026-11-24T03:08:00Z",
+      "excerpt": "Sanofi has struck a deal to acquire Insmed for $41 billion, securing three commercial and late-phase respiratory assets to offset Dupixent’s looming loss of exclusivity."
+    },
+    {
+      "feed_id": "fierce-biotech",
+      "source": "Fierce Biotech",
+      "title": "Exicure expands work into Parkinson’s with X-CUE smart glasses",
+      "url": "https://www.fiercebiotech.com/medtech/exicure-expands-work-parkinsons-x-cue-smart-glasses",
+      "published": "2026-11-24T02:48:00Z",
+      "excerpt": "Exicure is partnering with NeuroQ Biologics and the South Korean medtech company Laonz to expand its business into medical device technologies designed to assist patients with Parkinson’s disease."
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "Menopause can speed up brain ageing — hormone therapy might protect it",
+      "url": "https://www.nature.com/articles/d41586-026-03667-y",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": "Studies are revealing how menopause can also affect the progression of Alzheimer’s disease."
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "AI is ‘the end of mathematics as we know it’ — where does the field go next?",
+      "url": "https://www.nature.com/articles/d41586-026-03719-3",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": "Mathematicians are bracing for a future when their profession could be mostly delegated to machines."
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "Pregnancy rewires the brain — scientists are finally mapping it",
+      "url": "https://www.nature.com/articles/d41586-026-03804-7",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": "Brain scans show what healthy pregnancy looks like, and offer clues about how depression and pre-eclampsia arise."
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "The brain keeps the score: how trauma leaves molecular scars in cells",
+      "url": "https://www.nature.com/articles/d41586-026-03821-6",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": "Large post-mortem study identifies epigenetic changes in the brain linked to post-traumatic stress disorder."
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "Pakistani astronaut to become first foreign visitor to China’s space station",
+      "url": "https://www.nature.com/articles/d41586-026-03829-y",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": "Muhammad Zeeshan Ali is flying this week to the Tiangong module aboard a Chinese spacecraft."
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "PD-L1 glycoforms regulate therapeutic antibody binding and response to anti-PD-L1 therapy",
+      "url": "https://www.nature.com/articles/s41416-026-03660-2",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "A macrocyclic peptide inhibitor of the antibiotic transporter NorA",
+      "url": "https://www.nature.com/articles/s41467-026-79374-z",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Bidirectional control of a metabolic transition by the GID ubiquitin ligase",
+      "url": "https://www.nature.com/articles/s41467-026-79519-0",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Catalyst-free thermal dehydropolycondensation for precise synthesis of silicon-incorporated polythiophenes",
+      "url": "https://www.nature.com/articles/s41467-026-79642-y",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Construction of benzochalcogenaboroles via single-atom editing of boracycles",
+      "url": "https://www.nature.com/articles/s41557-026-02301-8",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Author Correction: Molecular-docking electrolytes enable high-voltage lithium battery chemistries",
+      "url": "https://www.nature.com/articles/s41557-026-02328-x",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemical-biology",
+      "source": "Nature Chemical Biology",
+      "title": "EPAC control goes regional",
+      "url": "https://www.nature.com/articles/s41589-026-02368-x",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": "Nature Chemical Biology, Published online: 24 November 2026; doi:10.1038/s41589-026-02368-x An antibody fragment that holds EPAC1 in an inactive state can be directed to selected regions of the…"
+    },
+    {
+      "feed_id": "nature-chemical-biology",
+      "source": "Nature Chemical Biology",
+      "title": "scBiopsy-seq as a highly sensitive platform for temporal single-cell RNA-sequencing analysis",
+      "url": "https://www.nature.com/articles/s41589-026-02375-y",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": "Nature Chemical Biology, Published online: 24 November 2026; doi:10.1038/s41589-026-02375-y Cai et al. developed a temporal single-cell technology named scBiopsy-seq for sequential extraction and…"
+    },
+    {
+      "feed_id": "nature-chemical-biology",
+      "source": "Nature Chemical Biology",
+      "title": "Engineered integrase ePai enables efficient large DNA fragment integration",
+      "url": "https://www.nature.com/articles/s41589-026-02383-y",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": "Nature Chemical Biology, Published online: 24 November 2026; doi:10.1038/s41589-026-02383-y The authors developed ePai, an engineered integrase that enables efficient, precise insertion of large DNA…"
+    },
+    {
+      "feed_id": "nature-chemical-biology",
+      "source": "Nature Chemical Biology",
+      "title": "A paralog- and conformation-specific intrabody reveals spatial EPAC1 signaling",
+      "url": "https://www.nature.com/articles/s41589-026-02387-8",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": "Nature Chemical Biology, Published online: 24 November 2026; doi:10.1038/s41589-026-02387-8 A highly selective antibody was developed that locked EPAC1 in an inactive state. The use of this antibody…"
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Author Correction: Synthesis of single-crystal monolayer graphene on Cu/Ni(111) alloy foil",
+      "url": "https://www.nature.com/articles/s41596-026-01497-w",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Rational design of potential novel cruzipain inhibitors against trypanosoma cruzi via Py-CoMFA-based QSAR modeling",
+      "url": "https://www.nature.com/articles/s41598-026-68528-0",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Sustainable antifouling marine coatings based on thiosemicarbazide Schiff-base Cu(II) and Zn(II) complexes: experimental evaluation and DFT insights",
+      "url": "https://www.nature.com/articles/s41598-026-73030-8",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Neuroprotective effect of Solanum melongena calyx extract against cisplatin toxicity in albino rats",
+      "url": "https://www.nature.com/articles/s41598-026-75764-x",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Highly reinforced self-cleaning low-density polyethylene/poly(vinyl butyral)/bismuth oxide nanocomposites fabricated by electron beam irradiation",
+      "url": "https://www.nature.com/articles/s41598-026-75938-7",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Synthesis, characterization, and application of a novel polyacrylamide@tungstate nanocomposite hydrogel as a highly selective adsorbent for methylene blue",
+      "url": "https://www.nature.com/articles/s41598-026-76133-4",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Loss of SPTSSA impairs mitochondrial function and neuronal differentiation in SH-SY5Y neuroblastoma cells",
+      "url": "https://www.nature.com/articles/s41598-026-78995-0",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Comprehensive proteomic profiling reveals signatures consistent with metabolic reprogramming and altered apoptotic priming in proteasome inhibitor-resistant multiple myeloma cells",
+      "url": "https://www.nature.com/articles/s41598-026-79867-3",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Central composite design optimization of fermented jack bean flour and modified cassava flour cookies as a potential snack for toddlers",
+      "url": "https://www.nature.com/articles/s41598-026-79898-w",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Neighborhood multiple topological indices of $$\\beta _{12}$$ borophene: an M-polynomial-based QSPR study",
+      "url": "https://www.nature.com/articles/s41598-026-79948-3",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Ammonia Production via Plastic Gasification–Reforming: Interpretable Machine Learning and Techno-Economic–Environmental Assessment",
+      "url": "https://www.nature.com/articles/s41598-026-80094-z",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "An all-solid-state PVC-membrane microsensor for potentiometric and voltammetric determination of paroxetine in pharmaceutical samples",
+      "url": "https://www.nature.com/articles/s41598-026-80651-6",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Synthesis, catalytic performance, and sulfamethoxazole adsorption by Fe3O4@gly@isatin@Ni(II) magnetic nanoparticles",
+      "url": "https://www.nature.com/articles/s41598-026-80731-7",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Comparative molecular dynamics study of force field accuracy for fatty acid-based phase change materials",
+      "url": "https://www.nature.com/articles/s41598-026-80735-3",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "From herbal screening to extraction optimization: bioactive potential, phytochemical profiling, and ultrasound-assisted extraction of Bouea macrophylla root",
+      "url": "https://www.nature.com/articles/s41598-026-81115-7",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Microwave-assisted hydrothermal green synthesis of bismuth oxide-zinc oxide nanocomposites: structural, optical, and antibacterial properties",
+      "url": "https://www.nature.com/articles/s41598-026-81217-2",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Activation controlled pore engineering and ion transport in polyetherimide-derived carbon for high performance supercapacitors",
+      "url": "https://www.nature.com/articles/s41598-026-81245-y",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Benchmarking DFT functionals for structural and energetic performance in zeolite simulations",
+      "url": "https://www.nature.com/articles/s41598-026-81342-y",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Synthesis, anticancer activity, and molecular docking of gemcitabine–hydroxycinnamic acid conjugates against breast cancer cells",
+      "url": "https://www.nature.com/articles/s41598-026-82056-x",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    }
+  ]
+}
