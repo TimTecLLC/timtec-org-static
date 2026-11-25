@@ -842,6 +842,34 @@ textarea {
   color: var(--footer-muted);
 }
 
+.footer-membership {
+  margin-top: 1.3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--footer-line);
+}
+
+.nvidia-inception-badge {
+  display: inline-block;
+  /* Official badge clear space: padding around the unaltered artwork */
+  padding: 0.75rem;
+  line-height: 0;
+}
+
+.nvidia-inception-badge img {
+  display: block;
+  width: 120px;
+  height: auto;
+  max-width: 100%;
+}
+
+.nvidia-trademark {
+  margin: 0.15rem 0 0;
+  max-width: 36rem;
+  font-size: 0.75rem;
+  line-height: 1.45;
+  color: var(--footer-muted);
+}
+
 .site-status-bar {
   margin-top: 0.85rem;
   padding-top: 0.7rem;
