@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T17:03:44Z",
+  "updated": "2026-11-25T02:11:44Z",
   "max_items": 40,
   "feeds": [
     {
@@ -62,6 +62,22 @@
     }
   ],
   "items": [
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "SMYD1 trimethylates myosin K129 to restrain cardiomyocyte hypercontractility",
+      "url": "https://www.nature.com/articles/s41467-026-79720-1",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "sciencedaily-pharmacology",
+      "source": "ScienceDaily",
+      "title": "New nose drops restore youthful memory and fight Alzheimer’s in aging mice",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm",
+      "published": "2026-11-24T23:31:52Z",
+      "excerpt": "A revolutionary new nasal treatment has restored youthful learning and memory performance in aging mice while preventing severe cognitive decline in mice with Alzheimer’s-like disease. Developed…"
+    },
     {
       "feed_id": "sciencedaily-pharmacology",
       "source": "ScienceDaily",
@@ -129,10 +145,18 @@
     {
       "feed_id": "nature-news",
       "source": "Nature",
+      "title": "Pregnancy rewires the brain — scientists are finally mapping it",
+      "url": "https://www.nature.com/articles/d41586-026-03804-7",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": "Brain scans show what healthy pregnancy looks like, and offer clues about how depression and pre-eclampsia arise."
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
       "title": "The brain keeps the score: how trauma leaves molecular scars in cells",
       "url": "https://www.nature.com/articles/d41586-026-03821-6",
       "published": "2026-11-24T00:00:00Z",
-      "excerpt": "Large postmortem study identifies epigenetic changes in the brain linked to post-traumatic stress disorder."
+      "excerpt": "Large post-mortem study identifies epigenetic changes in the brain linked to post-traumatic stress disorder."
     },
     {
       "feed_id": "nature-news",
@@ -141,6 +165,14 @@
       "url": "https://www.nature.com/articles/d41586-026-03829-y",
       "published": "2026-11-24T00:00:00Z",
       "excerpt": "Muhammad Zeeshan Ali is flying this week to the Tiangong module aboard a Chinese spacecraft."
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists",
+      "url": "https://www.nature.com/articles/d41586-026-03836-z",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": "Anthropic and OpenAI’s language models can design proteins and predict their sequences and structures — capabilities previously seen only in specialized AI tools."
     },
     {
       "feed_id": "nature-biochemistry",
@@ -257,6 +289,14 @@
     {
       "feed_id": "nature-chemistry",
       "source": "Nature (Chemistry)",
+      "title": "Deciphering the bioactivity and stability of polyethylene glycol-coated Azadirachta indica nanoparticles: in vitro and insilco studies",
+      "url": "https://www.nature.com/articles/s41598-026-75803-7",
+      "published": "2026-11-24T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
       "title": "Highly reinforced self-cleaning low-density polyethylene/poly(vinyl butyral)/bismuth oxide nanocomposites fabricated by electron beam irradiation",
       "url": "https://www.nature.com/articles/s41598-026-75938-7",
       "published": "2026-11-24T00:00:00Z",
@@ -335,50 +375,10 @@
       "excerpt": ""
     },
     {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "From herbal screening to extraction optimization: bioactive potential, phytochemical profiling, and ultrasound-assisted extraction of Bouea macrophylla root",
-      "url": "https://www.nature.com/articles/s41598-026-81115-7",
-      "published": "2026-11-24T00:00:00Z",
-      "excerpt": ""
-    },
-    {
       "feed_id": "nature-chemistry",
       "source": "Nature (Chemistry)",
-      "title": "Microwave-assisted hydrothermal green synthesis of bismuth oxide-zinc oxide nanocomposites: structural, optical, and antibacterial properties",
-      "url": "https://www.nature.com/articles/s41598-026-81217-2",
-      "published": "2026-11-24T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Activation controlled pore engineering and ion transport in polyetherimide-derived carbon for high performance supercapacitors",
-      "url": "https://www.nature.com/articles/s41598-026-81245-y",
-      "published": "2026-11-24T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Benchmarking DFT functionals for structural and energetic performance in zeolite simulations",
-      "url": "https://www.nature.com/articles/s41598-026-81342-y",
-      "published": "2026-11-24T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Synthesis, anticancer activity, and molecular docking of gemcitabine–hydroxycinnamic acid conjugates against breast cancer cells",
-      "url": "https://www.nature.com/articles/s41598-026-82056-x",
-      "published": "2026-11-24T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Chiral cobalt-catalysed electrochemical enantioselective C–P coupling via phosphinoyl radicals",
-      "url": "https://www.nature.com/articles/s41929-026-01643-3",
+      "title": "Synthesis and anticancer evaluation of a novel bromobiphenyl–imidazole chalcone: DFT, in vitro, docking, MD, MM/GBSA, and FEL studies",
+      "url": "https://www.nature.com/articles/s41598-026-80799-1",
       "published": "2026-11-24T00:00:00Z",
       "excerpt": ""
     }
