@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T17:02:30Z",
+  "updated": "2026-11-26T01:43:27Z",
   "max_items": 40,
   "feeds": [
     {
@@ -119,6 +119,14 @@
       "excerpt": "A common antibody in the gut may be a powerful natural defense against colon cancer, with researchers finding that mice lacking it developed more than twice as many tumors. Restoring the antibody…"
     },
     {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "Just eight universities dominate Nobel and other top economics prizes",
+      "url": "https://www.nature.com/articles/d41586-026-03333-3",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": "Economics is the outlier — top prizes in science, engineering and other social sciences go to researchers at a greater variety of institutions."
+    },
+    {
       "feed_id": "nature-chemistry",
       "source": "Nature (Chemistry)",
       "title": "Enzymatic reactions adapted to make ‘living’ chains of sugars",
@@ -135,10 +143,74 @@
       "excerpt": ""
     },
     {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "A powerful HIV vaccine is finally within reach — thanks to these super antibodies",
+      "url": "https://www.nature.com/articles/d41586-026-03718-4",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": "Potent immune responses against diverse HIV strains have ignited the field, but major hurdles remain."
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "Dengue has exploded globally with shocking speed",
+      "url": "https://www.nature.com/articles/d41586-026-03813-6",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": "The number of recorded cases of the mosquito-borne disease worldwide rose by a factor of 34 over 34 years."
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "‘If we can solve Riemann, what can’t we do?’: mathematicians shocked and excited by AI breakthroughs",
+      "url": "https://www.nature.com/articles/d41586-026-03835-0",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": "Awe, anxiety and opportunity: mathematics community shares mixed emotions following the solution of the field’s biggest unsolved problem."
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "Dual proofs of legendary Riemann hypothesis stun mathematicians",
+      "url": "https://www.nature.com/articles/d41586-026-03853-y",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": "Experts say the AI and human-written proofs will need careful checking — plus, the fallout from the COP31 climate conference."
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "What is the Riemann hypothesis? A guide to the famed conjecture that rules prime numbers",
+      "url": "https://www.nature.com/articles/d41586-026-03854-x",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": "The biggest problem in mathematics has to do with a statistical test familiar to scientists."
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "Rare gene variants can affect a person’s height by up to 17 centimetres",
+      "url": "https://www.nature.com/articles/d41586-026-03872-9",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": "An analysis of 1.4 million people uncovered rare gene variants that are helping to unpick the genetic architecture behind the heritability of height."
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Approaching single-molecule protein detection with SPEAR",
+      "url": "https://www.nature.com/articles/d44224-026-00024-2",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": ""
+    },
+    {
       "feed_id": "nature-biochemistry",
       "source": "Nature (Biochemistry)",
       "title": "Atomic-resolution insights into interactions of rifampicin and rifamycin derivatives with orphan CYP143 of M. tuberculosis",
       "url": "https://www.nature.com/articles/s41467-026-79387-8",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Lithium coordination compound reduces nephrotoxicity and enhances therapeutic effects in Alzheimer’s disease female mice",
+      "url": "https://www.nature.com/articles/s41467-026-79416-6",
       "published": "2026-11-25T00:00:00Z",
       "excerpt": ""
     },
@@ -171,6 +243,22 @@
       "source": "Nature (Chemistry)",
       "title": "Structural memory links experimental discovery and computational novelty",
       "url": "https://www.nature.com/articles/s41524-026-02398-y",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Assessment of unaged and aged polymer components in Nuclear-Power Plants: limitations of surface measurements and NMR-MOUSE as non-destructive tool",
+      "url": "https://www.nature.com/articles/s41529-026-00919-0",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Enhancing the colorimetric sensitivity of chitosan-based indicator films using rare earth metal-anthocyanin complexes for tracking lamb freshness",
+      "url": "https://www.nature.com/articles/s41538-026-01238-z",
       "published": "2026-11-25T00:00:00Z",
       "excerpt": ""
     },
@@ -257,8 +345,32 @@
     {
       "feed_id": "nature-chemistry",
       "source": "Nature (Chemistry)",
+      "title": "Optoelectronic and thermochemical properties of PLA, PLA/MgO and PLA/ZnO : DFT and TD-DFT study",
+      "url": "https://www.nature.com/articles/s41598-026-78734-5",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
       "title": "Structural analysis, electronic structure and optical properties of PFN–BST ceramic with photocatalytic and antimicrobial applications",
       "url": "https://www.nature.com/articles/s41598-026-78850-2",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Thymoquinone-loaded casein nanoparticles attenuate methotrexate-induced hepatotoxicity by modulating oxidative stress, inflammation, and ferroptosis-related alterations in rats",
+      "url": "https://www.nature.com/articles/s41598-026-80047-6",
+      "published": "2026-11-25T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Antibacterial, antifungal, antioxidant activities and phenolic composition of Arthrophytum Scoparium flowers",
+      "url": "https://www.nature.com/articles/s41598-026-80229-2",
       "published": "2026-11-25T00:00:00Z",
       "excerpt": ""
     },
@@ -269,118 +381,6 @@
       "url": "https://www.nature.com/articles/s41598-026-80238-1",
       "published": "2026-11-25T00:00:00Z",
       "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Electrical property analysis of nickel ferrite nanoparticles synthesized via green chemistry",
-      "url": "https://www.nature.com/articles/s41598-026-80617-8",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Phytochemical composition and antioxidant activity of dry pod Mareko Fana pepper (Capsicum annuum L.) cultivated across agro-ecological districts in West Gojjam Zone, Northwest Ethiopia",
-      "url": "https://www.nature.com/articles/s41598-026-80886-3",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Acid-activated Tagan bentonite as a low-cost binder for mesoporous aluminosilicate catalyst supports",
-      "url": "https://www.nature.com/articles/s41598-026-80951-x",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Ischemia-modified albumin and thiol-disulfide homeostasis as biomarkers of glycemic transition in a pediatric cohort with obesity: a cross-sectional study",
-      "url": "https://www.nature.com/articles/s41598-026-81279-2",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Procyanidin fraction from peanut skin in a biorefinery approach: supercritical CO2 extraction, proniosomal encapsulation, and molecular modelling insights",
-      "url": "https://www.nature.com/articles/s41598-026-82075-8",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "A short N-terminal regulatory region controls gating of the voltage-gated proton channel​",
-      "url": "https://www.nature.com/articles/s41598-026-82298-9",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Ultrafast cellulose nanocrystal production from diverse lignocellulosic biomass",
-      "url": "https://www.nature.com/articles/s41893-026-01989-3",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Superspreading droplets for scalable and green perovskite photovoltaics",
-      "url": "https://www.nature.com/articles/s41893-026-01991-9",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Phosphorylation of the C-terminus of PI4KA inhibits lipid kinase activity",
-      "url": "https://www.nature.com/articles/s42003-026-11308-3",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Copper derived from deep-sea hydrothermal vent minerals facilitates hydrogen cyanide formation from glycine in alkaline aqueous environment",
-      "url": "https://www.nature.com/articles/s42004-026-02263-5",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "sciencedaily-pharmacology",
-      "source": "ScienceDaily",
-      "title": "New nose drops restore youthful memory and fight Alzheimer’s in aging mice",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm",
-      "published": "2026-11-24T23:31:52Z",
-      "excerpt": "A revolutionary new nasal treatment has restored youthful learning and memory performance in aging mice while preventing severe cognitive decline in mice with Alzheimer’s-like disease. Developed…"
-    },
-    {
-      "feed_id": "fierce-biotech",
-      "source": "Fierce Biotech",
-      "title": "‘The potential is there’: BetterLife’s LSD cousin mirrors neuroplasticity in mice without the hallucinations",
-      "url": "https://www.fiercebiotech.com/research/betterlifes-lsd-cousin-mirrors-neuroplasticity-without-hallucinations-mice",
-      "published": "2026-11-24T11:19:00Z",
-      "excerpt": "With the boom in researching psychedelics for the treatment of neurological conditions, scientists have begun to explore ways to alter these drugs to remove the hallucinogenic effects while…"
-    },
-    {
-      "feed_id": "sciencedaily-pharmacology",
-      "source": "ScienceDaily",
-      "title": "Scientists discover a new type of depression that common antidepressants struggle to treat",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261123005352.htm",
-      "published": "2026-11-24T10:47:51Z",
-      "excerpt": "Researchers have discovered a new subtype of depression that may affect nearly one in four people with severe, recurrent, or persistent depression. Known as \"circadian depression,\" it is linked to…"
-    },
-    {
-      "feed_id": "fierce-biotech",
-      "source": "Fierce Biotech",
-      "title": "DiaMedica shares signs that drug extends pregnancy in fetal growth restriction trial",
-      "url": "https://www.fiercebiotech.com/biotech/diamedica-shares-signs-drug-extends-pregnancy-fetal-growth-restriction-trial",
-      "published": "2026-11-24T09:34:00Z",
-      "excerpt": "DiaMedica Therapeutics has shared phase 2 results in severe early-onset fetal growth restriction, reporting that most participants with known delivery dates remained pregnant longer than expected."
     }
   ]
 }
