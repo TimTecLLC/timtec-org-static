@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T01:43:27Z",
+  "updated": "2026-11-26T16:43:31Z",
   "max_items": 40,
   "feeds": [
     {
@@ -65,6 +65,270 @@
     {
       "feed_id": "sciencedaily-pharmacology",
       "source": "ScienceDaily",
+      "title": "Common supplements rival antibiotics in treating severe gum disease",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261126033031.htm",
+      "published": "2026-11-26T11:43:30Z",
+      "excerpt": "A combination of omega-3 and low-dose aspirin produced results comparable to antibiotics when used alongside standard treatment for severe gum disease, with benefits persisting long after…"
+    },
+    {
+      "feed_id": "sciencedaily-pharmacology",
+      "source": "ScienceDaily",
+      "title": "World’s largest trial of robotic knee replacement reveals surprising results",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261124055904.htm",
+      "published": "2026-11-26T01:04:22Z",
+      "excerpt": "Robot-assisted knee replacement surgery offers greater surgical precision, but a landmark clinical trial has revealed a surprising limitation. Despite the advanced technology, patients experienced…"
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "Orangutans face bleak future after Indonesia’s devastating wildfires",
+      "url": "https://www.nature.com/articles/d41586-026-03828-z",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": "The super El Niño intensified Indonesian fires, which ravaged the habitat of the critically endangered Bornean orangutan."
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "JNK activity provides an intrinsic adaptive phenotype to naive pluripotent cells",
+      "url": "https://www.nature.com/articles/s41418-026-01911-6",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Impact-stiffening materials modulated by host–guest interactions in polypseudorotaxanes",
+      "url": "https://www.nature.com/articles/s41467-026-78743-y",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Dynamic B–OH intermediates enable photocatalytic conversion of CO2 into formic acid",
+      "url": "https://www.nature.com/articles/s41467-026-79798-7",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Binuclear copper enzymes enable selective radical (pseudo)halogenation",
+      "url": "https://www.nature.com/articles/s41557-026-02311-6",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Comprehensive synthesis of K48/K63 ubiquitin pentamers by graph-empowered automation",
+      "url": "https://www.nature.com/articles/s41557-026-02312-5",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "The power of O vacancies in electrocatalysis",
+      "url": "https://www.nature.com/articles/s41557-026-02316-1",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemical-biology",
+      "source": "Nature Chemical Biology",
+      "title": "Cas12m nuclease activation governed by intact RuvC active site and bipartite ssDNA kink",
+      "url": "https://www.nature.com/articles/s41589-026-02377-w",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": "Nature Chemical Biology, Published online: 26 November 2026; doi:10.1038/s41589-026-02377-w Cas12m effectors were considered transcriptional silencers rather than nucleases. Cryo-EM structures…"
+    },
+    {
+      "feed_id": "nature-chemical-biology",
+      "source": "Nature Chemical Biology",
+      "title": "HER2 µMap proximity labeling reveals functional interactors and resistance mechanisms",
+      "url": "https://www.nature.com/articles/s41589-026-02386-9",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": "Nature Chemical Biology, Published online: 26 November 2026; doi:10.1038/s41589-026-02386-9 High-resolution µMap proximity labeling of the breast cancer HER2 interactome identifies protein tyrosine…"
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Mitigating preferred orientation in cryo-EM with ultrasonic excitation during vitrification",
+      "url": "https://www.nature.com/articles/s41592-026-03382-6",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Spatiotemporal organization of chaperone cocondensation drives stepwise disassembly of α-synuclein amyloid fibrils",
+      "url": "https://www.nature.com/articles/s41594-026-01934-0",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Anti-inflammatory and anti-diabetic activity of marine sidestream-derived protein hydrolysates and chitosan",
+      "url": "https://www.nature.com/articles/s41598-026-73790-3",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "A novel Purpald-functionalized chitosan-based µSPE platform coupled with deep eutectic solvents for green determination of food dyes",
+      "url": "https://www.nature.com/articles/s41598-026-76129-0",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Gastrointestinal digestion enhances the apoptotic effect of Medjool date in HepG2 cells: insights from phytochemical profiling, cytotoxicity, gene expression, and molecular docking",
+      "url": "https://www.nature.com/articles/s41598-026-76181-w",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Inflammatory signaling reshapes metabolic pathways in pediatric Crohn’s disease ileal organoids",
+      "url": "https://www.nature.com/articles/s41598-026-77639-7",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Integrated metabolomics and network pharmacology reveal candidate bioactive compounds of the endemic cliff plant Taihangia rupestris var. ciliata",
+      "url": "https://www.nature.com/articles/s41598-026-79686-6",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "MeFluHyA: a novel fluorescent screening tool for high-throughput identification of HDAC6-selective inhibitors",
+      "url": "https://www.nature.com/articles/s41598-026-80379-3",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Sustainable green synthesis of CeO₂ and Ni-doped CeO₂ nanomaterials using morinda citrifolia leaf extract for antimicrobial, antioxidant, antidiabetic, and anticancer applications",
+      "url": "https://www.nature.com/articles/s41598-026-80471-8",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Apigenin-functionalized Fe3O4@SP nanocomposites modulate the expression of P53/miR-34a, miR-181a and their potential targets in AGS gastric cancer cells: in vitro analysis with docking insights",
+      "url": "https://www.nature.com/articles/s41598-026-80969-1",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Valorization of Borassus flabellifer biomass into activated carbon for sustainable chlorpyrifos removal: response surface optimization and adsorption mechanism",
+      "url": "https://www.nature.com/articles/s41598-026-81097-6",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Effects of high dietary inclusion of black soldier fly larvae meal on the serum metabolome of healthy adult dogs",
+      "url": "https://www.nature.com/articles/s41598-026-81098-5",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Development and laboratory evaluation of a polymeric additive for shale inhibition and particle consolidation",
+      "url": "https://www.nature.com/articles/s41598-026-81295-2",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Insights into kinetics, isotherms, and thermodynamic study on acid-activated cow dung waste for malachite green uptake",
+      "url": "https://www.nature.com/articles/s41598-026-81509-7",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Effects of quercetin on ovarian insulin signaling, mitochondrial dynamics, and oxidative stress in type 2 diabetic rats",
+      "url": "https://www.nature.com/articles/s41598-026-81567-x",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Palladium modified carbon dots and their application in photocatalytic aerobic selective oxidation of toluene to benzaldehyde",
+      "url": "https://www.nature.com/articles/s41598-026-81829-8",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Solar-driven photocatalytic purification of textile wastewater using water hyacinth-derived cellulose nanocrystal/Ag@ZnO bioinorganic nanocomposites",
+      "url": "https://www.nature.com/articles/s41598-026-81884-1",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Self-decontamination of simulated skin contamination using commonly available absorbent materials: implications for mass-casualty chemical incidents",
+      "url": "https://www.nature.com/articles/s41598-026-81963-3",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Exploration of peptide based candidate biomarkers for early pregnancy diagnosis in saliva of buffalo",
+      "url": "https://www.nature.com/articles/s41598-026-82013-8",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Ultrasound-assisted extraction of lecithin-rich lipid fraction from fresh, boiled, and lyophilized hen egg yolk: process optimization and characterization",
+      "url": "https://www.nature.com/articles/s41598-026-82381-1",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Accelerating inverse materials design using generative diffusion models with reinforcement learning",
+      "url": "https://www.nature.com/articles/s42256-026-01334-5",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Luminescence thermometry at the microscale and nanoscale",
+      "url": "https://www.nature.com/articles/s43586-026-00540-0",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "sciencedaily-pharmacology",
+      "source": "ScienceDaily",
       "title": "Common sleep and anxiety drugs could be harming aging brains",
       "url": "https://www.sciencedaily.com/releases/2026/11/261124055854.htm",
       "published": "2026-11-25T11:13:47Z",
@@ -117,270 +381,6 @@
       "url": "https://www.sciencedaily.com/releases/2026/11/261123005348.htm",
       "published": "2026-11-25T01:09:43Z",
       "excerpt": "A common antibody in the gut may be a powerful natural defense against colon cancer, with researchers finding that mice lacking it developed more than twice as many tumors. Restoring the antibody…"
-    },
-    {
-      "feed_id": "nature-news",
-      "source": "Nature",
-      "title": "Just eight universities dominate Nobel and other top economics prizes",
-      "url": "https://www.nature.com/articles/d41586-026-03333-3",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": "Economics is the outlier — top prizes in science, engineering and other social sciences go to researchers at a greater variety of institutions."
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Enzymatic reactions adapted to make ‘living’ chains of sugars",
-      "url": "https://www.nature.com/articles/d41586-026-03382-8",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "China’s AI-powered smart-city model is going global",
-      "url": "https://www.nature.com/articles/d41586-026-03473-6",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-news",
-      "source": "Nature",
-      "title": "A powerful HIV vaccine is finally within reach — thanks to these super antibodies",
-      "url": "https://www.nature.com/articles/d41586-026-03718-4",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": "Potent immune responses against diverse HIV strains have ignited the field, but major hurdles remain."
-    },
-    {
-      "feed_id": "nature-news",
-      "source": "Nature",
-      "title": "Dengue has exploded globally with shocking speed",
-      "url": "https://www.nature.com/articles/d41586-026-03813-6",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": "The number of recorded cases of the mosquito-borne disease worldwide rose by a factor of 34 over 34 years."
-    },
-    {
-      "feed_id": "nature-news",
-      "source": "Nature",
-      "title": "‘If we can solve Riemann, what can’t we do?’: mathematicians shocked and excited by AI breakthroughs",
-      "url": "https://www.nature.com/articles/d41586-026-03835-0",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": "Awe, anxiety and opportunity: mathematics community shares mixed emotions following the solution of the field’s biggest unsolved problem."
-    },
-    {
-      "feed_id": "nature-news",
-      "source": "Nature",
-      "title": "Dual proofs of legendary Riemann hypothesis stun mathematicians",
-      "url": "https://www.nature.com/articles/d41586-026-03853-y",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": "Experts say the AI and human-written proofs will need careful checking — plus, the fallout from the COP31 climate conference."
-    },
-    {
-      "feed_id": "nature-news",
-      "source": "Nature",
-      "title": "What is the Riemann hypothesis? A guide to the famed conjecture that rules prime numbers",
-      "url": "https://www.nature.com/articles/d41586-026-03854-x",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": "The biggest problem in mathematics has to do with a statistical test familiar to scientists."
-    },
-    {
-      "feed_id": "nature-news",
-      "source": "Nature",
-      "title": "Rare gene variants can affect a person’s height by up to 17 centimetres",
-      "url": "https://www.nature.com/articles/d41586-026-03872-9",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": "An analysis of 1.4 million people uncovered rare gene variants that are helping to unpick the genetic architecture behind the heritability of height."
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Approaching single-molecule protein detection with SPEAR",
-      "url": "https://www.nature.com/articles/d44224-026-00024-2",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Atomic-resolution insights into interactions of rifampicin and rifamycin derivatives with orphan CYP143 of M. tuberculosis",
-      "url": "https://www.nature.com/articles/s41467-026-79387-8",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Lithium coordination compound reduces nephrotoxicity and enhances therapeutic effects in Alzheimer’s disease female mice",
-      "url": "https://www.nature.com/articles/s41467-026-79416-6",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Excited-state twisted intramolecular charge transfer enables reversible light control of rhodamine-graphene binding",
-      "url": "https://www.nature.com/articles/s41467-026-79447-z",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "A small RNA regulates iron homeostasis and host mucus colonization in Bacteroides thetaiotaomicron",
-      "url": "https://www.nature.com/articles/s41467-026-79554-x",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "SMYD1 trimethylates myosin K129 to restrain cardiomyocyte hypercontractility",
-      "url": "https://www.nature.com/articles/s41467-026-79720-1",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Structural memory links experimental discovery and computational novelty",
-      "url": "https://www.nature.com/articles/s41524-026-02398-y",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Assessment of unaged and aged polymer components in Nuclear-Power Plants: limitations of surface measurements and NMR-MOUSE as non-destructive tool",
-      "url": "https://www.nature.com/articles/s41529-026-00919-0",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Enhancing the colorimetric sensitivity of chitosan-based indicator films using rare earth metal-anthocyanin complexes for tracking lamb freshness",
-      "url": "https://www.nature.com/articles/s41538-026-01238-z",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Molar-mass- and sequence-defined vinyl macromolecules via iterative photoredox decarboxylative addition of α-substituted acrylates",
-      "url": "https://www.nature.com/articles/s41557-026-02303-6",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Mapping unsolved lipidomes accelerates lipid discovery in major bacterial pathogens",
-      "url": "https://www.nature.com/articles/s41564-026-02525-x",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Structural basis of RNA-guided DNA integration by type I CAST systems",
-      "url": "https://www.nature.com/articles/s41586-026-11196-x",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Enzymatic living polymerization for polysaccharide synthesis",
-      "url": "https://www.nature.com/articles/s41586-026-11304-x",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "A bile acid transporter that breaks all the rules",
-      "url": "https://www.nature.com/articles/s41594-026-01945-x",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Assembly and testing of aqueous organic redox flow batteries",
-      "url": "https://www.nature.com/articles/s41596-026-01450-x",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Experimental investigation of carbamazepine removal from aqueous media using Al2O3/MWCNT nanocomposite for wastewater treatment through response surface methodology",
-      "url": "https://www.nature.com/articles/s41598-026-71147-4",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Box-Behnken design assisted optimization of a reverse-phase high-performance liquid chromatography method for the simultaneous estimation of bimatoprost and finasteride in co-loaded zeolitic imidazolate framework-8 metal-organic frameworks",
-      "url": "https://www.nature.com/articles/s41598-026-72139-0",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Biomass-derived carbonized agrowaste biosorbents for efficient removal of phenolic compounds and herbicides from industrial effluents",
-      "url": "https://www.nature.com/articles/s41598-026-77881-z",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Lenabasum attenuates cardiac injury in rats with sepsis induced by cecal ligation and puncture",
-      "url": "https://www.nature.com/articles/s41598-026-78467-5",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Optoelectronic and thermochemical properties of PLA, PLA/MgO and PLA/ZnO : DFT and TD-DFT study",
-      "url": "https://www.nature.com/articles/s41598-026-78734-5",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Structural analysis, electronic structure and optical properties of PFN–BST ceramic with photocatalytic and antimicrobial applications",
-      "url": "https://www.nature.com/articles/s41598-026-78850-2",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Thymoquinone-loaded casein nanoparticles attenuate methotrexate-induced hepatotoxicity by modulating oxidative stress, inflammation, and ferroptosis-related alterations in rats",
-      "url": "https://www.nature.com/articles/s41598-026-80047-6",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Antibacterial, antifungal, antioxidant activities and phenolic composition of Arthrophytum Scoparium flowers",
-      "url": "https://www.nature.com/articles/s41598-026-80229-2",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Experimental study on the effect of asphaltene and nano-hybrid inhibitors on wax deposition",
-      "url": "https://www.nature.com/articles/s41598-026-80238-1",
-      "published": "2026-11-25T00:00:00Z",
-      "excerpt": ""
     }
   ]
 }
