@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T01:38:34Z",
+  "updated": "2026-11-27T16:29:25Z",
   "max_items": 40,
   "feeds": [
     {
@@ -71,10 +71,250 @@
       "excerpt": ""
     },
     {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Scattering function of the wormlike chain with excluded volume: an empirical equation and procedure for analysis of experimental data",
+      "url": "https://www.nature.com/articles/s41428-026-01253-7",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Molecular basis for thermoresponsive protein condensation in plants",
+      "url": "https://www.nature.com/articles/s41467-026-79660-w",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Identification and functional characterization of bacterial bilirubin vinyl reductase across vertebrate gut microbiomes",
+      "url": "https://www.nature.com/articles/s41467-026-79675-3",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Surface assembling of individual probiotics with pH-responsive epigallocatechin gallate nanoparticles against DSS-induced colitis",
+      "url": "https://www.nature.com/articles/s41538-026-01142-6",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Cell-autonomous inflammation in VEXAS is mediated by ERAD failure and cGAS–STING",
+      "url": "https://www.nature.com/articles/s41556-026-02122-4",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "SLBP-independent control of maternal histone mRNA",
+      "url": "https://www.nature.com/articles/s41556-026-02141-1",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Magnetic proximity effect in nanoparticle–molecule hybrids enables room-temperature circularly polarized luminescence",
+      "url": "https://www.nature.com/articles/s41557-026-02283-7",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemical-biology",
+      "source": "Nature Chemical Biology",
+      "title": "Target discovery by covalent fragment phenotypic screening in a stem cell differentiation model",
+      "url": "https://www.nature.com/articles/s41589-026-02389-6",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": "Nature Chemical Biology, Published online: 27 November 2026; doi:10.1038/s41589-026-02389-6 Covalent fragment phenotypic screening in human induced pluripotent stem cells (iPS cells) combined with…"
+    },
+    {
+      "feed_id": "nature-chemical-biology",
+      "source": "Nature Chemical Biology",
+      "title": "MAPing the motor track",
+      "url": "https://www.nature.com/articles/s41589-026-02392-x",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": "Nature Chemical Biology, Published online: 27 November 2026; doi:10.1038/s41589-026-02392-x MAP9 functions as a dual regulator of kinesin motors to mediate intracellular cargo transport. New work…"
+    },
+    {
+      "feed_id": "nature-chemical-biology",
+      "source": "Nature Chemical Biology",
+      "title": "Defining state-selective lipid binding to brain GPCRs using REVEAL",
+      "url": "https://www.nature.com/articles/s41589-026-02402-y",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": "Nature Chemical Biology, Published online: 27 November 2026; doi:10.1038/s41589-026-02402-y A native mass spectrometry approach was developed that identified lipids specifically binding brain…"
+    },
+    {
+      "feed_id": "nature-chemical-biology",
+      "source": "Nature Chemical Biology",
+      "title": "Structure and mechanism of microtubule stabilization and motor regulation by MAP9",
+      "url": "https://www.nature.com/articles/s41589-026-02403-x",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": "Nature Chemical Biology, Published online: 27 November 2026; doi:10.1038/s41589-026-02403-x MAP9 wraps around microtubules as a long α-helix and prevents depolymerization by stapling adjacent…"
+    },
+    {
+      "feed_id": "nature-chemical-biology",
+      "source": "Nature Chemical Biology",
+      "title": "REVEALing a GPCR’s lipid neighbors",
+      "url": "https://www.nature.com/articles/s41589-026-02406-8",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": "Nature Chemical Biology, Published online: 27 November 2026; doi:10.1038/s41589-026-02406-8 A new mass spectrometry method reveals which lipids cling to brain receptors, and shows that receptor…"
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Visualizing activation of the muscle acetylcholine receptor",
+      "url": "https://www.nature.com/articles/s41594-026-01929-x",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "First cytogenotoxic assessment of a larvicide against Ae. Aegypti N-tosylindole",
+      "url": "https://www.nature.com/articles/s41598-026-60685-6",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Green synthesis of Colocasia esculenta-mediated nickel ferrite nanoparticles: dual applications in photocatalytic wastewater treatment and antifungal activity",
+      "url": "https://www.nature.com/articles/s41598-026-67434-9",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "The hormonal defense, PAL-lignin pathway, and antioxidant enzymes contribute to nematode tolerance in the ‘UCB1’ and ‘Qazvini’ pistachio rootstocks",
+      "url": "https://www.nature.com/articles/s41598-026-75570-5",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "A novel binder synthesized from low grade slag and calcined glauconite for wastewater treatment and gamma ray attenuation",
+      "url": "https://www.nature.com/articles/s41598-026-76039-1",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Phytometabolomic profiling, antidiabetic and antioxidant activities of Pisum sativum L. aerial part extracts",
+      "url": "https://www.nature.com/articles/s41598-026-76182-9",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Novel glycerol–sugar natural deep eutectic solvents: a combined computational and experimental study of physicochemical properties",
+      "url": "https://www.nature.com/articles/s41598-026-77139-8",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Coumarin-in-cyclodextrin-in-liposome: physicochemical characterization and in vitro pH-dependent release of coumarin",
+      "url": "https://www.nature.com/articles/s41598-026-77672-6",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Evaluation of therapeutic potential of Nardostachys jatamansi in Alzheimer’s disease through network pharmacology, molecular docking and molecular dynamics",
+      "url": "https://www.nature.com/articles/s41598-026-80109-9",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Phytochemical screening-guided in vitro antioxidant and antibacterial activities of Ocimum basilicum (Besobila) leaf extracts",
+      "url": "https://www.nature.com/articles/s41598-026-81590-y",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Silver decorated CuCo2S4 nanosheets as an ultra-sensitive electrochemical sensor for trace level Hg2+ detection in real-time water samples",
+      "url": "https://www.nature.com/articles/s41598-026-81689-2",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Extended C-terminus of SEC61γ causes endoplasmic reticulum and Golgi-mediated N-glycosylation abnormalities in a neurodevelopmental disorder",
+      "url": "https://www.nature.com/articles/s41598-026-81692-7",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Isolation of the new tetrahydrocannabilactolvarin and cannabinol derivatives from a Δ9-THCV chemotype of Cannabis sativa L. and their comparative effects in RSL3-treated HepaRG cells",
+      "url": "https://www.nature.com/articles/s41598-026-82019-2",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
       "feed_id": "nature-biochemistry",
       "source": "Nature (Biochemistry)",
       "title": "Genome-guided identification and functional characterization of carbonyl reductases from Parathermosynechococcus lividus PCC 6715",
       "url": "https://www.nature.com/articles/s41598-026-82255-6",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Relationships between 5-hydroxymethylfurfural levels, colour parameters, and labelled composition in gluten-free products sold on the Turkish market",
+      "url": "https://www.nature.com/articles/s41598-026-82317-9",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Green synthesized zinc oxide nanoparticles combined with papaverine induce apoptosis and modulate microRNAs in breast cancer cells",
+      "url": "https://www.nature.com/articles/s41598-026-82543-1",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Green synthesis of zinc oxide nanoparticles using Clematis simensis leaf extracts for efficient antibacterial treatment",
+      "url": "https://www.nature.com/articles/s41598-026-82567-7",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Generating proteins with complex functions",
+      "url": "https://www.nature.com/articles/s42256-026-01330-9",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "An amorphous electrocatalyst enables efficient and stable hydrogen production from seawater at 1 A cm−2 for over 9,000 h",
+      "url": "https://www.nature.com/articles/s44160-026-01226-x",
       "published": "2026-11-27T00:00:00Z",
       "excerpt": ""
     },
@@ -119,12 +359,12 @@
       "excerpt": "AI-generated algorithms could be about to break public-key cryptography, the technology central to commerce, banking and privacy."
     },
     {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "JNK activity provides an intrinsic adaptive phenotype to naive pluripotent cells",
-      "url": "https://www.nature.com/articles/s41418-026-01911-6",
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "Daily briefing: A guide to the Riemann hypothesis",
+      "url": "https://www.nature.com/articles/d41586-026-03894-3",
       "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
+      "excerpt": "Get to grips with the famed conjecture, and hear mathematicians’ reactions to its proofs. Plus, the benefits of eating with other people."
     },
     {
       "feed_id": "nature-chemistry",
@@ -139,246 +379,6 @@
       "source": "Nature (Chemistry)",
       "title": "Dynamic B–OH intermediates enable photocatalytic conversion of CO2 into formic acid",
       "url": "https://www.nature.com/articles/s41467-026-79798-7",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Binuclear copper enzymes enable selective radical (pseudo)halogenation",
-      "url": "https://www.nature.com/articles/s41557-026-02311-6",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Comprehensive synthesis of K48/K63 ubiquitin pentamers by graph-empowered automation",
-      "url": "https://www.nature.com/articles/s41557-026-02312-5",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "The power of O vacancies in electrocatalysis",
-      "url": "https://www.nature.com/articles/s41557-026-02316-1",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Chemical defects in semiconducting polymers and their impact on reproducibility and device performance",
-      "url": "https://www.nature.com/articles/s41578-026-00984-6",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemical-biology",
-      "source": "Nature Chemical Biology",
-      "title": "Cas12m nuclease activation governed by intact RuvC active site and bipartite ssDNA kink",
-      "url": "https://www.nature.com/articles/s41589-026-02377-w",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": "Nature Chemical Biology, Published online: 26 November 2026; doi:10.1038/s41589-026-02377-w Cas12m effectors were considered transcriptional silencers rather than nucleases. Cryo-EM structures…"
-    },
-    {
-      "feed_id": "nature-chemical-biology",
-      "source": "Nature Chemical Biology",
-      "title": "HER2 µMap proximity labeling reveals functional interactors and resistance mechanisms",
-      "url": "https://www.nature.com/articles/s41589-026-02386-9",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": "Nature Chemical Biology, Published online: 26 November 2026; doi:10.1038/s41589-026-02386-9 High-resolution µMap proximity labeling of the breast cancer HER2 interactome identifies protein tyrosine…"
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Mitigating preferred orientation in cryo-EM with ultrasonic excitation during vitrification",
-      "url": "https://www.nature.com/articles/s41592-026-03382-6",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Spatiotemporal organization of chaperone cocondensation drives stepwise disassembly of α-synuclein amyloid fibrils",
-      "url": "https://www.nature.com/articles/s41594-026-01934-0",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Anti-inflammatory and anti-diabetic activity of marine sidestream-derived protein hydrolysates and chitosan",
-      "url": "https://www.nature.com/articles/s41598-026-73790-3",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Antimicrobial sustainable guar gum sulfonate ester–ZnO nanocomposites: synthesis and characterization",
-      "url": "https://www.nature.com/articles/s41598-026-75540-x",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "A novel Purpald-functionalized chitosan-based µSPE platform coupled with deep eutectic solvents for green determination of food dyes",
-      "url": "https://www.nature.com/articles/s41598-026-76129-0",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Gastrointestinal digestion enhances the apoptotic effect of Medjool date in HepG2 cells: insights from phytochemical profiling, cytotoxicity, gene expression, and molecular docking",
-      "url": "https://www.nature.com/articles/s41598-026-76181-w",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Photocatalytic activity of graphene oxide and molybdenum disulfide (MoS2) coated activated carbon felt",
-      "url": "https://www.nature.com/articles/s41598-026-77222-0",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Inflammatory signaling reshapes metabolic pathways in pediatric Crohn’s disease ileal organoids",
-      "url": "https://www.nature.com/articles/s41598-026-77639-7",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Integrated metabolomics and network pharmacology reveal candidate bioactive compounds of the endemic cliff plant Taihangia rupestris var. ciliata",
-      "url": "https://www.nature.com/articles/s41598-026-79686-6",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "MeFluHyA: a novel fluorescent screening tool for high-throughput identification of HDAC6-selective inhibitors",
-      "url": "https://www.nature.com/articles/s41598-026-80379-3",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Sustainable green synthesis of CeO₂ and Ni-doped CeO₂ nanomaterials using morinda citrifolia leaf extract for antimicrobial, antioxidant, antidiabetic, and anticancer applications",
-      "url": "https://www.nature.com/articles/s41598-026-80471-8",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Apigenin-functionalized Fe3O4@SP nanocomposites modulate the expression of P53/miR-34a, miR-181a and their potential targets in AGS gastric cancer cells: in vitro analysis with docking insights",
-      "url": "https://www.nature.com/articles/s41598-026-80969-1",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Valorization of Borassus flabellifer biomass into activated carbon for sustainable chlorpyrifos removal: response surface optimization and adsorption mechanism",
-      "url": "https://www.nature.com/articles/s41598-026-81097-6",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Effects of high dietary inclusion of black soldier fly larvae meal on the serum metabolome of healthy adult dogs",
-      "url": "https://www.nature.com/articles/s41598-026-81098-5",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Development and laboratory evaluation of a polymeric additive for shale inhibition and particle consolidation",
-      "url": "https://www.nature.com/articles/s41598-026-81295-2",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Detonation shock initiation model based on KJMA kinetics",
-      "url": "https://www.nature.com/articles/s41598-026-81315-1",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Insights into kinetics, isotherms, and thermodynamic study on acid-activated cow dung waste for malachite green uptake",
-      "url": "https://www.nature.com/articles/s41598-026-81509-7",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Effects of quercetin on ovarian insulin signaling, mitochondrial dynamics, and oxidative stress in type 2 diabetic rats",
-      "url": "https://www.nature.com/articles/s41598-026-81567-x",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Palladium modified carbon dots and their application in photocatalytic aerobic selective oxidation of toluene to benzaldehyde",
-      "url": "https://www.nature.com/articles/s41598-026-81829-8",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Integrated recovery of vanadium from spent hydrodesulfurization catalysts for the production of high-vanadium ferroalloy",
-      "url": "https://www.nature.com/articles/s41598-026-81858-3",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Solar-driven photocatalytic purification of textile wastewater using water hyacinth-derived cellulose nanocrystal/Ag@ZnO bioinorganic nanocomposites",
-      "url": "https://www.nature.com/articles/s41598-026-81884-1",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "YOLOX-based detection of C60 molecules in time-resolved TEM",
-      "url": "https://www.nature.com/articles/s41598-026-81947-3",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Self-decontamination of simulated skin contamination using commonly available absorbent materials: implications for mass-casualty chemical incidents",
-      "url": "https://www.nature.com/articles/s41598-026-81963-3",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Exploration of peptide based candidate biomarkers for early pregnancy diagnosis in saliva of buffalo",
-      "url": "https://www.nature.com/articles/s41598-026-82013-8",
       "published": "2026-11-26T00:00:00Z",
       "excerpt": ""
     }
