@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T16:43:31Z",
+  "updated": "2026-11-27T01:38:34Z",
   "max_items": 40,
   "feeds": [
     {
@@ -63,6 +63,22 @@
   ],
   "items": [
     {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "N4-acetylcytidine in synthetic mRNA: enhanced protein yield without loss of translational fidelity",
+      "url": "https://www.nature.com/articles/s41392-026-03101-9",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Genome-guided identification and functional characterization of carbonyl reductases from Parathermosynechococcus lividus PCC 6715",
+      "url": "https://www.nature.com/articles/s41598-026-82255-6",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
       "feed_id": "sciencedaily-pharmacology",
       "source": "ScienceDaily",
       "title": "Common supplements rival antibiotics in treating severe gum disease",
@@ -85,6 +101,22 @@
       "url": "https://www.nature.com/articles/d41586-026-03828-z",
       "published": "2026-11-26T00:00:00Z",
       "excerpt": "The super El Niño intensified Indonesian fires, which ravaged the habitat of the critically endangered Bornean orangutan."
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "Chromosome ‘glue’ could boost fertility by stabilizing ageing eggs",
+      "url": "https://www.nature.com/articles/d41586-026-03874-7",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": "A system tested in mice mimics a protein that declines with age and could help to improve fertility treatments in future."
+    },
+    {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "Has AI just cracked Internet encryption? Rumoured ‘bombshell’ stuns scientists",
+      "url": "https://www.nature.com/articles/d41586-026-03875-6",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": "AI-generated algorithms could be about to break public-key cryptography, the technology central to commerce, banking and privacy."
     },
     {
       "feed_id": "nature-biochemistry",
@@ -135,6 +167,14 @@
       "excerpt": ""
     },
     {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Chemical defects in semiconducting polymers and their impact on reproducibility and device performance",
+      "url": "https://www.nature.com/articles/s41578-026-00984-6",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
       "feed_id": "nature-chemical-biology",
       "source": "Nature Chemical Biology",
       "title": "Cas12m nuclease activation governed by intact RuvC active site and bipartite ssDNA kink",
@@ -177,6 +217,14 @@
     {
       "feed_id": "nature-chemistry",
       "source": "Nature (Chemistry)",
+      "title": "Antimicrobial sustainable guar gum sulfonate ester–ZnO nanocomposites: synthesis and characterization",
+      "url": "https://www.nature.com/articles/s41598-026-75540-x",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
       "title": "A novel Purpald-functionalized chitosan-based µSPE platform coupled with deep eutectic solvents for green determination of food dyes",
       "url": "https://www.nature.com/articles/s41598-026-76129-0",
       "published": "2026-11-26T00:00:00Z",
@@ -187,6 +235,14 @@
       "source": "Nature (Biochemistry)",
       "title": "Gastrointestinal digestion enhances the apoptotic effect of Medjool date in HepG2 cells: insights from phytochemical profiling, cytotoxicity, gene expression, and molecular docking",
       "url": "https://www.nature.com/articles/s41598-026-76181-w",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Photocatalytic activity of graphene oxide and molybdenum disulfide (MoS2) coated activated carbon felt",
+      "url": "https://www.nature.com/articles/s41598-026-77222-0",
       "published": "2026-11-26T00:00:00Z",
       "excerpt": ""
     },
@@ -257,6 +313,14 @@
     {
       "feed_id": "nature-chemistry",
       "source": "Nature (Chemistry)",
+      "title": "Detonation shock initiation model based on KJMA kinetics",
+      "url": "https://www.nature.com/articles/s41598-026-81315-1",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
       "title": "Insights into kinetics, isotherms, and thermodynamic study on acid-activated cow dung waste for malachite green uptake",
       "url": "https://www.nature.com/articles/s41598-026-81509-7",
       "published": "2026-11-26T00:00:00Z",
@@ -281,8 +345,24 @@
     {
       "feed_id": "nature-chemistry",
       "source": "Nature (Chemistry)",
+      "title": "Integrated recovery of vanadium from spent hydrodesulfurization catalysts for the production of high-vanadium ferroalloy",
+      "url": "https://www.nature.com/articles/s41598-026-81858-3",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
       "title": "Solar-driven photocatalytic purification of textile wastewater using water hyacinth-derived cellulose nanocrystal/Ag@ZnO bioinorganic nanocomposites",
       "url": "https://www.nature.com/articles/s41598-026-81884-1",
+      "published": "2026-11-26T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "YOLOX-based detection of C60 molecules in time-resolved TEM",
+      "url": "https://www.nature.com/articles/s41598-026-81947-3",
       "published": "2026-11-26T00:00:00Z",
       "excerpt": ""
     },
@@ -301,86 +381,6 @@
       "url": "https://www.nature.com/articles/s41598-026-82013-8",
       "published": "2026-11-26T00:00:00Z",
       "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Ultrasound-assisted extraction of lecithin-rich lipid fraction from fresh, boiled, and lyophilized hen egg yolk: process optimization and characterization",
-      "url": "https://www.nature.com/articles/s41598-026-82381-1",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Accelerating inverse materials design using generative diffusion models with reinforcement learning",
-      "url": "https://www.nature.com/articles/s42256-026-01334-5",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Luminescence thermometry at the microscale and nanoscale",
-      "url": "https://www.nature.com/articles/s43586-026-00540-0",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "sciencedaily-pharmacology",
-      "source": "ScienceDaily",
-      "title": "Common sleep and anxiety drugs could be harming aging brains",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261124055854.htm",
-      "published": "2026-11-25T11:13:47Z",
-      "excerpt": "Nearly one in three older adults with dementia or other cognitive disorders takes potentially harmful medications that can worsen brain function and increase the risk of hospitalization and…"
-    },
-    {
-      "feed_id": "sciencedaily-pharmacology",
-      "source": "ScienceDaily",
-      "title": "Peppermint oil significantly lowers blood pressure in just 20 days",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261123231553.htm",
-      "published": "2026-11-25T10:53:00Z",
-      "excerpt": "Peppermint oil may have a surprisingly powerful effect on blood pressure. In a randomized study of 40 adults, researchers found that taking small doses twice daily for 20 days lowered systolic blood…"
-    },
-    {
-      "feed_id": "fierce-biotech",
-      "source": "Fierce Biotech",
-      "title": "Bayer becomes latest Big Pharma to head to Hansoh in $3.3B deal for phase 1 ADC",
-      "url": "https://www.fiercebiotech.com/biotech/bayer-becomes-latest-big-pharma-head-hansoh-33b-deal-phase-1-adc",
-      "published": "2026-11-25T10:30:00Z",
-      "excerpt": "Bayer has become the latest drug giant to turn to Hansoh Pharma for its antibody-drug conjugate expertise."
-    },
-    {
-      "feed_id": "fierce-biotech",
-      "source": "Fierce Biotech",
-      "title": "Schrödinger signs €22M biologics collab with sequencing automation outfit Enpicom",
-      "url": "https://www.fiercebiotech.com/biotech/schrodinger-forms-ties-sequencing-automation-outfit-enpicom-eur22m",
-      "published": "2026-11-25T09:09:00Z",
-      "excerpt": "Computational discovery biotech Schrödinger has finalized a collaboration with sequencing automation company Enpicom in an all-cash deal worth €22 million."
-    },
-    {
-      "feed_id": "fierce-biotech",
-      "source": "Fierce Biotech",
-      "title": "Finnish biotech delivers durable symptom relief in phase 2 birch pollen allergy trial",
-      "url": "https://www.fiercebiotech.com/biotech/desentum-delivers-durable-symptom-relief-phase-2-birch-pollen-allergy-trial",
-      "published": "2026-11-25T08:23:00Z",
-      "excerpt": "A phase 2 trial of Desentum’s birch pollen allergen immunotherapy has hit its primary endpoint, teeing up further study of a short-course medication that could provide a persistent effect."
-    },
-    {
-      "feed_id": "fierce-biotech",
-      "source": "Fierce Biotech",
-      "title": "Thermo Fisher Scientific nabs FDA expanded use clearance for EXENT analyser system",
-      "url": "https://www.fiercebiotech.com/medtech/thermo-fisher-scientific-nabs-fda-expanded-use-clearance-exent-analyser-system",
-      "published": "2026-11-25T02:04:00Z",
-      "excerpt": "Thermo Fisher Scientific announced FDA clearance for expanded intended use of its EXENT Analyser with the EXENT GAM Assay."
-    },
-    {
-      "feed_id": "sciencedaily-pharmacology",
-      "source": "ScienceDaily",
-      "title": "Scientists discover a hidden gut defense that could prevent colon cancer",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261123005348.htm",
-      "published": "2026-11-25T01:09:43Z",
-      "excerpt": "A common antibody in the gut may be a powerful natural defense against colon cancer, with researchers finding that mice lacking it developed more than twice as many tumors. Restoring the antibody…"
     }
   ]
 }
