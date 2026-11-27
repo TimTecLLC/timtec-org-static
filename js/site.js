@@ -262,6 +262,58 @@
     });
   }
 
+  function setupLibraryFinder() {
+    var root = document.querySelector("[data-library-finder]");
+    if (!root) return;
+    var query = root.querySelector("[data-library-query]");
+    var empty = root.querySelector("[data-library-empty]");
+    var buttons = root.querySelectorAll("[data-library-group]");
+    var cards = document.querySelectorAll(".card-grid.libs > article.card");
+    var group = "all";
+
+    function groupOf(card) {
+      var link = card.querySelector("a[href]");
+      var href = link ? link.getAttribute("href") || "" : "";
+      if (href.indexOf("actitarg-") !== -1) return "actitarg";
+      if (href.indexOf("npl-800") !== -1 || href.indexOf("ndl-3040") !== -1 || href.indexOf("fl-500") !== -1) return "natural";
+      if (href.indexOf("/fbl/") !== -1) return "fragments";
+      if (href.indexOf("mac-15000") !== -1) return "macrocycles";
+      return "diversity";
+    }
+
+    function apply() {
+      var q = query ? (query.value || "").trim().toLowerCase() : "";
+      var shown = 0;
+      Array.prototype.forEach.call(cards, function (card) {
+        var text = (card.textContent || "").toLowerCase();
+        var show = (group === "all" || groupOf(card) === group) && (!q || text.indexOf(q) !== -1);
+        card.hidden = !show;
+        if (show) shown += 1;
+      });
+      var actitarg = document.getElementById("actitarg");
+      if (actitarg) {
+        var visible = actitarg.querySelector("article.card:not([hidden])");
+        actitarg.hidden = !visible;
+      }
+      if (empty) empty.hidden = shown !== 0;
+    }
+
+    if (query) {
+      query.addEventListener("input", apply);
+    }
+    Array.prototype.forEach.call(buttons, function (button) {
+      button.addEventListener("click", function () {
+        group = button.getAttribute("data-library-group") || "all";
+        Array.prototype.forEach.call(buttons, function (other) {
+          var on = other === button;
+          other.classList.toggle("is-on", on);
+          other.setAttribute("aria-pressed", on ? "true" : "false");
+        });
+        apply();
+      });
+    });
+  }
+
   function setupCustomerStrip() {
     var group = document.querySelector("[data-customer-group]");
     var track = document.querySelector("[data-customer-track]");
@@ -491,6 +543,7 @@
   setupThemeChrome();
   setupNav();
   setupForms();
+  setupLibraryFinder();
   setupCustomerStrip();
   loadHeroParticles();
   loadSiteStatus();
