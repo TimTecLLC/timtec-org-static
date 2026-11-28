@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T01:18:58Z",
+  "updated": "2026-11-28T15:22:50Z",
   "max_items": 40,
   "feeds": [
     {
@@ -62,6 +62,110 @@
     }
   ],
   "items": [
+    {
+      "feed_id": "sciencedaily-pharmacology",
+      "source": "ScienceDaily",
+      "title": "Yale scientists may have found a shortcut to the anti-aging benefits of eating less",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261128010416.htm",
+      "published": "2026-11-28T13:44:12Z",
+      "excerpt": "Yale researchers have discovered that moderate calorie restriction reduces an immune protein linked to aging and chronic inflammation, apparently independently of weight loss. Blocking this protein…"
+    },
+    {
+      "feed_id": "sciencedaily-pharmacology",
+      "source": "ScienceDaily",
+      "title": "New cancer drug tears down tumors’ walls and unleashes the immune system",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261126063318.htm",
+      "published": "2026-11-28T12:54:23Z",
+      "excerpt": "A promising experimental drug breaks down the protective barriers that many deadly cancers use to hide from the immune system. In mice, it eliminated aggressive pancreatic tumors, prevented breast…"
+    },
+    {
+      "feed_id": "sciencedaily-pharmacology",
+      "source": "ScienceDaily",
+      "title": "New once-daily pill slashes “bad” cholesterol by up to 65%",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261128014259.htm",
+      "published": "2026-11-28T09:37:58Z",
+      "excerpt": "A newly approved once-daily pill can slash \"bad\" cholesterol by up to 65%, delivering the benefits of powerful injectable cholesterol-lowering drugs without the needles. With relatively few side…"
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Carbon nucleophile-mediated pyridine ring-opening enables Polymethine-functionalized Cyanine 9",
+      "url": "https://www.nature.com/articles/s41467-026-79739-4",
+      "published": "2026-11-28T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "TransRBP unravels m6A-RBP interaction and reveals its disease implications",
+      "url": "https://www.nature.com/articles/s41467-026-79776-z",
+      "published": "2026-11-28T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Engineering electrolyte ion solvation structures for next-generation batteries",
+      "url": "https://www.nature.com/articles/s41467-026-79910-x",
+      "published": "2026-11-28T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "LeMat-GenBench: a unified evaluation framework for crystal generative models",
+      "url": "https://www.nature.com/articles/s41524-026-02342-0",
+      "published": "2026-11-28T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Spectral energy descriptors for QSPR modelling of cervical cancer drugs: a comparative study with degree- and distance-based topological indices",
+      "url": "https://www.nature.com/articles/s41598-026-75201-z",
+      "published": "2026-11-28T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Protective role of EGCG loaded selenium nanoparticles against lead-acetate induced testicular damage",
+      "url": "https://www.nature.com/articles/s41598-026-76161-0",
+      "published": "2026-11-28T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Antiglycation, anti-inflammatory and antioxidant activities of EPA and/or DHA in diabetic rats: insights based on in vivo and in silico study",
+      "url": "https://www.nature.com/articles/s41598-026-78479-1",
+      "published": "2026-11-28T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "GC–MS and UPLC-MS of marine Vibrio sp. metabolites for synthesis of biofunctional ZnO/CuO nanocomposites with enhanced antioxidant and apoptotic effects on MCF-7 cells",
+      "url": "https://www.nature.com/articles/s41598-026-80836-z",
+      "published": "2026-11-28T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "AI-driven design of plastic-binding peptides toward analytical recognition of multiple microplastic types",
+      "url": "https://www.nature.com/articles/s41598-026-81809-y",
+      "published": "2026-11-28T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "A minimal two-state allosteric dimer model for SARM1 regulation and paradoxical activation by orthosteric inhibitors",
+      "url": "https://www.nature.com/articles/s44386-026-00094-x",
+      "published": "2026-11-28T00:00:00Z",
+      "excerpt": ""
+    },
     {
       "feed_id": "nature-news",
       "source": "Nature",
@@ -131,22 +235,6 @@
       "source": "Nature (Chemistry)",
       "title": "Critical review on flavor characteristics, formation mechanisms, bioactivities and future perspectives of large-leaf yellow tea",
       "url": "https://www.nature.com/articles/s41538-026-01241-4",
-      "published": "2026-11-27T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Cell-autonomous inflammation in VEXAS is mediated by ERAD failure and cGAS–STING",
-      "url": "https://www.nature.com/articles/s41556-026-02122-4",
-      "published": "2026-11-27T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "SLBP-independent control of maternal histone mRNA",
-      "url": "https://www.nature.com/articles/s41556-026-02141-1",
       "published": "2026-11-27T00:00:00Z",
       "excerpt": ""
     },
@@ -291,94 +379,6 @@
       "source": "Nature (Chemistry)",
       "title": "Silver decorated CuCo2S4 nanosheets as an ultra-sensitive electrochemical sensor for trace level Hg2+ detection in real-time water samples",
       "url": "https://www.nature.com/articles/s41598-026-81689-2",
-      "published": "2026-11-27T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Extended C-terminus of SEC61γ causes endoplasmic reticulum and Golgi-mediated N-glycosylation abnormalities in a neurodevelopmental disorder",
-      "url": "https://www.nature.com/articles/s41598-026-81692-7",
-      "published": "2026-11-27T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Isolation of the new tetrahydrocannabilactolvarin and cannabinol derivatives from a Δ9-THCV chemotype of Cannabis sativa L. and their comparative effects in RSL3-treated HepaRG cells",
-      "url": "https://www.nature.com/articles/s41598-026-82019-2",
-      "published": "2026-11-27T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Role of Zn ions in protein structuralization",
-      "url": "https://www.nature.com/articles/s41598-026-82041-4",
-      "published": "2026-11-27T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Stionic influence on developmental stage-specific morpho-physiological, physico-chemical and biochemical traits in Daisy tangerine",
-      "url": "https://www.nature.com/articles/s41598-026-82218-x",
-      "published": "2026-11-27T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Genome-guided identification and functional characterization of carbonyl reductases from Parathermosynechococcus lividus PCC 6715",
-      "url": "https://www.nature.com/articles/s41598-026-82255-6",
-      "published": "2026-11-27T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Relationships between 5-hydroxymethylfurfural levels, colour parameters, and labelled composition in gluten-free products sold on the Turkish market",
-      "url": "https://www.nature.com/articles/s41598-026-82317-9",
-      "published": "2026-11-27T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "TKM01 modulates microglial responses to oxidative stress by regulating neuroinflammation and promoting amyloid-β phagocytosis",
-      "url": "https://www.nature.com/articles/s41598-026-82505-7",
-      "published": "2026-11-27T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Green synthesized zinc oxide nanoparticles combined with papaverine induce apoptosis and modulate microRNAs in breast cancer cells",
-      "url": "https://www.nature.com/articles/s41598-026-82543-1",
-      "published": "2026-11-27T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Green synthesis of zinc oxide nanoparticles using Clematis simensis leaf extracts for efficient antibacterial treatment",
-      "url": "https://www.nature.com/articles/s41598-026-82567-7",
-      "published": "2026-11-27T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Experimental and molecular dynamics study of asphaltenes dispersion mechanism by TEMPO and tert-butyl hydroquinon",
-      "url": "https://www.nature.com/articles/s41598-026-82623-2",
-      "published": "2026-11-27T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Chemical diversity of bilin species defines the chiroptical landscape of phytochromes",
-      "url": "https://www.nature.com/articles/s42004-026-02285-z",
       "published": "2026-11-27T00:00:00Z",
       "excerpt": ""
     }
