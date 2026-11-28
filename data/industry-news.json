@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T16:29:25Z",
+  "updated": "2026-11-28T01:18:58Z",
   "max_items": 40,
   "feeds": [
     {
@@ -63,6 +63,14 @@
   ],
   "items": [
     {
+      "feed_id": "nature-news",
+      "source": "Nature",
+      "title": "Audio long read: The world’s most precious brain samples — and what they teach us about being human",
+      "url": "https://www.nature.com/articles/d41586-026-03900-8",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": "Rare neurons taken from living humans are helping researchers test how brain cells behave in their natural environment."
+    },
+    {
       "feed_id": "nature-biochemistry",
       "source": "Nature (Biochemistry)",
       "title": "N4-acetylcytidine in synthetic mRNA: enhanced protein yield without loss of translational fidelity",
@@ -75,6 +83,22 @@
       "source": "Nature (Chemistry)",
       "title": "Scattering function of the wormlike chain with excluded volume: an empirical equation and procedure for analysis of experimental data",
       "url": "https://www.nature.com/articles/s41428-026-01253-7",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Evolution tunes functional sub-state interconversion to boost enzyme function",
+      "url": "https://www.nature.com/articles/s41467-026-78841-x",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Identification of fibril-forming antimicrobial peptides reveals structural plasticity and diverse amyloid architectures",
+      "url": "https://www.nature.com/articles/s41467-026-79584-5",
       "published": "2026-11-27T00:00:00Z",
       "excerpt": ""
     },
@@ -99,6 +123,14 @@
       "source": "Nature (Biochemistry)",
       "title": "Surface assembling of individual probiotics with pH-responsive epigallocatechin gallate nanoparticles against DSS-induced colitis",
       "url": "https://www.nature.com/articles/s41538-026-01142-6",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Critical review on flavor characteristics, formation mechanisms, bioactivities and future perspectives of large-leaf yellow tea",
+      "url": "https://www.nature.com/articles/s41538-026-01241-4",
       "published": "2026-11-27T00:00:00Z",
       "excerpt": ""
     },
@@ -239,6 +271,14 @@
       "excerpt": ""
     },
     {
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "First demonstration of solid isotope harvesting and purification of 47Ca for 47Sc production at the Facility for Rare Isotope Beams",
+      "url": "https://www.nature.com/articles/s41598-026-80645-4",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
       "feed_id": "nature-biochemistry",
       "source": "Nature (Biochemistry)",
       "title": "Phytochemical screening-guided in vitro antioxidant and antibacterial activities of Ocimum basilicum (Besobila) leaf extracts",
@@ -273,6 +313,22 @@
     {
       "feed_id": "nature-biochemistry",
       "source": "Nature (Biochemistry)",
+      "title": "Role of Zn ions in protein structuralization",
+      "url": "https://www.nature.com/articles/s41598-026-82041-4",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "Stionic influence on developmental stage-specific morpho-physiological, physico-chemical and biochemical traits in Daisy tangerine",
+      "url": "https://www.nature.com/articles/s41598-026-82218-x",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
       "title": "Genome-guided identification and functional characterization of carbonyl reductases from Parathermosynechococcus lividus PCC 6715",
       "url": "https://www.nature.com/articles/s41598-026-82255-6",
       "published": "2026-11-27T00:00:00Z",
@@ -283,6 +339,14 @@
       "source": "Nature (Biochemistry)",
       "title": "Relationships between 5-hydroxymethylfurfural levels, colour parameters, and labelled composition in gluten-free products sold on the Turkish market",
       "url": "https://www.nature.com/articles/s41598-026-82317-9",
+      "published": "2026-11-27T00:00:00Z",
+      "excerpt": ""
+    },
+    {
+      "feed_id": "nature-biochemistry",
+      "source": "Nature (Biochemistry)",
+      "title": "TKM01 modulates microglial responses to oxidative stress by regulating neuroinflammation and promoting amyloid-β phagocytosis",
+      "url": "https://www.nature.com/articles/s41598-026-82505-7",
       "published": "2026-11-27T00:00:00Z",
       "excerpt": ""
     },
@@ -303,83 +367,19 @@
       "excerpt": ""
     },
     {
-      "feed_id": "nature-biochemistry",
-      "source": "Nature (Biochemistry)",
-      "title": "Generating proteins with complex functions",
-      "url": "https://www.nature.com/articles/s42256-026-01330-9",
+      "feed_id": "nature-chemistry",
+      "source": "Nature (Chemistry)",
+      "title": "Experimental and molecular dynamics study of asphaltenes dispersion mechanism by TEMPO and tert-butyl hydroquinon",
+      "url": "https://www.nature.com/articles/s41598-026-82623-2",
       "published": "2026-11-27T00:00:00Z",
       "excerpt": ""
     },
     {
       "feed_id": "nature-chemistry",
       "source": "Nature (Chemistry)",
-      "title": "An amorphous electrocatalyst enables efficient and stable hydrogen production from seawater at 1 A cm−2 for over 9,000 h",
-      "url": "https://www.nature.com/articles/s44160-026-01226-x",
+      "title": "Chemical diversity of bilin species defines the chiroptical landscape of phytochromes",
+      "url": "https://www.nature.com/articles/s42004-026-02285-z",
       "published": "2026-11-27T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "sciencedaily-pharmacology",
-      "source": "ScienceDaily",
-      "title": "Common supplements rival antibiotics in treating severe gum disease",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261126033031.htm",
-      "published": "2026-11-26T11:43:30Z",
-      "excerpt": "A combination of omega-3 and low-dose aspirin produced results comparable to antibiotics when used alongside standard treatment for severe gum disease, with benefits persisting long after…"
-    },
-    {
-      "feed_id": "sciencedaily-pharmacology",
-      "source": "ScienceDaily",
-      "title": "World’s largest trial of robotic knee replacement reveals surprising results",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261124055904.htm",
-      "published": "2026-11-26T01:04:22Z",
-      "excerpt": "Robot-assisted knee replacement surgery offers greater surgical precision, but a landmark clinical trial has revealed a surprising limitation. Despite the advanced technology, patients experienced…"
-    },
-    {
-      "feed_id": "nature-news",
-      "source": "Nature",
-      "title": "Orangutans face bleak future after Indonesia’s devastating wildfires",
-      "url": "https://www.nature.com/articles/d41586-026-03828-z",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": "The super El Niño intensified Indonesian fires, which ravaged the habitat of the critically endangered Bornean orangutan."
-    },
-    {
-      "feed_id": "nature-news",
-      "source": "Nature",
-      "title": "Chromosome ‘glue’ could boost fertility by stabilizing ageing eggs",
-      "url": "https://www.nature.com/articles/d41586-026-03874-7",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": "A system tested in mice mimics a protein that declines with age and could help to improve fertility treatments in future."
-    },
-    {
-      "feed_id": "nature-news",
-      "source": "Nature",
-      "title": "Has AI just cracked Internet encryption? Rumoured ‘bombshell’ stuns scientists",
-      "url": "https://www.nature.com/articles/d41586-026-03875-6",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": "AI-generated algorithms could be about to break public-key cryptography, the technology central to commerce, banking and privacy."
-    },
-    {
-      "feed_id": "nature-news",
-      "source": "Nature",
-      "title": "Daily briefing: A guide to the Riemann hypothesis",
-      "url": "https://www.nature.com/articles/d41586-026-03894-3",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": "Get to grips with the famed conjecture, and hear mathematicians’ reactions to its proofs. Plus, the benefits of eating with other people."
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Impact-stiffening materials modulated by host–guest interactions in polypseudorotaxanes",
-      "url": "https://www.nature.com/articles/s41467-026-78743-y",
-      "published": "2026-11-26T00:00:00Z",
-      "excerpt": ""
-    },
-    {
-      "feed_id": "nature-chemistry",
-      "source": "Nature (Chemistry)",
-      "title": "Dynamic B–OH intermediates enable photocatalytic conversion of CO2 into formic acid",
-      "url": "https://www.nature.com/articles/s41467-026-79798-7",
-      "published": "2026-11-26T00:00:00Z",
       "excerpt": ""
     }
   ]
